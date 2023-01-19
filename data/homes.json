@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Paris",
+        "ville": "PARIS",
+        "adresse": "12 rue de la paix"
+    },
+    {
+        "title": "Marseille",
+        "ville": "MARSEILLE",
+        "adresse": "12 rue de la paix"
+    },
+    {
+        "title": "Nice",
+        "ville": "NICE",
+        "adresse": "12 rue de la paix"
+    }
+]
