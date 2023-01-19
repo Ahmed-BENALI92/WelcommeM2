@@ -1,18 +1,16 @@
-import { Bar } from "react-chartjs-2";
+import { Bar,Pie,Radar } from "react-chartjs-2";
 import { Chart, registerables } from 'chart.js';
 
 
-import { useState } from "react";
-
-export default function Maison({ context, prixData, adresseLabel }) {
+export default function Maison({ context, prixData, adresseLabel,villeData,prixM }) {
     Chart.register(...registerables);
-    const labels = ["January", "February", "March", "April", "May", "June"];
     const data = {
       labels: adresseLabel,
       datasets: [
         {
           label: "Prix du carburant",
-          backgroundColor: "rgb(255, 99, 132)",
+          backgroundColor: ["rgb(255, 99, 132)"],
+          //backgroundColor: ["rgb(255, 99, 132)","#15ea4e","#15e6ea","#2a10ef","#a90ef1","#f5130a","#d2ee11","#000dff","#fd02a7","#ff7e00","#0d0600","#93629d"],
           borderColor: "rgb(255, 99, 132)",
           data: prixData    ,
         },
@@ -21,12 +19,31 @@ export default function Maison({ context, prixData, adresseLabel }) {
     return (
       <>
         <h1 className="text-3xl font-bold underline text-red-500">
-        MAison
+        Stat Pour la Ville de {villeData}
             </h1>
+            <p>Le prix moyenne de la villes est de : {prixM}€/L</p>
             <div className="w-[1200px] h-[1200px]">
             <Bar data={data} />
-
-            </div>
+            <Radar
+                datasetIdKey='id'
+                data={{
+                    labels: adresseLabel,
+                      datasets: [{
+                        label: 'prix Dataset',
+                        data: prixData,
+                        fill: true,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgb(255, 99, 132)',
+                        pointBackgroundColor: 'rgb(255, 99, 132)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgb(255, 99, 132)'
+                      }]
+                    }  }
+                    />
+            
+             </div>
+            
       </>
     )
 }
@@ -40,17 +57,24 @@ export async function getServerSideProps(ctx) {
 
     const dataSet = [];
     const label = [];
+    let prixMoyenne=0;
 
     // console.log(json.records)
     json.records.forEach(element => {
         dataSet.push(element.fields.prix_valeur)
         label.push(element.fields.adresse )
     });
-    console.log(dataSet);
+    dataSet.forEach(prix => {
+      prixMoyenne +=prix;
+    })
+    prixMoyenne=Math.round((prixMoyenne/dataSet.length)*100)/100;
+    //console.log(dataSet);
     return {
         props: {
+            villeData:ville,
             prixData: dataSet,
-            adresseLabel: label
+            adresseLabel: label,
+            prixM: prixMoyenne
         }
     }
 }
