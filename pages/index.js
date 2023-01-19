@@ -17,7 +17,7 @@ export default function Home({ maisons }) {
       </Head>
       <main className="container mx-auto">
       <h1 className="text-3xl font-bold underline text-red-500">
-      Hello world!
+      Wellcome
         </h1>
       <div className="flex align-items-center justify-around">
     {maisons.map((maison) => {
