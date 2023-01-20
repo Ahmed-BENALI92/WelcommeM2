@@ -29,9 +29,40 @@ def hello():
     es["latitude"] = lat
     es["longitude"] = lon
 
-    map = folium.Map(location=[48.78, 2.17], zoom_start=15, )
+    map = folium.Map(location=[48.78, 2.17], zoom_start=3, )
 
-    es.apply(lambda row:folium.Circle(radius=5, color='red',location=[row["latitude"], row["longitude"]]).add_to(map), axis=1) 
+    for i in range(0, len(es)):
+        lat = es.latitude[i]
+        lon = es.longitude[i]
+        prix = es.prix_valeur[i]
+
+        if prix < 1.0:
+            folium.Circle(
+            radius=5,
+            location=[lat, lon],
+            color='lime',
+            fill=False,).add_to(map)
+
+        elif prix < 1.5:
+            folium.Circle(
+            radius=5,
+            location=[lat, lon],
+            color='yellow',
+            fill=False,).add_to(map)
+
+        elif prix < 2.0:
+            folium.Circle(
+            radius=5,
+            location=[lat, lon],
+            color='pink',
+            fill=False,).add_to(map)
+
+        elif prix >= 2.0:
+            folium.Circle(
+            radius=5,
+            location=[lat, lon],
+            color='red',
+            fill=False,).add_to(map)
+
     return map._repr_html_()
-
 
