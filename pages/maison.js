@@ -22,7 +22,7 @@ export default function Maison({ context, prixData, adresseLabel,villeData,prixM
         Stat Pour la Ville de {villeData}
             </h1>
             <p>Le prix moyenne de la villes est de : {prixM}€/L</p>
-            <div className="w-[1200px] h-[1200px]">
+            <div className="w-[900px] h-[900px]">
             <Bar data={data} />
             <Radar
                 datasetIdKey='id'
@@ -63,7 +63,7 @@ export default function Maison({ context, prixData, adresseLabel,villeData,prixM
 export async function getServerSideProps(ctx) {
     const { ville } = ctx.query;
     console.log(ville)
-    const response = await fetch(`https://data.economie.gouv.fr/api/records/1.0/search/?dataset=prix-carburants-fichier-instantane-test-ods-copie&q=prix_nom%3AGazole+OR+prix_nom%3AE10&facet=id&facet=ville&facet=prix_maj&facet=prix_nom&facet=com_arm_name&facet=epci_name&facet=dep_name&facet=reg_name&refine.prix_maj=2023%2F01&refine.prix_nom=Gazole&refine.ville=${ville}`)
+    const response = await fetch(`https://data.economie.gouv.fr/api/records/1.0/search/?dataset=prix-carburants-fichier-instantane-test-ods-copie&q=&facet=id&facet=adresse&facet=ville&facet=prix_maj&facet=prix_nom&facet=com_arm_name&facet=epci_name&facet=dep_name&facet=reg_name&facet=services_service&facet=horaires_automate_24_24&refine.prix_maj=2023%2F01&refine.ville=${ville}&exclude.prix_nom=E85&exclude.prix_nom=GPLc`)
     const response2 = await fetch(`https://data.economie.gouv.fr/api/records/1.0/search/?dataset=prix-carburants-fichier-instantane-test-ods-copie&q=&facet=id&facet=adresse&facet=ville&facet=prix_maj&facet=prix_nom&facet=com_arm_name&facet=epci_name&facet=dep_name&facet=reg_name&facet=services_service&facet=horaires_automate_24_24&refine.prix_maj=2022&refine.ville=${ville}`)
     const data = await response;
     const data1 = await response2;
