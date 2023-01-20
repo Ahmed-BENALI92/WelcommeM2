@@ -3,7 +3,8 @@ Les étapes à faire pour config le back(windows)
 cd api_py 
 1. Créer le vm python
 python -m venv env
-2. Activer le vm env\Scripts\activate
+2. Activer le vm
+env\Scripts\activate
 3. installer flask et autre libs 
 pip install flask python-dotenv
 pip install pandas
