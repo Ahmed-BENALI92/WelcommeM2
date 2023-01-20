@@ -29,7 +29,7 @@ export default function Maison({ context, prixData, adresseLabel,villeData,prixM
                 data={{
                     labels: adresseLabel,
                       datasets: [{
-                        label: 'prix Dataset',
+                        label: 'prix Gasoil 2023',
                         data: prixData,
                         fill: true,
                         backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -39,7 +39,7 @@ export default function Maison({ context, prixData, adresseLabel,villeData,prixM
                         pointHoverBackgroundColor: '#fff',
                         pointHoverBorderColor: 'rgb(255, 99, 132)'
                       },{
-                        label: 'prix Dataset 2022',
+                        label: 'prix Gasoil 2022',
                         data: prixData2022,
                         fill: true,
                         backgroundColor: 'rgba(54, 162, 235, 0.2)',
@@ -63,8 +63,8 @@ export default function Maison({ context, prixData, adresseLabel,villeData,prixM
 export async function getServerSideProps(ctx) {
     const { ville } = ctx.query;
     console.log(ville)
-    const response = await fetch(`https://data.economie.gouv.fr/api/records/1.0/search/?dataset=prix-carburants-fichier-instantane-test-ods-copie&q=&facet=id&facet=adresse&facet=ville&facet=prix_maj&facet=prix_nom&facet=com_arm_name&facet=epci_name&facet=dep_name&facet=reg_name&facet=services_service&facet=horaires_automate_24_24&refine.prix_maj=2023%2F01&refine.ville=${ville}&exclude.prix_nom=E85&exclude.prix_nom=GPLc`)
-    const response2 = await fetch(`https://data.economie.gouv.fr/api/records/1.0/search/?dataset=prix-carburants-fichier-instantane-test-ods-copie&q=&facet=id&facet=adresse&facet=ville&facet=prix_maj&facet=prix_nom&facet=com_arm_name&facet=epci_name&facet=dep_name&facet=reg_name&facet=services_service&facet=horaires_automate_24_24&refine.prix_maj=2022&refine.ville=${ville}`)
+    const response = await fetch(`https://public.opendatasoft.com/api/records/1.0/search/?dataset=prix_des_carburants_j_7&q=&facet=cp&facet=pop&facet=city&facet=automate_24_24&facet=fuel&facet=shortage&facet=update&facet=services&facet=brand&refine.fuel=Gazole&refine.city=${ville}&refine.update=2023`)
+    const response2 = await fetch(`https://public.opendatasoft.com/api/records/1.0/search/?dataset=prix_des_carburants_j_7&q=&facet=cp&facet=pop&facet=city&facet=automate_24_24&facet=fuel&facet=shortage&facet=update&facet=services&facet=brand&refine.update=2022&refine.fuel=Gazole&refine.city=${ville}`)
     const data = await response;
     const data1 = await response2;
     const json = await data.json();
@@ -74,20 +74,22 @@ export async function getServerSideProps(ctx) {
     const label = [];
     let prixMoyenne=0;
 
-    // console.log(json.records)
+     console.log(json.records)
     json.records.forEach(element => {
-        dataSet.push(element.fields.prix_valeur)
-        label.push(element.fields.adresse )
+        dataSet.push(element.fields.price_gazole*1000)
+        
+        label.push(element.fields.address )
+        
     });
     json1.records.forEach(element => {
-      dataSet1.push(element.fields.prix_valeur)
+      dataSet1.push(element.fields.price_gazole*1000)
   });
     dataSet.forEach(prix => {
       prixMoyenne +=prix;
     })
     prixMoyenne=Math.round((prixMoyenne/dataSet.length)*100)/100;
     //console.log(dataSet);
-    console.log(dataSet1)
+    console.log(dataSet)
     return {
         props: {
             villeData:ville,
