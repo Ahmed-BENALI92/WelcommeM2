@@ -1,0 +1,790 @@
+{
+    "bbox": [
+        -1.49561,
+        43.151422,
+        3.933223,
+        46.42635
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "engine": {
+            "build_date": "2022-10-21T14:34:31Z",
+            "graph_date": "2023-01-29T17:33:07Z",
+            "version": "6.8.0"
+        },
+        "query": {
+            "coordinates": [
+                [
+                    3.931,
+                    43.529
+                ],
+                [
+                    -1.494,
+                    46.425
+                ]
+            ],
+            "format": "json",
+            "profile": "driving-car"
+        },
+        "service": "routing",
+        "timestamp": 1675263078535
+    },
+    "routes": [
+        {
+            "bbox": [
+                -1.49561,
+                43.151422,
+                3.933223,
+                46.42635
+            ],
+            "geometry": "iwthGsw~VPRb@^X_AGGsAsAe@c@CG@UAWP{BJkAB[OEKCE?IAKCm@II?E?MDCVA^BnC?R@L?HDvFAd@?RCHADCDS^OVk@fAw@~AS`@MTi@fAWd@eBjDGLGJCD_AbBCBW`@INUNIBIE[E[NGHEJEXAL@NBPLXHHJDJBJAPLPRRVHJH@t@z@pEtE`@`@@XJ\\Jb@D`@B\\Ab@Eh@]xAI\\_A|A{@xAMTgAdBm@dAeAdBa@p@gAfBKPKRkAzBa@x@aBfEs@`C_@|A]tAUvAETCNMfAE`@Ix@C^OzCA`@ApBFdEVjFr@bLF|ACbBGz@[~AUr@c@~@wGbL}FfK_@p@U`@y@tAo@lA_A`BU`@}BdEe@t@ONODKEWCWDIDKHIJO\\Gb@APUPc@Pe@Ng@NIBcUlGyIfCaCr@mGjBsJrC{A`@u@Ly@HeGTgEXeEZ}@HgDTm@Fo@DgAB{@?eBEaAMo@IsDk@u@OkCi@cF_AwEw@sF]_XaEmDi@mIqAsGaAwGcA}Dm@oAQiHgAcBWcEo@_C_@sEs@_Di@eC[g@Gg@Ck@Ai@@U@]Bu@LkCl@yC|@w@XcCdAmAt@}AfAcBvAmAlAi@j@k@p@q@~@CBu@fAk@`AU^]h@uAtB]h@ODOFU@MASQKSG[A_@Jk@LQJIXEPBZR\\NjF|Hn@|@bCpDbBdCdA|A~Xra@jJfNfCtDdCrDl@x@r@dAn@`An@~@vCxE`A`BfAzBhCjGjAnDdBbGz@~DVpAR`Ap@jEXvBDTVfCLvAbAxNHfAF~@`BvW|@hLXtDd@vEnAzMdChRlIzm@vB`NdA~Fr@tDjDpNlBrH|A|El@`BfAjCdA~BvEnJvBvDvC`Ff@x@hAfBZb@xApBfAvAtB`CpCfCd@JlAjAvHxGz@z@bDpD`AxA|BvDlAbCfBxDd@rAp@bB~AbFl@|Bd@lB\\vAr@hEt@nGT|Bb@zHJvC`@zUNnELlBFx@Fx@b@pEZ|BN`A\\vB|@jE`@~Ab@`BnA~Df@tAbAbC|@nB~AbDpBhD`GpJXd@r@jAlHrLvBjD`NrTxCnElCnDlFdGrNrNhCpCjBvBhB~BvB~CdEdH`CnE`Rf^zLdWxB|E~DjJ~DxJb@hAtClHrMb]~A|DjCxFhBhD|BtDhCtDfB|B~BlC|IxIvLvKtDzDdD`EnD`FlCjEjDdGd]xr@fBnDrFzJtEvH~GxJxAhBhL~M`DjDxC`DlFtF|BbCpEjFhA|Af@r@|@rAxBlDbDhG`ChF`@bAv@xBvBvGxAlFjAdFjA|GbAlHn@fGzBhTVdCn@zGlAdL`@fDp@rEr@bErAbHfCbMn@|CnAdGb@nBvDdRp@pDx@nF`@vCZlCZdDNfBRxCN~C\\pLF~EDbC@pARfN\\rWHlEBfAHbEPnEVrERnCb@tEd@vDj@bEfAjGp@|Cx@dDfAzDpAbElDrJxLrZhE~JzHzPjFtKjHhNpPf[vEvJtAdDp@fBlBvFjAjEbAbEx@zDx@nEj@tDRrAnAzJb@pDjAhIf@xCl@|Ch@fCdBfHpEpPhAnDp@pBd@lAhAnChA~B|AvC`GpKjBtDtBvEvC`IpAfEx@|Cx@fDvApHTrAXnBVpBp@bGv@fKl@pKXvFd@fJvAhTX`DZpCt@dFr@xDDRf@tBlArEhAjDhCdGfC~EdA~AxCbEfIrJdZf[vHfI`H|GlDxC`D`CdEjC`MjH|CvBxBbBfB`BdBdBpBbCpAhBjBtCnAvBtApC`AxBdBjEbEpKhAbDdAhDn@fCPr@r@bDz@|EbAdIr@vH~Dld@nAnKnAdJdB|KzDbVd@jCzBvKdAjEjAhE|@xCjC~HrD`KxRlj@`CpH~CrKjCfKzCdNlAbGvAvHnA`I`AxGv@xFp@fGxCtZj@nG^pDnAhKh@bEf@vCrBnKtAvFxArF`BdFfBbFbEnJrCxFfPb[jC`FbB~C~EbJ`CrErEzIhCbFjArBpBlDpCpEtA~BbDvEpBpC^f@|CdE`KdNpD|E~B~CrFjHp@z@dB`CrCxD~B|C`@h@x@lAfBfCx@tAdBfD`DfG~@lB|@xBbClGZz@n@pBp@zBh@rBRv@r@zC~@hElAxGZnB\\fCP~ANvAZbDp@dJPtDLrDH`FFdF@zHCzGE`Ig@~h@AlGBhHBnBDzADjB\\tHPxCThDPhBx@jIXpBPtA~@zFh@~Ct@dDbArEh@nBn@hCtBvGfBbFhGdP|Qxd@~DnKdAnCf@nAj@`BtChIjBfGtB|HbBhHxBjLt@~Et@vFj@|El@vG|@vNRpEV~JJhJJhVV~j@D|DFfEX~HPzCb@rFJnA`@pDVnBf@dDbAvFdAdFfA`EvBbHx@|BtAjDbA|BbC~EXh@xBpD~CvE`ArAj@r@x@`AdAjAdDnD`DdDbBdB`C~BdFpFvDrElCrD`EvG`CrEpCtGrBxFnAdEz@dDxAxGfAtF|@lFlDhWzDrXh@rD~Ez]lErZv@lFZvBVlBt@bF~BfOrAhHtAxGn@rCd@bBnCfJp@pBrAjDj@~AfAjCvD~HrBvDjD`GzF`JxEtHrB`DzBnDxG`KfKdPtD|FnDvFb@r@xFzIjDnFzCvE~M`TpFrIjAfBd@t@rHrLjHnLhMxTtAnCtEhKpB~EtBtFnApDfDnKlBdHbAtDvAnGr@bDtClObBtLz@vGnAjMf@hG`AhNXpERhD^zGPnCrAfTLhBPvB~@fKFn@b@rDZxBr@tFr@lE`BjJjB`JbC`KxBzHjClI~BpG|A|DpDpIlB`EhC`FnCxElBbD~D`GdDnEfGtHlFtFhF~E|DfDxErDxCpBlEpCtIvEpFhCdF~BjN~FbN`GnF`CpFjCbFjCzEnChG~DbGjEpGpFzArAfB`B~@`AvEdFfGjHdAvAdAtAd@p@`CbDxEfHdEtGhKtPpGdKfD`FrD~EbD`ExDvEpGjHhDvDxEjF~KxLxKrL~BhC~L`NvKtLtDlEfFzGbElG~AnC|AnCbC|EhCvFnCzGpCbIfAlDhCrJfArEfAlFdA`Gx@fFt@`Gx@rHZrDJfAPdCl@fJjEtx@r@fJXzCdAvIx@`Fr@nDdAzEjBtGfAlDpAjDtB~E|A`DbB~CpBdDpBrC`C|CdCtCtCtC|GnFrD~BdB~@vFlCtEfB|EdBlBr@nBn@vHnC~CrAtCrAhBbAf@VnCdBxB|AzBhB~BtBrDvDrA|AjEvElEpEpDnD|ZlXhDdDdDfDhG~GdGpHnE`GbEfGvF`JrC`FvFtKhCnFfCzFrB`FhCzGzAhEd@nA^fA~BlHtDnMp@hC^xAxAdGtAbGjAfF|AtGnChKnB|G^jAvBzGtA~DbApCrApD`@hAbBjEr@nBnAlDdA|CtBnGt@zBd@zAtAzErA|Ef@tBr@zC`AjE~AlHtAfHh@dCdN|q@nFnXXxAjH~]J`@hGh[lHl^ZrAd@lBf@hBp@tBt@vB|AvDzA~C~AvCrA`Cv@nA~BnDpAfBnCnDhAtA|AbBhCjCzAxAbElDfEdDfCdBnBrAbAn@vAz@`DpB~BnAr@t@x@f@`Av@p@n@rAtB~@|BPn@ThAX~BBj@DrA@zBI`BG`AIpAEd@]lEu@`JcAjOs@~LiA`S[vFs@tLmBl\\W~DW|CYjC[|Bg@rCq@tCq@tBi@fBi@rAaAvBm@jAkAtBsG`KmAtBmA~Bu@dBs@lB}@xCkAvEc@jCa@vC[lDO|BKvCCxC?tCLjDThEVlC\\lCf@dDlBxLb@lDX`DNpCHdCB|C?jCKhDQpC_@~D}AhOW`DQxDGlC?nCDnCHjCPdCRjCZtCpP`xAZ~CR~CNfDHvC?lDCnCi@|QGbEAhDBfCJdDNnCTvC\\vC^lCj@~Cp@zCj@zBtAfErElLdAnCv@|Bp@bCn@jCt@nDb@vCZrCTbCNbCLpCFxC@zCCtCEdCMrCMlBSvBc@pDe@xCg@jCs@xCmBvGoa@bsAcC`IgAlDoC|IgNfd@wD~LcBlF{BtHm@tBc@fBy@rDq@vDe@|Ca@`DYvCWjDQtCKxCKxD[~VMlHQxFMfDk@~KYvE[vDsA|Mo@pFq@fFy@tFoEbXyAzJi@|E[lDWpD[nGOpICrDFnHZ|JpAf]RpGZfPDtEDpRWpsC?bNDbNNnLJxDNzDTtFTvDTnD`@xFZhEb@pF~Bv[j@dJr@dN^dINpD\\~L\\|RFtFBpF?vMGbLUtMe@rNi@fLk@rJShCc@zFg@tFq@rGkAdKg@xDm@`Ea@tCuAxIg@tCo@nD]jB}@fFaDlQm@nDa@fDWdCQzBQjCWhHErC?hCHrGFhCLhChBlWRvDD|AHxF@tDE~CK`DOtCSbDWlCa@pDsCzUiA|JYtCUtC[nGKzGB|FHlDL~CXnEv@jLT|EJbEB~DAfDG|DOlDS|D}AnUaAlOe@fKInDGlH@`FHpHPpFJfCNbCRdCZhD`@xDf@jEzAhKl@vDlAtH`AfFjA|GvBfMtAnInAtI`AfI^dFVbGF~BBlCArFGlCObD[hE[fD[hCk@lDs@tDq@nC{@xCy@hCw@tBeAdCqCnFqExHqCdFmA`CwBxEiArCmAhDeAhD_AhDw@fDg@bCmA~Gc@~C]xCWfCQdC_@lGM`DI~DEzC@lDB~CTrJNvDtA|WNpDJpDBlC@hDCbDKxDM`De@fG_@vDgBnNg@jEm@hI[jIGfDA|C?pCBbBFlCZtHTdDX~Cd@lEbA`IfArHXrBz@lG^pCr@fGVbDPfCLpCHnCDnEAhEOvGOxCQnCG~@UxBy@pG_@rBy@|D_AzD{GvWoArFm@nCk@`Dg@`DY~B_@`DWvCSfCYfGIrCEbEAjFDdDJtDL`DRvDXjDVdC\\rCfAlHj@vCn@rC|@jD|@dDxD`MlB`Hj@|Bh@rCb@jCn@hF\\tDVrELlDDnF?xBIhEIjCOlCSdC{@vIs@zFyAtKoAvHkAlG}AtHoDnO}AvFyAbFaA`D{C~IoAjDkRlg@aJxUwC|HsDvK{BnHuCjKaCxJeBfIy@lEgB~Jw@hFgBbNeCzUgG`n@i@lFa@jEa@rESnCQxCM`DIdDCdC@zCBzCVfH^bFVpCXbC`@hCj@xCZtA^fBz@jDp@`CbAxCjBtEhBxDn@xAxE`Jd@~@`BpDp@xAx@lB`CdG~@jClD`LfBtGzBjKlApGhAbHdApIXjC\\nDZ|DPdDXbJDpD@lDGrGMfEMbDUnDU|Cu@hG_@hCe@`Cq@vCs@jCk@jBi@~AgIrTy@dCkB~Gm@lCu@rDq@vDe@|C]pCc@~DY|Ce@lIO~DGxCG`JBxENfFb@bJVhDVrCJtAh@xFb@lFh@rJL`EFtDBxCAfEGhEKnD[xGSlCSbCMdAi@xEs@bFoAxGyA~G_BzGy@jDc@~Ba@xB[zBg@dEWrCQdCMtCC~@GrD?fGD|BDpBHhBHvANzBTfCh@hEfA|GpBhLb@|C^tCt@rHb@`HPrDP~I?bIEjDIdDUfFYfEYdDWfC[jCo@lEy@~EgB|JmAhHyBrN_AfHgA~JYjCo@fH}@tKi@vGiAfMq@nGi@nEeB`MyArIcBpIiBpIcHlZwA`HeBzJm@fEa@|C}@hIm@pHm@~KQtEK~EKpH_@pm@OxNK`Dc@|H[xDc@lEi@zDu@|Em@bDo@zCwArFq@~Bu@`CiAbDqB|EwA|CqAfC{AnCqArBqArBwK~NmAfBm@z@}@tAmElHmCdFkAbCeCtFwApDmBfFyAlEaBrFcAvD{@nDmApFu@zDc@fCw@`F{ArL[lCo@fHi@zFg@lFe@lFaAvKaBrQo@pHa@xEC\\UdDc@pHQzDKvDIzDIhGAbC@pFDpELjGRpGz@lTZxJJjFDrHCdHKjHQfGW`Gi@pIa@bFi@bFo@nFaArHo^~jCc@bDk@hFk@fG[nEWxEOfEMfGGfGBfHDtDHbDBp@LdDRhE\\fFfBdU\\nFXrIDzFAzGKtF_@hIStC[`EUtBkAxIi@|CaBrHi@xBoArEu@`Cw@|BuAlDiBjE{CdH_BtDyAlDcCnGcCfHyAjEyA`FGRq@`Cs@pCkBtHuBtJcD~Po@hDc@dCiAzF_A|EaBhI}AbHeAlEiC~JqAnEcBvFiBxFaO|b@_ChHkCpIuBhHqBzHoCtLwB`K_CzM}BvOoIjo@gChPiClN}DjQ{ApGkRnv@wE`RqBpHmBvG{BfHyE`NkD`JaQnc@}f@joAiJ|UuAjDkBrEeCpGuNl^kEzKyAvDkB~EkCfHYz@uA`EoBxGeBjG_BpGqA~F_ArEwB`M}@zFM~@e@rD{@rHa@~Du@|Ia@fGc@pIcB``@u@rNc@rGe@dGmAjMyAjLe@pDs@zEq@`EuAvHo@|CqBhJw@~CaAvDiAdEgCrIcBhFyBjGoBjFc@fAe@fAsA~CsBtEuBlE}FxKwG~Ko[fg@eFpImEfI{DdIkBfEsC`HsBvF{AlEsC`J_BzFkAtEgBxHeBxIuBzLwCfT{DdZoApIyA|IyAxHoBtIuBlI_DtKy@nC}Ote@_C~H}BtI{ArGyBjKwBpKgCbNgChM_DdNuB|HeDtKeBbFuAxDsDbJuDhIcGhL{Zrj@kDrGuLrUyFpL_IfQ{EfLyDtJwFbNiD|HaE~IsFlL{FbLiHfNkHfNgDfGiBlDwDjH{BtEcBzDgBvEwCtIQj@Sr@Of@aArDk@|Bi@fCk@nC_AlFs@`Fm@pEk@xFe@tFcBxV[`E[xC_@`Dc@~Cs@fEm@|Cy@pDq@jCoBxG}@jC}AbEuIjSuBdGy@jCwAvFsAjGuFl[}AzHo@xCcBrHu@tCkB`HyA|E{ArE{AhEsEjLaEfJgJ|RoBnE{EjLmBdFoL~\\qBrFwBrF{BhFyE|JwGbMad@rw@oBtDcBjD_BtDoAbDgA`D_AxCk@rBm@`Cc@nBs@jDs@|Do@pEa@~Ca@fE[jE_@fGYjGSlDUtE[nFa@zFSfCk@bGe@fE]rCq@dFm@vDiAxGo@fDs@jDqAtF{@dD_AlD_C|H_BzEsEbMoB~Es@pBaDnIaBlEcCrGeJ`VuBdFcCpFcEnIkE`IgDtF}H~LoS~ZsKxPmI`OcGdLuFhLaFzKyAnDeBbEk@tAiCxGuDzJmEpMuEbOmC`Ju@zBq@~BsVty@aFxOmCvH{BdGuCfH_DdHeFlKsErIwAbC{@vAmEdHeEdG}BzCkF|GcBrBoAzAaBjBcEtEyOrQiApAm@p@yClDmKnMkAvAsAfBmDxEeH~JuHjLwGzKeElH}C|FeF`K_EpIeF~KgBjEuAjDkFfNeDjIiC|G{@vBq@bBmBhF_DtIeGrOyJnVqBtEwFtL}C`GiEtHwCxEkDlFoFrHmCjDmGtHmD~DyIpJuAzAwA|AcEjEoHnHyBvBsBnBsBnBsDbDiEtDaJnHqDvCoDnCmCnBmEfDaM|IcQrL_hBflAwNnJkN|IuKdHoOtKyIzF}J|GaIxFmGvEeGtEuKtIaG~EqIpHkJnIwNbNcDzCsCjC}AxAwAnAuBrBwBpBcA`A}@z@m@h@iBdAmCpBw@l@w@r@oAnAcCzBw@h@{@l@w@j@aAt@sE~Dc@Z_@Xk@\\{@h@}At@eBt@eBn@aFbBqGjB{EjAeJpBaAP}APoF^_CLqANwAByBDeBD_BH}CF}BB{@BeAD_@@qB?oCF_C?a@@_BAqDIoFSm@GeBM_C]sB_@kBe@{Bs@eAc@gAc@wAo@kDiB{EuC}BsAkAo@_Ag@sB{@gCu@u@QaC]uBMiACwBByBPsAPw@PiBb@cCv@kBn@qBp@k[nKmFxAsAZgDp@{AXeEj@uCZ}NjA}BZgCl@_A\\s@Vw@\\kBbA{B~A}AtAsB`C}AxBo@bAkEdIgBjCwAbB_BzA{@r@wBtAaAd@o@Z{@\\sBj@iCb@eBNmAD_B?}G?oCBqBFoDVkALg@HoHxAeo@fNwEfAoFxAaGfBkA^{DlAyDbAeBb@{Dt@wAPuFj@yDXcCNiKp@oFf@{BTwDn@kDx@cCt@oBt@{BfAoB`AeGjEwDzDeDzD_BfCsA|B{BjEy@jB_CfGy@nCwArF_@lBcAzFa@xCYlCGl@a@~FMpCKlDQpJCdBA|E@bOFxHFjER`T@nGKbHIxCMfCYbFOvBe@zEY~BoAtIwC~PeBxI[rAYfA_@jAo@dBeA|BkApBkBdC_AbAkBdBuBrA}LnGoAp@{@\\gAXy@Fs@Aq@GuAUw@Ii@@e@HaA\\}@d@{@b@_@V_@d@iBnD[r@c@bA}@pA]\\]Xk@\\{At@uD`BmFxB{CnA_HvCeJvEaDhB{NdJgIzEsCzAoIrDyDxAqE~A{HvBoEbAky@dPiGvAkHlBiN|EeGtBuIbCqBf@qNvCgKjC}IhCgJdCyU`F}Dv@oBb@eMhCwDr@gKvByAV{@RiCf@ydAbT{Ct@mBf@uDbAmGrBoFrB}DdBwDhByC~AcDjBaJtFeMdI_EbC_E~B_EvBeEpBwCnAaDnAkDlA{GrBkBf@wEfAuFfAiDf@wI~@cDV_ERsDJaJJwDAuA?cHCeIA{D@e@@eBDoELwBJ}BPoAJyBPcCTaFn@kVbD_Gp@_Gd@uI^mFLqW\\aENqEZqD`@aBV_BXqCp@yBl@yBv@_C|@cEjBgCzAkCdBsB|A_CnBkAfA_DdDoAzAeElFiHtJyBpCaBlB_EdEcDvC{AnA}C|ByCnBwGvDmJdF}G`EeEvCiBtA}BnBgE|DuAtA{CjDaCvCoEjGmChEkAnBkMlUuAbCyDlG_B`CoBnCqBjCiFdG{A~AoDjDoDzCoF~DmBrA}ZdSiD~B_FnDaEbDoBbBkF`FwBxB{CfDyDnEaBrBaErFqDrFsClE}PbY_ElGeExF_CrCgCpC{BxB{CnCiDlC_DvBqDvBqCxAoD`BgDnAcDdAkD|@{A^{Dr@wDd@kE`@iEPiBBeE?cIQ{Rs@iEIeECyIJoI\\gK~@iUnCaIz@kF^{FXeGPyD?yEE_EGcJ_@qCKyMm@mFKkFGiG?yDLqDTcJn@qHr@yHx@oG`@eHH{CGyCSaH{@kH_B_JsC_JeCiHsAkGi@}EMmGFuDN{Dd@}GrAiFxAgFnBqE|BwBrAwA`AkFdEsEnE}@dAwJ~LuDxEsFlHqEvFmHnJeEpFaFlGsFlGoGpGqCfCoKvIcHvE_FtCuJ`FkX|LwG~CaG|C_I|EkHjFiBxAQLiBxAeHvGyGfHsErFyG|IuEdHoPbXeHpKiFpHkJfLcElEwZzZkH~HoGfIaGvIkGbKsFpKiFdLkCvGaAjCaEhLcJbXeDfJiDvIyDvImEvIiGrKoFfIsGvIcHdIkHnHoIrHcXjUyJnJsEfFiJrLuKbP}DtHuDnHuGtOeDvIkC~H}CzK_E~OoB|JiBnKaAxGiAxIyEnc@yAlL{BzOoAhHqAxGwDbPsDnMgFpOoFzMkFhLgG|KoD`G}CrE_JrL{HpJiItJyR|UiJ`L_@b@oPdS{OnR_LtN_FdHmDpFcF|IgGnLkFrLeEpKkD~JoDhLuCvKsBrIcBdIwA~HiBvKaBtL}@pIi@bHU|EOdFI~LLxJ^tJb@rFLrAdAtId@xChB~JrApFtBlH`AhDdKx\\bB|F|@tCjFvQ|B|IvBdJd@xBl@vCpAhHlAzGzBvOt@`Gt@lGxBlSPfBhAjJz@|Hd@fEV|Bx@~HlBbQhIhu@p@`GtB~QbAlKbAjLv@vLn@~Lf@nOVvODjJAbJIzJMpI]~LYdIiFlnAg@zJmD|c@q@dGu@dG{B~O_AdFw@vEaA`FeAdF}AxGqBhIwP`p@eCfKwBtKoBjKkBnLyAxLW`BwAzMgGvp@{@pIoAjJoAfI{AvIsChOmBjJyAbIiAzHs@fGa@zE]fFSdGKzFAxEHdJXrI|Az[N~EJtMG|GS|GYvF}A|Wo@pKWrDeExr@q@`M_@hIKfDGtCM~FCbG@lFNhGb@vH\\fDf@hDj@xCrAdGvA~FbGfWnA~Gt@jEb@nD^tDVxDPnGArFGhDMdDUbD_@bEWlB]rB}@lEk@fCm@rBoInVgJnXaMv^k@bBuAtDaBbFmN~a@eBfGwAhGoAzGeAnH{@xHe@fFuAnTq@zNa@|NQhLOhLGpOAvOErHMrHW~Ia@hIk@jIg@vFo@tFgApIkA`H}@lEeArEiB|GgCtHqCdHsDzHcEfHaEfG{GtHsCpCmEpDaFjDs@b@oCvAgGrCwMxGgDtBaD|BsD~CgGvGiCfDmC~DgChEcDzGaEpJuFjMwDtHkCpEkLbRsEnIuDbI{CbIqClJiBfHiA|F_BnJwCvUgKnz@sOnpAcBfMm@rDkA~FcB~Gu@lC{@jC_DnIqCdGmDvGwChEgQfUoDxFsBtDgBxD_BzDmCtH}BfIwB|IgBvIwAfIqAhIeCjRkClT{@tGaA~GoA~HwAvHcChMaEbSwC~M{BpJwCzKaD`KeDhJcDfIwCzG}BvEmBrDqBpD_DjFeDfFgNpSoCrEsBpDuArCg@hA}@|BqAnDkAbEqApFq@dD{@bGQbBg@zF[`FQ|G?pE@pDDpBPfFR`DVxCv@|GtG|a@bAvH\\|DN~DCbEKlDQlBYxBaAxEaAbDqAxC{AlCqBtC}DrF_BfC{AxCwAdEw@bDo@~DeBbMo@vDk@bCa@vAkAbD}@dB_AxA}AvBiC|BoAz@iCjAgCx@uCt@wFrA}FxA}Bn@uBx@kCvAmDjCqC~C_CfDqB|DoB|EmBdGwApFiAvEcBbIm@tDo@~Dq@rE}@bHeAdL}@bLa@dF[~Ds@rJmBpVw@`Jm@pFm@~DeArFmA|EW~@}@pC_BhEgB`EsAfCoBhDeA|AcE`F{CxCaDnCgDhC_HhFcDlCaD|C_F|FoDdF{CjFgDzGqEpKuArD_DdJcCbI_CvIcAfE}BhKy@dEuA`Iw@hFq@`FuAlLu@`Is@dJs@vJu@~J{@nMoAfOYjEShCuAxOYdCaBnMuAvIyApImBvJ_C~JkAvEqC|J}CxJ}Ll]mG`Q{KnZoIjUcBtEgHrRkYpw@kFhOkB~FeB`G_DzLcBnHwAnH_AdF_AxFcArH_ApHo@lGg@|Fo@rIa@`I]hIUlI]pSiCfvBQvPM~PE``@Rl|@?b^CxIQhUO|IAdAKjFMfFc@pNg@fNeA|SYrFiA~Po@lIcBhQWlBqAfKsAhJaCbN_A`FkDtP{Qb{@kC`LsB|HoFrQ{JtZyE`PkArEoArFiAlFw@jEo@~Dm@nEc@fEYrDg@|IKvDCnAItGO`RIjEKpDQxCc@`Fk@xEy@`Fy@vDy@dD}@vCcBvEcBvDcArBeAhBiAdBqAfBeDhEkEnFeEjFcGbIaCtDqFvJqB~Dwh@zhAaD|GgJ`SwJvS}KzUcIjOuE`IoCnE}GbKaEtFoE|FwIdKmJzJeItHeErDeEhDcEbDcEtC}JrGag@xZyGdE}LrHqHrEgJrF_DhBiFrCoE~BmHfDeHrCkHhCaIbC_IpB}H`BeIrAqIhAuIt@wIb@qJVcJNeeAd@iIJ_DHgDNoF\\gGj@cGt@}F`AoFhAcFlAqF~AqFhBsEfBe[vM{H~CqFjBaBf@mDhAyIrB_Ev@oF|@_H|@eHv@yHn@eQhB_Gx@mGfAeGpAkBd@mD~@qGrBcHhC_H|CgHnDkGrDaF`DoEbDoFjEsE|DwEvEiEtEeEnFuB`DkCrEkA~BwAzCkBnEcBxEgBzFwAxFyAlHu@rEkArIeE`_@sA~JyAfJkAhGyAxG{A`GaBzFgBvFgB~EiCpGsCdGoCrFyCjFiDhF_DlEyDvE}ClDaF~EaFfE_EzC_H`Fq]tVgUbPqOvKwHrF_QzLcD`CmChBgClBgFtD}EtDoErD_FpEuExEwD`EqDjEqEzFiEdGsCpEuC`F}BpEwBvE{BxFqB`GmBjGmBtHaApE_A~E{@jFgArI{@tIaAvLyBzYcCpZeApKg@nEcAfHmAhHsA`HoBjI{BhI{BdHwBfGk@nAqDhJib@|bAeDjImDjJoH~S{q@xpBsBpFqChGwCnFkChEwCzDaCvCuE|EcN`MoDrD_CrCuBzCeBtCoBzDiBnEgBhFyAzFsApGmEdWcDrP}A`H}AdGwBrH{BfHcL`\\wErNyBnHsBbIkBdIcBhIcBjJ}A|JeB|LkBhMgBhMeEnYgDtU}@`GaAvF}B~LmCzLgCdKwC`KmDtKgEfLyCrHaDbHwDrHwDlHaYde@gCtE_CvEwB|EqB~EqBlFwBvGmBrGgBlH_BlHaBdJ{A~J_Fd`@qAvJoAnIuAbIwApHyAfHcBbH_BlGgBlGuExNgLt[yErMgC|HkBdG}CxKcChKqBlJqBrKy@vEiA|HcAzHoHxo@qBhOqA`IuAxHyAdH{ArGcBvGgBfGeB|FgBdFeBxEcCtFoB`E{@`BaEbHkCvDyDbFoB~BsBpBcD~C{ChCyC|BeTlOsCbCkCdC{ChDwCzDqCfE}B|DkCvFcCdGkBvFw@fCq@lCqAzFeA`G}@jGs@fHe@|GY~GM`H?bHNtI`@pIn@fI|@zHjAnHpEbWpAhIz@dGx@nHr@|Hh@rI^`IfFbrAnAf]\\rODrFArGG`HOnH[`Io@nLsBr\\eAvSWdHWlME`PJ`PT`K\\`K|@zPt@jMf@dJ^nHj@~NT|JJzJBlJI`KMdIGtBe@vMaCnh@_@jJWhJOfKCjKD|KH~KTdRRtU?~JI~JMdIYdIi@fKy@lK_AtIkArIiAbHwAdH}A~GeBtG{AfFaB`FiB~EoBxEaBvDgBpD_CnE{BxDsClE}CpE_KlMcGtHqGfIwDzEsIrLeD`FcDjFcDlFcNvVcN`WsClFaGrLiB`EuCdH{BjGuBhGiOxf@uAdE}AxD{AbD_BtCsBzCwBrCuZ|^{AtBmBnCwAdCoAdCqA|CmAbDwAvE_Pfj@Uz@g@fB}AjFUv@k@rBc@xA_EhNcEbOwC|LyBfKaGj\\iA|FoAbFwAzEmAfDoAxC_CfFaMxVqErIwEnIyEdIaErGcEjGaDvEkDzEkDvEoDpE}KvMaQ`R{FdGcEjEcWxWyJjKeNzNsE`FoEbFyDtEwDzEeDpEaDxEwCtEqGrKsBzD{BlEEJOXmCvFcJpS_Wpm@wJ~U_EhK{DlKeYbw@qHlRuDrIwDfIqDbHoDrGiEfHkEbHuCjEgGbJkSfZmSlZ}OnUiL|PmIzMuDxGmAjB}MnUgB`DYf@aC`FyFvLsd@b{@iHlNuFrLoPh`@}C`HaDrGmDhGqD|F}ClEcDbEsCbDwC|CiDbDoDxCyElDcF~CyHbEaSbJcFbCmFjCiFlCiKlGiIxFiFdEoFrEmCdCcC`CgHpH_HdIeHjJePpT{ElGaFjGiGfHuG|GyGjG}GxFwGbFyG|Ek]tVeE|CmJ|GmKlHgFdDqKnGgH`EiHvDc`And@gZvNiDbBs_@vQcNpGaFpBaFjB}InCmA`@sExAqEdBgCnAuBxAgB|A{A|A_BlB_GvH_CtCyB`CaBxAyAbA{BnAiB|@{EfBaDdA_Ct@mF`BwBl@}Af@s@Ns@H}@DsB?qASo@Qq@[q@e@m@m@]k@u@gBKe@UaBcBgK_A{GS}Aa@uC}@eHcAiHaBmG_CsFuBwC_CiCu@m@kBiAuAo@_A]}Dy@uOyBwEo@}Eq@gG{@eHiA{D}@{Bm@cA[}CkAgBw@cB{@uAu@oCcBaCcB}BgBs@m@_EeDgHgGyCaCu@e@eHaEc@[eAaAc@e@_@i@_@g@cAaB[g@e@y@gQkZoE{H_BqCq@eA{@qAoA}AqAmAgBuAm@_@iB{@m@Uq@SwBc@yBWq@AkCDsAHmBViBJoAA_AGwASmA[eBs@{B{Au@q@gAkAg@s@cAcBq@{Aa@cA}@cDiBgJu@wCe@uAu@mBgA{BuAeCU]qBcCcE{DaAgAqAcBu@mA{AqCeBoEq@wBqA_Gm@gCi@eBk@uAo@sAy@uAkA{AyAwA_As@}A}@sAo@uAi@eGqBoBi@cCe@wCSkB@iAF_Dl@iBn@kDxA}Bx@_Ez@yBToAFiADeBC_EMmACqA@oAFuALsAPuCn@eAX}DjAuUdHsGlBgBh@gCl@}B\\yALyAH}ADaBAyACcCW{W}DmD[sFYkEGaGD_CH_EVqBPaCVsB\\uCf@kCl@yCv@_GpBaDpAaGjCgF|BqPnHYJkCjAcCr@kA^o@JeDBk@H]P[VWZIJIQkAiBWa@OSc@a@]UWMe@OgEs@]O]UIMCUAICGCIGEGCGAG@OCSOQGe@@OC}A{@yA_Aw@o@_FoFcB}AcAc@{AuAgD}CyC}C{MsOwKcMoA_BoBwBqBiBcCeBuBuAqAm@kAk@wAk@yAi@mh@wOsDoAq@[kAk@{@e@sByAw@m@{ByByA{AkCkEiBqDy@qBqFyMcBiEiFmMaBqDmAwBkAgBsBaCsA_BeByA{B}AsCyAiD}AwXqLmGaDgKiGgRwKyHmE_D{AaCaAiBk@oBe@u@OmEk@mCYmI}@gD[cLaAsAQqAM_V{BmEi@qB_@qCo@wBu@iBw@cB_A{A_Am@a@wAsAiB_B_A_AmAsA}BaDiB}C}B_F{BmFcPwa@_IsSaDeHiFmJiAkBuAmBkCeDeCqCcHiHmUsTeB_BcA_A}CcCgEmC}@g@_Ae@}Ay@gDqA}CeAmDkAkDoAyEkBmCqA_GqDmEuCqCeBaEcCgI}DmDyAcDiAkD_Aa@KwD}@wDu@yFy@cCWkF]aBI}LWi`@i@eIC}HD_D?yDLiLn@eCRcFh@_Ej@yF~@eKnBcDz@u@\\}IrCqCbAeC|@wHbDoHdDsHfDmDdBoGvCyAn@eBd@}IlBOFKFkA~@cClBmCtBmAp@yKhFcKnFgK~Fwu@xd@yOpIsMhGwNjGa]tNyWdL{G~C_I`EgLrGgGtDmUtNuOjJiE~B}EbCqD`BaG`CoE|AyExA}EpAqEdAyGrAiZdFkJfB_KbCqDdAaErAwEfB}F`CqHrD}CdBqDlBk_@fViHhEkH~D{E`CeKlEkDpAeIjCyC|@sElAkEbAaKjByDj@kKjAkEZ{Ll@{GJmJAoEG}EQkLw@{Ec@_Ei@oEq@qEy@oE_A{EgAcFsAq_@kKiHeBcGoAiS_DcOuAqF]uK]uHEsMFgFLwBFsIj@kGh@kFj@yFv@}Ex@wMnCgRlFcRjHofA`d@qA`@eBp@yIdDaDdAqIjCuGhBeJxBuPrEgKvCiHzBgHfDgIlEcGbEsWnSeI~FmJrF}HrDcG|BwQhGeHnCaGtCwG`EsF~E{EnFoFvHaEhHaEvI{Nb]wFzJ}EbH_FvFsFbFcE~Cg@^OLgbB`eAyA~@yDbCaTtMcHlEcGjDaG|CkLlFqFvBsE|AiL`DiHdByGrAsG~@uEh@mE\\gF\\mp@pBeMd@aFTcM`A{Fr@aG~@wGpA_HdB_FrAkc@~MuHvB{G`B}B\\}HxAuHdAqHz@{QlAeLl@qEXqEb@qFp@mARmBZwDt@_HbB}HvCmGnC}G~D}FxDeVbQmFhDcG|CyGrCkFjBwF|AoV|FkElAiEdBcEpBqEtCoDdCgDjDaDbDiAhAaAbA{CvCkOpO_EvDcDpCwDtCuDlC{CpBoJlFoLhFcr@bWwH`DwFfCgFtCcLvH_LnJeM|KwF|EyFlEwFxDoAv@aBbAqEzBkEjBeIlCwGhBaHlAoIbAgH`@mJBkGMoEa@eAEiGo@_Fy@}d@gI_HeAqN{@iHM_INqHh@uIlA_u@rMuJfAgKx@uLf@kXt@}Lb@sIh@uKhBkCj@aHhBsHnCoJjEsBdAcq@v]sR`K_PxHwKxDuKtCeLzBoJfAuLt@kIJyKEsBM}AIyBKeKaAgLqBwIkBmo@uRsI_CgKuBaK_BeKiA{Jm@iL[wo@m@wIUqFQaReAuL_A{D_@{Di@iGu@wmE_p@iU{C{JgA_NoAcf@mDgBOwj@yD{@I}Gk@{Fo@cHkA_Dq@wDaAuFcBy@YyDuA{FiCuDmBiDoBk\\cTqHuEiHoD}H_CkHkAsGUyFBqI~@wHfBwItD}GjFsEbE}DvEcBxBuBzCuAtBqAnBcKvOkBlC}C`EeCxCiBlBaEvDuBdBsBzAsChBwF`Dae@bTmGdDcFvCoFnDkEjDoFxEeFhF}DtEo`@|e@iEzEwKxKyEfE}E|D{EjD{EbDkElC_EzBgFjCyEtBkFtBwFpBeFxAaHfBuFnAcHnAiEt@m@JaP|Bi\\zEiG`AiQbDoFvA_FxAiGtBgNfFmc@vQmNnFgJlC{LfD_pArXwCp@uEfA}F~AyFfBcFfByNtFcChAeClAkB|@wZxNq@\\{E~BoEbBeCz@oF`BmPtD_HfAsVhDkHlAoGpAkFtAuE~AqFrBeOxGkOzIwFvCwFnCaFrB}EdBwGlB_Dt@wE~@iOxBcHv@yFf@yF`@iMn@gBFcCBkEBcFCwEKcBI_Fc@gHeAgIgB{Bi@mF_BuJ_DeKsCqIgB{Do@kC[kHk@qHW}J@oTh@mEFW?kBKcEO{AOqAUgAYmAg@eAm@o@e@u@o@k@k@q@u@eFkGyAwAq@e@q@a@m@YaBm@iB[yAKk@?wAF{@Ls@NgBl@wAv@w@j@g@d@q@p@i@p@yArB}AlCg@hAuAdDqBrFUp@i@bBgBfGkMpg@eGbUoEbQeBhGcDrJ_CbGuDhIyDrHwDtGiG~IeG~HeE|EqE|EyItIwDfDgEjD{DvCyEbD_EfCkEhCyEhCeGtC{HfDcHdCqEvA_FtAsEhAwBb@}d@hIiMzB{E~@gIpBaBh@gE~AkErB}Ax@eEtCeGpE{BjB}BtBmApAuCxCcj@rn@kK|JqC|BkBtAuDbCmC|AmGvC_DjAmBp@mD`AuBd@wE~@_HhA_J|AgC`@_Ep@sh@zI{HdBcEhAgA\\wAf@qEhB}BbAqE|BkC|AeC~AaC`B{BbBwCbCqAfA_BxA{AzAeDpDkDdEal@pv@{BxCsEtGeGpJgDzFwEtI}EvJiDtH}CpHuDnJqApDwCrIsC~IaBxFoBrHcAjEiAhF}@~EwAtIw@~Fk@~Eg@~Ea@bFa@hGYnFUzFSxFu@~UmB`m@S`FYbFk@`Io@dGa@bDa@~C}@zFaAlF_AjEeAnE_B|FiAvDoArDiB~EgE`K}Tji@wBfFmCnG_CpFsBjEyBdE}@zAaA|AkCvDqCjDuAzAmAnA{CpCyEvDyr@hi@uGnFaGpFgDfDyObPgExDoEhDaBvAe@`@wDlDqDdD}ArAk\\zUkHpFsAfAcCxBeCbC_ChCmChDuAtBuA`CsAdC{@lBw@nBoAnD}AnFu@dDq@jDo@dEg@pEa@fFKhBQxFCtBAfGLtFHjB\\pFVrCZfC\\fCb@jC`@vBjAnFrApFvCzKbEdPdB|H|@vEZlBXnBX|Bl@zFTtCTlDXnHDdCDdEAfEAzBMpFQfEObC]nE_@~DkAbKgDxW]nCi@xE_@~DWbDWnD[lGKhCMfGIjGA`CAfAIrPAdEUjh@AbBGhJCvCIrEI~CCz@KzC]`Ha@pGQvBGv@[`DoAnLsHhn@kBrOk@rEi@hEeCjQi@`DeAdHaApGuGvb@eAxGsBvLwBxL{DdUg@jCg@jCYpAWjAg@lBi@lBSr@k@fBo@jBy@rB_BnD}BfEaAvAkBnCwKxMi@t@QT{@lAcBfCcChEa]jn@k@pAiAdD[lAYzAYnBQhBItBExBEpCGrDKxH[rQa@xPOxEk@vH_A~Fc@vB}HfZ{W|bAmBdIgBzGuAlF}@fCk@jAeBhCkAtAiAz@_Al@wAp@aFnBuIrDshBxv@eJxD}MzFsAl@s\\vNkS~IsBz@iEpAwATwBTuCLeBCoBK_BUqB_@oC{@aCcAeCyAgBsAyCqCa]s\\cCoB_Ao@s@]gCeAiBg@sCm@oAYoAWuA]i@K{@Qy@Qy@SmAU}AKg@AwBHsARaAVeA`@mAn@iAz@}@x@y@`AmKrOeBlBeBxAi@`@oJlHmR|NwO~L}NnLyDvCuLzJgKxHuJnHg_Ars@aTbPgKhHgBlAeEtC_f@b_@uu@tk@aKvH}HxFiA~@{DzCqGpFkEtCiIfHuEtDsFfEmMdKia@`[yC|Bm@d@mGxEcAj@q@Zw@Xs@PgBTkBBk@C{AMgAYuAg@qAs@cAy@_A}@{@eAw@qAiA_CgDqIcC}FiAwBwAoByAaB][Y]m@_@oAy@{Aq@}Ak@aBa@i@GeAK{BGmBJyBb@sBh@eB|@gHdEsBjAkGhDa@TyFzCg@ZyHjE_DfBkE`CqI|EkIlEyJ|F}HbE_E~B}KhGqEpCwCvBiChCaAlAaCbDkGnIqBnCyBpCwBrBqBrAqBlAaBn@}@VgB^{APuBHoBC{AKuBa@k@K}Bc@yNkCqGeAk@Ig@CiB_@i@Kw@Se@Sy@i@gAgA_@_@[e@o@eA_@eA_@}@[wAQ}@WmAm@yCqB_KeAgFQ{@Oq@y@cEeAqF]_B}@wEs@gD{AsHyAcHuAgH}AgIwCuNmBkJsByJ}BsLUcBS{AKcAC}@?m@HgBFk@H[HQH?JCFGFIHW@M?OAOEOIKIIICI?K@GDKLGLCN?NILKPYVQPgAp@e@Nc@JK?EESGG?E@GBGDOXAJALCJY`@kA~@aAf@_Ad@cCdAiC|@kEdAiC`@uOdBs@H}UlCmJfAw@Bg@ESIGKKGMCK@MFIJGPQPMHiAXo@FcAFgA?eACcAKaAO_AWaA]aAc@cAk@}@q@y@s@cOiOy@y@wBeB}@m@aCoAaC}@gCm@kC]qCKmCDeAHgC^eAT}JxCgCn@cAPkCXkCDcACgCQeAOcASeCu@_Bi@q@[i@_@KGCUGQKOMEM?MBWI]W{@y@c@e@sFiGgBoBo@q@o@e@k@]_Ac@aQeHuA}@mA_AgB_BsAwAuKcL}AaBqOgPsE{EcEkEyFgGo@w@a@q@IS?IESCGCEEESCG@EBMTCF?H@\\BFKh@Wz@gEjKWn@[h@u@bA}@v@cAf@a@LqAP_NhAiCZeARkCv@aA^gATK?I?IMGIIEICMAGIQc@Uy@OcA_DgQaAsDa@uAoAiDk@oA_ByCiBmCy@aAw@{@yBoB}AgAaB_AiIoDuIuDeCsAs@a@IICQGOIGGEIAI?QJGHI?}@GgBOUC_@Em@Gs@CIAs@AuCFoj@|CqAFg@@Q@E@_CFmL\\iIVaQj@E@i@@Y?mL\\}BD]?y@@kCPcAPSHUHe@ROJWPWPe@b@i@l@uIpKkFvGm@t@g@r@{@fAiA|AiQlU_IjKy@fAsBjC[`@GHKLe@b@SLQLSJaQ`JuH|Du@`@mBbAyFvCaErBmAb@iC\\Q@{@Ly@J}APcQtBoEf@yBVmEh@_@D[DuAN{@LiANaAJa@FgD^o@Di@A_@IKGGCAGEECEKEM@GDEFUBc@?SEMAYIc@Ou@a@QKgCsAgCsAa@UsA}@aEiDYWy@s@SQkBsAsAs@gIuCsA[s@K_@CYC_CGuEOkBGmBIeAEs@AyBEeAG{@C}BIgGSwK]qAEoAEYCwAScBe@mAg@yDsBWM[K}@Ww@QmBQYAU?_ABaAHe_@bEWDmAFq@H_DPg@Jm@F_RvBgZlDmCTq@HeC^iFn@eOdBih@hGyAJm@HiC\\kJhAgx@dJmNbBuDh@mDd@uA^_Ad@m@j@}HhI]Xk@\\cA\\I@m@?sAIMAEKGIGGMCM@KFIJENCT@RDRBHFF@P@T?fAAVDvAThD@x@?t@C~@El@MfAs@vEO`AOt@_BpHMf@[hBQhAAHCHa@xDSvCCn@C|@IxEAvAErE@hA?l@?jAAlACp@Gz@YpC_@tBa@vAo@nB[`AmBfGM`@a@jBSlBEv@Cf@Av@?rC?Z@d@Gp@CDAD?D?F?B@B@B@L?VIr@s@`EYzA[jBOx@Mv@YrA]|@O`@}@zBIVEHIZu@dCKl@Cj@ATDVD`@n@lDXdBDp@Dj@Bh@?N?JCTCVId@O~@CPWrAK^IV[r@a@|@Sh@Sh@K^o@jBIXSv@}AfGGTADAFK^CF?BUx@c@xAAFSp@WnAKr@MdAC\\@TF`AJf@FNDJ^z@f@bBRz@Jl@RrAPdBHpAJjAPdCDf@FjABjA?d@CZGn@CJA@EFCH?@AJ?LBL@@BX?X?VOzAKdBA^KbCCh@El@O~@c@zB]dBwCvNQv@uAdHKf@Y|Ac@zCGx@Al@@p@Fn@Hj@Ld@t@lB|@bD^vAL~@D`AAx@WpFKpBQpBiFz[Q|AuB|T_AtJGn@iAjLoAdMKdAAJEl@?^@^B\\h@lEF~@?p@Az@u@tQQvECj@_@hJKdCKvAUpCaA|JSrBMbAUdAwDzN}@jDeAdDmCbI]dAc@nAYt@Yj@m@~@UZeB~AgBpAu@r@e@n@gD~Gq@`Bi@|A_@tAIb@O`AMtAMfBO~AEXAJOdB@JKZC\\KxAAd@@b@@`AJhAL`AHj@DRRhADFXXDF@NDbADl@?lABLDDHDr@VFF@LQdCOdBKnA_@~CMv@EXGf@AH[hCw@pGIp@yFfe@M|@Gb@Gj@OhAqClUGj@Gb@Kx@gLb`AUdBo@lF{@bHq@tFqBjPk@pEq@zFsDnZM`ACVUtBE\\AJEh@uHdy@]|D[hEs@bKg@rHSnCGlAQjBGn@k@tCq@`De@zBCZUr@CVuBhKwAxFCLYhAABEXG^M`@Yd@CBILEHEFCJ?FB\\D\\BRBRf@fDVhBDNP|ABH~ArKVdBL~@XjB|@tG\\bCpAxIz@~FVhBZxBbDjUPlA|@bGXpBdFb^hBbM|AnKh@tDfBdMPjAHj@Hf@Lh@h@nAtAhDDN@L@P?P?z@Br@@TDb@DPDVNf@FPj@lAJTLVJTb@bABDVj@Th@@BXb@BF@HEPGR]jAc@`BMf@Kd@kA`IG^?F@FB`@HT@J?HEZEb@M~B_@vFIdAIjAIdAUtCEf@Cd@A`@?`H?l@AROpG[jJK|BAXiArQa@nHEbBCvB@xDL`DxBtc@HpBBlAFjH@nR?|@Bd@Dz@L|@\\rA~@|Bb@x@vAhBl@r@hCbCl@r@xAlBtApBf@|@b@x@d@`AbE`KPf@rJvU\\hAP`AHv@@RBnAEbBW|GKzCi@fO?FAPQrE}Bpo@Iz@Kz@Mv@Ol@Qn@i@pAoIdNqAtBw@lAk@`AIPEV?NHj@HRjApBVn@Np@Jt@Dp@b@`JJ|@\\|AFh@?`@ARK\\INQJy@RQHKRAHGj@AFEHILIH[HwUjBi@F[JOB[Pa@^oBdCMJIBUBo@?cCKw@?W?M\\oDpJeAzC_D|IsAfEQl@K^g@lBi@jCMv@[vBMz@MxAAf@SNEBXhBXzBLrAHrABfCC|@IxASvCEZOl@CLKDKHIRC\\BXJR@N?TAZCb@E`@AJeAdKEf@Gd@k@zFGn@MlAE^Gb@ETk@rDKf@BDPPf@ZTLVNTLRJhAZNFDDDDJZVx@Pj@^hAn@nBL^d@xAn@lC^jCJdAJ~BBl@?|BAZ?HEzAKxAYnDCZATADF@AJCZg@bESbBYbBe@dCGXG`@GZMj@s@hDGPEDIDSBE?Bn@BjA?d@Ad@EzAQ|AQ~@_AlEO~@Cj@@tAFj@J`AXbCJbA@`@AdAKdAGj@?NAR?J?T?b@?p@GbDSfEUtDKxACPCl@Ch@AtBHrMDnADj@Fb@DRFVf@hBPz@LnA@`ACxAUvFMfDQvEWjII|A]pEk@rEOpAOtAKdAS|AAJEZKtAArC?N@^@\\Bf@@fA?^Ed@Kn@_AvDm@bCMh@Qp@O|@CPMtAo@rGOvACNCRGZIZQp@IX{EjO}B~HM\\ITw@vAW^}@bAsApAgAbASREBoAbAmGpD{@n@_@`@}@tA_AzAkBrCcBhCuBdDYh@Uh@Qp@Mh@K~@qCrVMzBC|@IjFAp@Ax@Al@MlLCj@M`Ba@bCQbB?VCfACnDEzECz@EfACRCNOx@I\\Of@{AjEIVSl@Y~@]lAaAdEgApEaAfEk@bCg@pBQf@YX@H@Z?DCRK`@_@fBW~AKz@SrB]lDGb@W`COtAQbAMh@i@~BUfAQr@w@xCMh@IXIL_@p@KXKTUp@Kf@[~AId@Ih@QfAQ`A?FEJGDQ@YMo@QYGQDKHAX@h@Ff@HVJXLXDFL^?TDj@NvCF`@d@lAZ~@Px@Jf@@J@LDTGd@[zBIf@Ah@GXAFAFC@CDCFi@YgE}BSQOUGOJO\\cALONOHIt@o@zBfAHA",
+            "segments": [
+                {
+                    "distance": 725061.1,
+                    "duration": 26630.0,
+                    "steps": [
+                        {
+                            "distance": 270.8,
+                            "duration": 65.0,
+                            "instruction": "Head southwest on Rue Simon",
+                            "name": "Rue Simon",
+                            "type": 11,
+                            "way_points": [
+                                0,
+                                12
+                            ]
+                        },
+                        {
+                            "distance": 74.1,
+                            "duration": 17.8,
+                            "instruction": "Turn left",
+                            "name": "-",
+                            "type": 0,
+                            "way_points": [
+                                12,
+                                21
+                            ]
+                        },
+                        {
+                            "distance": 648.6,
+                            "duration": 80.5,
+                            "instruction": "Turn left onto Avenue de l'\u00c9tang du Grec",
+                            "name": "Avenue de l'\u00c9tang du Grec",
+                            "type": 0,
+                            "way_points": [
+                                21,
+                                51
+                            ]
+                        },
+                        {
+                            "distance": 173.5,
+                            "duration": 35.9,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto D 62E2",
+                            "name": "D 62E2",
+                            "type": 7,
+                            "way_points": [
+                                51,
+                                70
+                            ]
+                        },
+                        {
+                            "distance": 207.4,
+                            "duration": 25.7,
+                            "instruction": "Turn slight right onto D 62E2",
+                            "name": "D 62E2",
+                            "type": 5,
+                            "way_points": [
+                                70,
+                                73
+                            ]
+                        },
+                        {
+                            "distance": 953.1,
+                            "duration": 73.5,
+                            "instruction": "Keep right onto D 986",
+                            "name": "D 986",
+                            "type": 13,
+                            "way_points": [
+                                73,
+                                103
+                            ]
+                        },
+                        {
+                            "distance": 1513.8,
+                            "duration": 75.1,
+                            "instruction": "Continue straight onto D 986",
+                            "name": "D 986",
+                            "type": 6,
+                            "way_points": [
+                                103,
+                                129
+                            ]
+                        },
+                        {
+                            "distance": 3432.2,
+                            "duration": 158.6,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto Route D\u00e9partementale 185 de Montpellier \u00e0 Palavas-les-Flots, M 986",
+                            "name": "Route D\u00e9partementale 185 de Montpellier \u00e0 Palavas-les-Flots, M 986",
+                            "type": 7,
+                            "way_points": [
+                                129,
+                                172
+                            ]
+                        },
+                        {
+                            "distance": 1182.1,
+                            "duration": 53.2,
+                            "instruction": "Continue straight onto M 986",
+                            "name": "M 986",
+                            "type": 6,
+                            "way_points": [
+                                172,
+                                184
+                            ]
+                        },
+                        {
+                            "distance": 951.0,
+                            "duration": 79.2,
+                            "instruction": "Continue straight onto M 986",
+                            "name": "M 986",
+                            "type": 6,
+                            "way_points": [
+                                184,
+                                208
+                            ]
+                        },
+                        {
+                            "distance": 1886.6,
+                            "duration": 109.9,
+                            "instruction": "Keep right",
+                            "name": "-",
+                            "type": 13,
+                            "way_points": [
+                                208,
+                                235
+                            ]
+                        },
+                        {
+                            "distance": 63028.8,
+                            "duration": 2059.9,
+                            "instruction": "Continue straight onto A 709",
+                            "name": "A 709",
+                            "type": 6,
+                            "way_points": [
+                                235,
+                                741
+                            ]
+                        },
+                        {
+                            "distance": 26876.1,
+                            "duration": 843.1,
+                            "instruction": "Continue straight onto La Languedocienne, A 9",
+                            "name": "La Languedocienne, A 9",
+                            "type": 6,
+                            "way_points": [
+                                741,
+                                950
+                            ]
+                        },
+                        {
+                            "distance": 117730.3,
+                            "duration": 3693.5,
+                            "instruction": "Keep right",
+                            "name": "-",
+                            "type": 13,
+                            "way_points": [
+                                950,
+                                1898
+                            ]
+                        },
+                        {
+                            "distance": 18905.4,
+                            "duration": 603.9,
+                            "instruction": "Continue straight onto Autoroute des Deux Mers, A 61",
+                            "name": "Autoroute des Deux Mers, A 61",
+                            "type": 6,
+                            "way_points": [
+                                1898,
+                                2002
+                            ]
+                        },
+                        {
+                            "distance": 11663.5,
+                            "duration": 522.3,
+                            "instruction": "Keep right onto A 61",
+                            "name": "A 61",
+                            "type": 13,
+                            "way_points": [
+                                2002,
+                                2139
+                            ]
+                        },
+                        {
+                            "distance": 228954.9,
+                            "duration": 7301.4,
+                            "instruction": "Keep left onto Autoroute des Deux Mers, A 62",
+                            "name": "Autoroute des Deux Mers, A 62",
+                            "type": 12,
+                            "way_points": [
+                                2139,
+                                3524
+                            ]
+                        },
+                        {
+                            "distance": 3684.0,
+                            "duration": 186.5,
+                            "instruction": "Keep right onto A 62",
+                            "name": "A 62",
+                            "type": 13,
+                            "way_points": [
+                                3524,
+                                3571
+                            ]
+                        },
+                        {
+                            "distance": 1481.7,
+                            "duration": 66.7,
+                            "instruction": "Keep left onto Rocade, N 230",
+                            "name": "Rocade, N 230",
+                            "type": 12,
+                            "way_points": [
+                                3571,
+                                3586
+                            ]
+                        },
+                        {
+                            "distance": 265.6,
+                            "duration": 12.0,
+                            "instruction": "Continue straight onto Rocade, N 230",
+                            "name": "Rocade, N 230",
+                            "type": 6,
+                            "way_points": [
+                                3586,
+                                3591
+                            ]
+                        },
+                        {
+                            "distance": 8278.8,
+                            "duration": 372.5,
+                            "instruction": "Continue straight onto Rocade, N 230",
+                            "name": "Rocade, N 230",
+                            "type": 6,
+                            "way_points": [
+                                3591,
+                                3697
+                            ]
+                        },
+                        {
+                            "distance": 324.9,
+                            "duration": 13.0,
+                            "instruction": "Keep right",
+                            "name": "-",
+                            "type": 13,
+                            "way_points": [
+                                3697,
+                                3706
+                            ]
+                        },
+                        {
+                            "distance": 344.8,
+                            "duration": 35.9,
+                            "instruction": "Turn right",
+                            "name": "-",
+                            "type": 1,
+                            "way_points": [
+                                3706,
+                                3719
+                            ]
+                        },
+                        {
+                            "distance": 16202.1,
+                            "duration": 558.6,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit",
+                            "name": "-",
+                            "type": 7,
+                            "way_points": [
+                                3719,
+                                3860
+                            ]
+                        },
+                        {
+                            "distance": 399.3,
+                            "duration": 14.4,
+                            "instruction": "Keep left onto L'Aquitaine, A 10",
+                            "name": "L'Aquitaine, A 10",
+                            "type": 12,
+                            "way_points": [
+                                3860,
+                                3864
+                            ]
+                        },
+                        {
+                            "distance": 90669.9,
+                            "duration": 2851.8,
+                            "instruction": "Continue straight onto L'Aquitaine, A 10",
+                            "name": "L'Aquitaine, A 10",
+                            "type": 6,
+                            "way_points": [
+                                3864,
+                                4286
+                            ]
+                        },
+                        {
+                            "distance": 35532.1,
+                            "duration": 1150.8,
+                            "instruction": "Keep right onto Autoroute des Oiseaux, A 837",
+                            "name": "Autoroute des Oiseaux, A 837",
+                            "type": 13,
+                            "way_points": [
+                                4286,
+                                4563
+                            ]
+                        },
+                        {
+                            "distance": 21871.5,
+                            "duration": 799.9,
+                            "instruction": "Keep left onto D 137",
+                            "name": "D 137",
+                            "type": 12,
+                            "way_points": [
+                                4563,
+                                4692
+                            ]
+                        },
+                        {
+                            "distance": 1420.1,
+                            "duration": 63.9,
+                            "instruction": "Keep left onto N 137",
+                            "name": "N 137",
+                            "type": 12,
+                            "way_points": [
+                                4692,
+                                4717
+                            ]
+                        },
+                        {
+                            "distance": 2489.9,
+                            "duration": 112.0,
+                            "instruction": "Keep left onto N 137",
+                            "name": "N 137",
+                            "type": 12,
+                            "way_points": [
+                                4717,
+                                4742
+                            ]
+                        },
+                        {
+                            "distance": 2458.3,
+                            "duration": 110.6,
+                            "instruction": "Keep left onto N 137",
+                            "name": "N 137",
+                            "type": 12,
+                            "way_points": [
+                                4742,
+                                4769
+                            ]
+                        },
+                        {
+                            "distance": 245.1,
+                            "duration": 16.0,
+                            "instruction": "Keep right",
+                            "name": "-",
+                            "type": 13,
+                            "way_points": [
+                                4769,
+                                4776
+                            ]
+                        },
+                        {
+                            "distance": 586.5,
+                            "duration": 57.5,
+                            "instruction": "Keep right",
+                            "name": "-",
+                            "type": 13,
+                            "way_points": [
+                                4776,
+                                4788
+                            ]
+                        },
+                        {
+                            "distance": 1602.1,
+                            "duration": 80.2,
+                            "instruction": "Continue straight onto N 11",
+                            "name": "N 11",
+                            "type": 6,
+                            "way_points": [
+                                4788,
+                                4801
+                            ]
+                        },
+                        {
+                            "distance": 225.0,
+                            "duration": 16.4,
+                            "instruction": "Keep right",
+                            "name": "-",
+                            "type": 13,
+                            "way_points": [
+                                4801,
+                                4810
+                            ]
+                        },
+                        {
+                            "distance": 265.0,
+                            "duration": 50.2,
+                            "exit_number": 5,
+                            "instruction": "Enter the roundabout and take the 5th exit onto D 9",
+                            "name": "D 9",
+                            "type": 7,
+                            "way_points": [
+                                4810,
+                                4837
+                            ]
+                        },
+                        {
+                            "distance": 1573.0,
+                            "duration": 103.1,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto D 9",
+                            "name": "D 9",
+                            "type": 7,
+                            "way_points": [
+                                4837,
+                                4862
+                            ]
+                        },
+                        {
+                            "distance": 2581.8,
+                            "duration": 132.2,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto D 9",
+                            "name": "D 9",
+                            "type": 7,
+                            "way_points": [
+                                4862,
+                                4911
+                            ]
+                        },
+                        {
+                            "distance": 2316.6,
+                            "duration": 147.1,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto D 9",
+                            "name": "D 9",
+                            "type": 7,
+                            "way_points": [
+                                4911,
+                                4941
+                            ]
+                        },
+                        {
+                            "distance": 1100.7,
+                            "duration": 65.8,
+                            "exit_number": 3,
+                            "instruction": "Enter the roundabout and take the 3rd exit onto D 9",
+                            "name": "D 9",
+                            "type": 7,
+                            "way_points": [
+                                4941,
+                                4972
+                            ]
+                        },
+                        {
+                            "distance": 1542.4,
+                            "duration": 69.8,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto D 10",
+                            "name": "D 10",
+                            "type": 7,
+                            "way_points": [
+                                4972,
+                                4998
+                            ]
+                        },
+                        {
+                            "distance": 6315.4,
+                            "duration": 338.9,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto D 9",
+                            "name": "D 9",
+                            "type": 7,
+                            "way_points": [
+                                4998,
+                                5088
+                            ]
+                        },
+                        {
+                            "distance": 7960.5,
+                            "duration": 520.5,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto Route de Lu\u00e7on, D 9",
+                            "name": "Route de Lu\u00e7on, D 9",
+                            "type": 7,
+                            "way_points": [
+                                5088,
+                                5180
+                            ]
+                        },
+                        {
+                            "distance": 1851.8,
+                            "duration": 144.5,
+                            "exit_number": 3,
+                            "instruction": "Enter the roundabout and take the 3rd exit onto Rue du Puyravault, D 25",
+                            "name": "Rue du Puyravault, D 25",
+                            "type": 7,
+                            "way_points": [
+                                5180,
+                                5242
+                            ]
+                        },
+                        {
+                            "distance": 1880.2,
+                            "duration": 183.1,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto Rue du Huit Mai, D 25",
+                            "name": "Rue du Huit Mai, D 25",
+                            "type": 7,
+                            "way_points": [
+                                5242,
+                                5329
+                            ]
+                        },
+                        {
+                            "distance": 5038.3,
+                            "duration": 347.4,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto Rue de Triaize, D 25",
+                            "name": "Rue de Triaize, D 25",
+                            "type": 7,
+                            "way_points": [
+                                5329,
+                                5425
+                            ]
+                        },
+                        {
+                            "distance": 338.4,
+                            "duration": 24.4,
+                            "instruction": "Keep right onto Grande Rue, D 25",
+                            "name": "Grande Rue, D 25",
+                            "type": 13,
+                            "way_points": [
+                                5425,
+                                5444
+                            ]
+                        },
+                        {
+                            "distance": 8354.2,
+                            "duration": 639.3,
+                            "instruction": "Turn slight left onto Place Georges Clemenceau, D 25",
+                            "name": "Place Georges Clemenceau, D 25",
+                            "type": 4,
+                            "way_points": [
+                                5444,
+                                5571
+                            ]
+                        },
+                        {
+                            "distance": 6883.5,
+                            "duration": 549.7,
+                            "instruction": "Turn slight right onto Rue de la R\u00e9publique, D 25",
+                            "name": "Rue de la R\u00e9publique, D 25",
+                            "type": 5,
+                            "way_points": [
+                                5571,
+                                5700
+                            ]
+                        },
+                        {
+                            "distance": 811.4,
+                            "duration": 172.4,
+                            "instruction": "Turn left onto Chemin de la Reine des Pr\u00e9s",
+                            "name": "Chemin de la Reine des Pr\u00e9s",
+                            "type": 0,
+                            "way_points": [
+                                5700,
+                                5716
+                            ]
+                        },
+                        {
+                            "distance": 366.5,
+                            "duration": 35.7,
+                            "instruction": "Turn left onto Route de Moricq, D 70",
+                            "name": "Route de Moricq, D 70",
+                            "type": 0,
+                            "way_points": [
+                                5716,
+                                5727
+                            ]
+                        },
+                        {
+                            "distance": 575.0,
+                            "duration": 56.5,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto D 70",
+                            "name": "D 70",
+                            "type": 7,
+                            "way_points": [
+                                5727,
+                                5750
+                            ]
+                        },
+                        {
+                            "distance": 787.0,
+                            "duration": 68.0,
+                            "instruction": "Turn left onto Rue du Chemin de Fer, D 46B",
+                            "name": "Rue du Chemin de Fer, D 46B",
+                            "type": 0,
+                            "way_points": [
+                                5750,
+                                5782
+                            ]
+                        },
+                        {
+                            "distance": 3.9,
+                            "duration": 0.2,
+                            "instruction": "Turn left onto Route de la Tranche-sur-Mer, D 2747",
+                            "name": "Route de la Tranche-sur-Mer, D 2747",
+                            "type": 0,
+                            "way_points": [
+                                5782,
+                                5783
+                            ]
+                        },
+                        {
+                            "distance": 364.2,
+                            "duration": 33.4,
+                            "instruction": "Turn right onto Rue des Moulins",
+                            "name": "Rue des Moulins",
+                            "type": 1,
+                            "way_points": [
+                                5783,
+                                5795
+                            ]
+                        },
+                        {
+                            "distance": 25.5,
+                            "duration": 9.2,
+                            "instruction": "Turn slight right onto Rue des Moulins",
+                            "name": "Rue des Moulins",
+                            "type": 5,
+                            "way_points": [
+                                5795,
+                                5799
+                            ]
+                        },
+                        {
+                            "distance": 5849.4,
+                            "duration": 383.0,
+                            "instruction": "Turn left onto Route de Longeville, D 70",
+                            "name": "Route de Longeville, D 70",
+                            "type": 0,
+                            "way_points": [
+                                5799,
+                                5941
+                            ]
+                        },
+                        {
+                            "distance": 916.4,
+                            "duration": 86.8,
+                            "instruction": "Turn left onto D 70",
+                            "name": "D 70",
+                            "type": 0,
+                            "way_points": [
+                                5941,
+                                5980
+                            ]
+                        },
+                        {
+                            "distance": 18.3,
+                            "duration": 6.6,
+                            "instruction": "Keep left onto Rue du G\u00e9n\u00e9ral de Gaulle, D 21",
+                            "name": "Rue du G\u00e9n\u00e9ral de Gaulle, D 21",
+                            "type": 12,
+                            "way_points": [
+                                5980,
+                                5982
+                            ]
+                        },
+                        {
+                            "distance": 82.0,
+                            "duration": 11.8,
+                            "instruction": "Turn left",
+                            "name": "-",
+                            "type": 0,
+                            "way_points": [
+                                5982,
+                                5989
+                            ]
+                        },
+                        {
+                            "distance": 238.7,
+                            "duration": 27.8,
+                            "instruction": "Keep right",
+                            "name": "-",
+                            "type": 13,
+                            "way_points": [
+                                5989,
+                                6001
+                            ]
+                        },
+                        {
+                            "distance": 115.6,
+                            "duration": 18.0,
+                            "instruction": "Keep right onto Rue Georges Clemenceau, D 21",
+                            "name": "Rue Georges Clemenceau, D 21",
+                            "type": 13,
+                            "way_points": [
+                                6001,
+                                6008
+                            ]
+                        },
+                        {
+                            "distance": 188.4,
+                            "duration": 43.5,
+                            "exit_number": 1,
+                            "instruction": "Enter the roundabout and take the 1st exit onto Rue du Bois Jolly",
+                            "name": "Rue du Bois Jolly",
+                            "type": 7,
+                            "way_points": [
+                                6008,
+                                6016
+                            ]
+                        },
+                        {
+                            "distance": 183.7,
+                            "duration": 44.1,
+                            "instruction": "Turn right onto Impasse du Bois Joly",
+                            "name": "Impasse du Bois Joly",
+                            "type": 1,
+                            "way_points": [
+                                6016,
+                                6024
+                            ]
+                        },
+                        {
+                            "distance": 0.0,
+                            "duration": 0.0,
+                            "instruction": "Arrive at Impasse du Bois Joly, on the left",
+                            "name": "-",
+                            "type": 10,
+                            "way_points": [
+                                6024,
+                                6024
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "distance": 725061.1,
+                "duration": 26630.0
+            },
+            "way_points": [
+                0,
+                6024
+            ]
+        }
+    ]
+}
