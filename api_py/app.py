@@ -1,6 +1,7 @@
 
 import base64
 import io
+import math
 import pandas as pd
 import folium
 from flask import Flask
@@ -9,6 +10,7 @@ import matplotlib.pyplot as plt
 import openrouteservice
 import json
 import polyline
+from geopy.distance import geodesic as geo
 
 app = Flask(__name__)
 es = pd.read_csv('test.csv', sep=';')
@@ -25,6 +27,12 @@ for line in es.geom:
 
 es["latitude"] = lat
 es["longitude"] = lon
+client = openrouteservice.Client(key='5b3ce3597851110001cf6248ef96e5f27bcc4bcd989bc39299e5060b')    
+
+depart = (float(lon[0]), float(lat[0]))
+arrivee = (float(lon[1]), float(lat[1]))
+depart_reverse = (float(lat[0]), float(lon[0]))
+arrivee_reverse = (float(lat[1]), float(lon[1]))
 
 @app.route('/hitmap')
 def map(): 
@@ -171,32 +179,35 @@ def table():
 
     plot_url = base64.b64encode(img.getvalue()).decode()
 
-    return '<img src="data:image/png;base64,{}">'.format(plot_url)
+    return '<img src="data:image/png;base64,{}">'.format(plot_url)  
 
-@app.route('/trajet')
-def trajet():    
-
-    #key pour utiliser le service de openrouteservice
-    client = openrouteservice.Client(key='5b3ce3597851110001cf6248ef96e5f27bcc4bcd989bc39299e5060b')
-
-    #coordonnées de départ et d'arrivée du GPS
-    #openrouteservice prend les coordonnées dans l'ordre (lon, lat) et non (lat, lon) comme pour folium
-    #on inverse donc les coordonnées avec depart_reverse et arrivee_reverse
-    depart = (float(lon[0]), float(lat[0]))
-    depart_reverse = (float(lat[0]), float(lon[0]))
-    arrivee = (float(lon[1]), float(lat[1]))
-    arrivee_reverse = (float(lat[1]), float(lon[1]))
-    #on regroupe les coordonnées dans un tuple
+def coordonnees():    
     coords = ((depart, arrivee))
-    #appelle de la fonction directions de openrouteservice
-    res = client.directions(coords)
+    return coords
 
-    #test our response
-    with(open('trajet.json','+w')) as f:
-        f.write(json.dumps(res,indent=4, sort_keys=True))
+def decode(coords):
     geometry = client.directions(coords)['routes'][0]['geometry']
     decoded = polyline.decode(geometry)
+    return decoded
+
+def arret_plein(decoded, m):
+    coords = []
+    for i in range(1, len(decoded)):
+        if i%2500 == 0:
+            coords.append(decoded[i])
+            folium.Marker(
+            location=decoded[i],
+            popup="Arrêt plein\n" + str(decoded[i]),
+            icon=folium.Icon(color="blue"),
+            ).add_to(m)
+    return coords        
+
+@app.route('/map')
+def mapping():
   
+    coords = coordonnees()
+    res = client.directions(coords)
+    decoded = decode(coords)
     m = folium.Map(location=depart_reverse,zoom_start=10, control_scale=True,tiles="cartodbpositron")
     #on affiche le trajet sur la carte avec la distance et le temps de parcours 
     distance_txt = "<h4> <b>Distance :&nbsp" + "<strong>"+str(round(res['routes'][0]['summary']['distance']/1000,1))+" Km </strong>" +"</h4></b>"
@@ -206,15 +217,38 @@ def trajet():
     #on affiche le point de départ et d'arrivée sur la carte
     folium.Marker(
     location=depart_reverse,
-    popup="Depart",
+    popup=es.adresse[0] +" "+ es.ville[0]+" "+ str(es.cp[0]),
     icon=folium.Icon(color="green"),
     ).add_to(m)
 
     folium.Marker(
     location=arrivee_reverse,
-    popup="Arrivee",
+    popup=es.adresse[1] +" "+ es.ville[1]+" "+ str(es.cp[1]),
     icon=folium.Icon(color="red"),
     ).add_to(m)
 
+    #on affiche les arrêts sur la carte
+    arrets = arret_plein(decoded, m)
+
     m.save('map.html')
-    return m._repr_html_()    
+    return m._repr_html_()
+
+#calculer la distance entre le trajet et les stations
+def distance(lat1, lon1, lat2, lon2):
+    R = 6373.0
+
+    lat1 = math.radians(lat1)
+    lon1 = math.radians(lon1)
+    lat2 = math.radians(lat2)
+    lon2 = math.radians(lon2)
+
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+
+    a = math.sin(dlat / 2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2)**2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+    distance = R * c
+
+    return distance
+         
