@@ -26,6 +26,7 @@ const TripForm = () => {
     currentPosition,
     destination
     });
+    console.log(responseDis.data)
     const distance = await responseDis.data.distance
     const prixPrevision = await responseDis.data.prixPrevision
     const prixTotal = await responseDis.data.prixTotal

@@ -308,10 +308,10 @@ def distance():
     date = request.json['date']
     dataDepar = getGeoCode(currentPosition)
     dataArrive = getGeoCode(destination)
-    cp = int(dataArrive['postal_code'])
+    cp = int(dataArrive['postal_code'][:2]) 
     distance = haversine(float(dataDepar['lat']), float(dataDepar['lon']), float(dataArrive['lat']), float(dataArrive['lon']))
     distance = round(distance, 2)
-    prixPrevision = getPrixCarburant(date, 6)
+    prixPrevision = getPrixCarburant(date, cp)
     prixPrevision = float(prixPrevision.item())
     prixTotal = float(prixPrevision) * float(distance)
     prixTotal = round(prixTotal, 2)
@@ -323,7 +323,8 @@ def distance():
      'lon2': dataArrive['lon'], 
      'distance': distance,
      'prixPrevision': prixPrevision,
-     'prixTotal': prixTotal
+     'prixTotal': prixTotal,
+        'cp': cp
       }
     return data
 
