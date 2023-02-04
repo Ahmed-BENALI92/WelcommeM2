@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import StatGeneral from './statgeneral'
-
-
+import  SearchBar  from '@/composants/Search_bar';
+import  InterFace from '@/composants/InterfaceMap';
+import Hitmap from '@/composants/Hitmap'; 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home({ maisons }) {
@@ -20,30 +20,11 @@ export default function Home({ maisons }) {
       <h1 className="text-3xl font-bold underline text-red-500">
       Wellcome
         </h1>
-      <div className="flex align-items-center justify-around">
-    {maisons.map((maison) => {
-       return ( <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-            <img class="rounded-t-lg" src="https://picsum.photos/200/300" alt="" />
-              </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{maison.title}</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{maison.adresse}</p>
-            <a href={`/maison?ville=${maison.ville}`} class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Read more
-                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path filRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" cliRule="evenodd"></path></svg>
-            </a>
-        </div>
-        
-    </div>    )
-    })}
-    <a href={`/statgeneral`} class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Stat General
-                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path filRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" cliRule="evenodd"></path></svg>
-            </a>
-          </div>
+            <SearchBar></SearchBar>
+      <div>
+          <InterFace></InterFace>
+      </div>
+
       </main>
     </>
   )
