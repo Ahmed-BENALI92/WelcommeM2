@@ -29,7 +29,7 @@ def hello():
     es["latitude"] = lat
     es["longitude"] = lon
 
-    map = folium.Map(location=[48.78, 2.17], zoom_start=3, )
+    map = folium.Map(location=[48.78, 2.17], zoom_start=9, )
 
     for i in range(0, len(es)):
         lat = es.latitude[i]
@@ -42,6 +42,7 @@ def hello():
             location=[lat, lon],
             color='lime',
             fill=False,).add_to(map)
+
 
         elif prix < 1.5:
             folium.Circle(
