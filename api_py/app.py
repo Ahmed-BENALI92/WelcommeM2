@@ -313,7 +313,7 @@ def distance():
     distance = round(distance, 2)
     prixPrevision = getPrixCarburant(date, cp)
     prixPrevision = float(prixPrevision.item())
-    prixTotal = float(prixPrevision) * float(distance)
+    prixTotal = float(prixPrevision) * float(distance)/4.7
     prixTotal = round(prixTotal, 2)
     distance = str(distance)
     prixPrevision = str(prixPrevision)
