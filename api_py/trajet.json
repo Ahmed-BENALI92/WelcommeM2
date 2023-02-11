@@ -1,763 +1,381 @@
 {
     "bbox": [
-        2.3059,
-        43.39497,
-        7.268926,
-        48.836361
+        -1.770287,
+        48.00272,
+        2.229941,
+        48.784904
     ],
     "metadata": {
         "attribution": "openrouteservice.org | OpenStreetMap contributors",
         "engine": {
             "build_date": "2022-10-21T14:34:31Z",
-            "graph_date": "2023-01-29T17:33:07Z",
+            "graph_date": "2023-02-05T14:40:53Z",
             "version": "6.8.0"
         },
         "query": {
             "coordinates": [
                 [
-                    2.3261752,
-                    48.8357879
+                    2.2017969984848484,
+                    48.782230506565654
                 ],
                 [
-                    7.2688957,
-                    43.7000352
+                    -1.7632587,
+                    48.1368374
                 ]
             ],
             "format": "json",
             "profile": "driving-car"
         },
         "service": "routing",
-        "timestamp": 1675532959520
+        "timestamp": 1676142504065
     },
     "routes": [
         {
             "bbox": [
-                2.3059,
-                43.39497,
-                7.268926,
-                48.836361
+                -1.770287,
+                48.00272,
+                2.229941,
+                48.784904
             ],
-            "geometry": "yfaiHeieMcByAIK`@gBDST}@DOFSd@eBl@_Cj@eAr@sALUFMJSjBqDLULFL?NE~@gDFSvAv@FF`E`DJHPNLJn@h@b@^h@b@HF`@\\HFDDVRHHFDVTLH`BtA^Z~@v@^ZDB`Ax@JHp@j@ZVvBnBVRHHCFAJAF?FHXPHD?BADCBC@E@ENHpD|@zF`AlARf@HH@^F^F`@FRD\\Fd@H`@FvAVD?NDPDD?NDPDB@TDtB\\F@RDb@FJB@@B?LHVNTNz@d@j@ZVLf@XRJJFFDf@RDBPFv@wF@GFa@Ju@HcAHeAjAaJr@uEx@{Gh@{EZyBLm@Ni@Pe@Ra@bBuC~@wA^y@^kA^qCH{@Fm@HYLUl@SPCLAb@@pHzBxAPd@@tAE|AWb@On@Wj@]pA_A~@_AhDwCl@k@rAkAnAgAp@k@hB_BdA_Ax@s@fB{A`@YXOfAm@xAq@vC_A`@K|@MvAOrBCnB@|A@rAArI@fAE^Cd@El@MZGh@OTI`A_@BA^QdBeAbAy@fA}@l@g@l@e@l@e@l@_@dCkAjBk@zAW~BOxA?bCPlLhBdCZhCD`CQzAUnA]|Q_HbDaAnAYv@Oz@Mp@InBQvAGjDCnBDnMx@jCNh@DhO~@h@DhKn@pJj@zANn@HxAXrBj@vEdB~Al@fDlAjCbAdBn@bBn@vAl@lB~@~A~@~CxBvBlBr@p@|@`A`AdAlCzCbGxGlGfHrGfHbi@ne@`@^hC|BlGrFvCjC\\XvEbEv@r@pMfLfA~@nD~CxRbQ~@v@lCfBx@d@ZNnAj@rAb@|@XlCr@nEjAbFrAb@Lx~Bnn@xVzGbBb@hGbB|BZhCHtA?f@Ex@KlB_@dBm@x@_@jAo@`As@nAeAl@m@l@q@zA_CtKgR|GsLdAiBjDeGxAgCrDqGnAuBrC{DtAcB|A_BlAkAnC}B~E_E~BqBxAeAhJwHd@_@rGkFzBgBjFcEpQkN|@w@bCeCxAmBr@eA`@o@`ByCj@mAbAgCx@{B|BuGxDqKjAuChBkDr@mAl@}@z@iA~NkQfA{AvBmDnAiCZq@xAgDtDmId@mAl@_Bd@sA~AoFn@kC\\_Bp@oDh@eD`@uCJw@^gDrB{Ph@iDh@kCp@eCz@gCjAqCl@sAlAiC`Qu^rBcEfAeCnEmJxEaKtAuCzBcEb@u@^o@rBaDzAsBnA_BhBuBlDoDzByBrEoEhI}HrQuQ`QeQfKiKtDyDhNiNdCkCbD_ExAoBdBmCdBwCdb@sw@jIwOfDmGve@o}@~AwCzAsCtCoFlAqB~CwE~AwBrBcC`CeCbB_BjCyBnEaDpW_OpC_Bx@c@fFwCfLsGz@g@zEqCjEcCvO{IjMkHdFwCvEkCt`@{TfDwBhEeDnDcDdDsDrBeChBgC`AyAz@wAxX{d@zFqJjIiNjEiHr@gA~BaDnA{ApAuA|A}A|BmBNMzAkArHaGzEsDPOrUyQbBsA`BqAhC}B~@}@~BeC|CwDjCuDfAeBdAeBlA{BfAyBtAyCzAsDxDgKlCkHtD{JnCqHzCaIdAaC|A{C`BuChBoCtCsDvA_BlAmAnAgA|C_ClAw@vC_B`EcBpAa@rHuB`cAcYlFqAjGqAroBu_@bEcAtBs@vBy@ndAae@nD}A|Bu@bCo@xAYdDc@bDQxACtA?lqALrAC`DQhCWxB[jDk@vF}@hMsBnDs@dCu@pNqFbA]`AW|AYxC[n@Cp@A`AAjHLx@@dPXnXd@~DEzAIbD[pCg@nAY`DcAbDqA~@e@lAo@jD{BjB{A`B{AzA{AdLsMdHeIhAqApBwBjAkA|@u@tD}CfBmArCeBbkAmp@zBmAbEmB|EkBhEuAvKsCpD_AjCq@`AW|A]dDq@nCm@tI}AvBc@VGLELCJCp@WdO}EnH}BhA]x@WhDoAlCoA`By@z@g@bBeAtA_An@e@ZUjB}A|t@ap@bCgB~CmBdD_BnBs@xAe@rCq@|Cg@tE]pCC|CD`DTbDd@jJ`BhD^fBJhDHvB?bBEfCOjD_@lB[bDs@zBo@fC_Adf@gSbDaBdC{AjBkAtAw@vAu@r@[rCeAnA_@p@Qt@ShAS|C_@dAIx@EtAEdCGxBIlCQ~Cc@lCk@~Bs@hCaAhAi@zCgBfAu@nCwB`B{AdBkB`AiA`B{BxHcLxGqJ~@yAfKkO~FqIlF_IpUc]~BcDjB}BhAqAlAoApBoBjC{BvB_BvByAnDqB`CgAdCcAtBu@pHuBvC{@|Ac@hJkCdCu@nDoAt@[JE@?x@_@rDkBhDuBtEoDt@o@DC`E{D|g@ah@nMqMRQhIkIzC}C`AiAtBeCxBqCbE}FpD_G|@yA~BoErC{FbDyHxC_I|BcHbCoI`BwGvAmGlB_KnLwp@v@gEpC}O~BmMnCiObAcGdBqIxXuoAj@}Bj@uB~BsH~AkEv@mBvAcDz@eBz@cBzB_EfC{DfCiDzi@{o@hDcEhBcCtBeDr@sAhAwB~@oB~@}Bp@eBdBkFdAoDNg@tA{En@_CxFaS`EoN`GwSpDiMrBeHfAkDlBoFzB}FxAoDvA}CfCgFjEyHv@qAz@sAlXqa@nDmFlBuCrBuCfF}G`EaFjEaFdBgBtCyCzCuCnDcDjB_BzLaJrKsIlQ{MrEqDdA}@JIt@o@bA}@pBiBxEuEtE_FlGmH`DaEfDqEjEmG~DoGdb@as@fE_HdCwDfEaGjDsEvF}GvGkHfFeFbDyCddA{}@pG}FrCqC~DeEpAwAjCuCbD}DjDoEFKfEgGtCkE|C_FtDqGbB{C|AyCd@_AnByD|@mBdCqF`@{@nBqEjBwEzG_QhQed@fDcIrDcIhEuInEgI`E_Hv^mk@hGaK`HsLhJ}PbHkNxCiGvCmGpG_ObGwN`CeG~@eCjG{PnCaI|@kC`AyC`AwCjAsDvBiHlCcJbCyI|WubA`BcG~CgKzB_H~C{IvBqFv@oB|@yBtFaMtFyKvEoIrWwd@`D}FlEyIjB}DhBgEhEgKjDeJnDqKdAgDZcAtKo]tB_HfFkPlA_EtDcLxCgI~@_C`@cAz@oBfCmFxDkHfDyFbBeCxBaDpCsDxE_GbQeS`I{JzAoB`EyFdEuGxBwDjBkDzD}HbBuDbDaIdAsCjCyHfByFhCiJjAuEnAuFpAqGbAqFnA{HbAgHf@{D^eDv@aIb@}Ez@qLt@yLzCqi@lAuQx@kJv@uH`@gDjAkIxA_JhBaJxAkGnA_FrBgHv@cCz@iCtByFvCeHfB_EvDqHxCuFlM}TzD_HdDkGzCiG|AiDzAmD|AaEbAmCbA{C|BkHt@iCtAmFjByHlAsFlCwMfB{JtCcQ`Ksp@dCcOdDwQ`AwEpBaJd@qBtAwFt@kCpB_HnBeGhCcHbAcCt@gBlAmClDiHpAcCpCaFzFeJnF{H~EyGxFgHbEaFf_@ac@nDiEjG_I|GgJ`EaGvGoKlEaIzDuH~CwGtByEfCaGtBoFvs@{lB~FmOhBkE|B_FxBmEnDwGnBkDXk@zOeY~Xmg@tD_HbCmEpBoDrFyJ~BgEpCeFl@gAxDwHnDcIzXyq@Zu@Zw@Zu@Vi@`@aAtCeG~@cB`BsCdBmChBiCtDoEjAoArBqBfEoDlEyC~FeDnDeBfDeB`O{HRK`Ak@rEoC`FmDbDiChFyEhJiJ`ZuZ~EwFzEgG|@mAlAeBtGsJpG{JtKaQzJoOpQ{XxVa`@jPeW`BmCfCkE~DwHr\\wp@bEuHjEiH`LcQjCaEnDcFnCoDtCgDvC_DzCyC|CqC~CkCzP}MrFoEnF{ErBoBhCoC~E}FxEiG`^_g@r@eAdFeHrPyU|CmEr@aAlDcFjCyDfEcHlj@acAbDwFdCaEjDgFvEgGpa@yf@~FqHlC{D`BuC|A{CvByEZy@pByEtAeDtBuE|AyC`AaBbBkCjBeCrB_CrBqBf@e@d@a@nAcAr@e@^YfDwB~QwK|BsAdAo@vA{@fDyB`DiCvBmBxC}C`@e@f@m@pCoDhBiC^o@`@o@bBuC|BoEtBwElBaFlAmD~AmFvAuFnA}Fr@aE~@eGt@iG`@kEl@uI|@iR^oGr@oIr@iGZaCp@aEzA{H|@yDbAwDdAoDp@sBdCyGtA_DxA}C|AwC`AaBbBmCfBgCdAuAlB_C~DcE|CoCbJsHtBkBnAoApB}BlBeCbA{AdBqC^s@^q@zA_DRc@d@gApAiDr@uB|AqFrA{FfAcGL}@NcAt@mGf@oGFgAD_AFgA@g@@]JoEFyGCuGGoEW}Ie@}KqB__@g@wKQoESsIGwIBuGLsGHeCVkEh@kGt@eGp@aE`@}BbByHlBmHfAqDjAoDlDsJJ[L[|CuH~LiYjDmI~DkKlAmDjAoD`BsFxAsF|ByJhA}FlAaHl@aEj@cElAkK`@iEZiEb@kGTkE^{KPwIL}KD}KFea@HsMDwEPsINkEPiE\\mG`@kGh@iGl@gGp@eGdAcIlAaI`A_GhB{JxCqNdDkNlDcNrD{MzDyM~Sgr@jFmQdFqQnDcNtAsFxBqJxCsNlC}NlBeMx@eGf@eEn@gG`@kE\\iEb@mGj@uK\\wIPuKJ}KL}XJ}MPyKTsIPkETiEXiE\\gETcCd@eE\\aCn@_Er@yDd@{Bf@yB`AuD|AiFp@qBnAeDrBwEvBmE|BiE~JoQzC_GxA{CvAcDrAcDpAgDr@qBbBgFhCcJtBwIx@{Dv@}DHc@V{A~@aGx@eG~@kIh@kGHcAHcA^oG^uIPsGLuI@sGAuGWa]CoG?sGHsIPoG`@oIn@oIp@gGZ_Cl@_Ep@_Ex@}Dz@wD`AsD~AiFdBaFlB{EpBqEfIeQnDkIt@qBv@{BhAqDl@wBVaAh@_Cx@aERmALs@l@eEXeCTgCZkETgEHkCFkCDmC?mA?aAC_EGiCIkCUoEK{B_@oH]cHu@{OW}G[}KKiGo@sj@?aLJyKDeCDgADgB@a@HmBVkGr@}Kf@kGfAuKz@{GjA}HxAiI|AwHfBwHnBoHvBcH`CeHdCuGrCsGrCeG~CaGh@_ANWx@sA`A}AjAgB~@uA|EuGnBaCtCeDjAoAnAsAtm@mp@`EcE|CmCvDqCdDsBxE_CbCaAdC{@jCs@zA_@hCc@jC[hF_@fFExDHjCNlPnAjCN|ABjCAjCMhCWhCa@nCo@lCy@pD{AbCsAhD{BdZiT~CaCpBiBnCsCpBgCjBkCfBwCzBoEvAeDnAiDnAuDdAwDh@{Bv@yDhIec@p@mDn@gDF]tDaSf@gCrBqKlB_KnBoKZ_BFYnAeG~@wDbAuDn@wBlAmDr@qBrAeDrCiG|@gB`BqCbBmCfBiCbDaEb@i@pB}BhWiZtBoChBeCfAaB^i@dC_E`D{FxCaGrCoG\\_AZs@Vq@jBaFfBgFfAoDzAoFT}@V}@~@wD|@{DzA{HtAcIfAkId@gEl@oGr@mIVkEvA{VLwBFgAJqAZkEb@{E`@mDj@eEfNc|@r@aElAsFzAoFjAkDjB{EvBqEfB_DhC{DfAwAhAsAxC}Cb@a@f@c@h@c@bD}BzCeBfB{@`Bq@nCy@tDy@nCa@xDYtDEf@@^?T@zAHhCTvDl@dCl@pPpEhAZdEfAfCl@jCd@lC\\vDXb@Bt@BrCDhCCzAEtDUlC[`C_@nCm@vCw@lC_AtCkAfCoAdDmB|B}AxBcBvBkBfCeCf@i@d@i@`@e@jB{BhBeCfBkC`BqC~BkElLwU~BiEdEeHfC_Efp@iaAhC}DbCcE`FaJ|A{CtBqErBuEnB{EzDiKzB}GhDcLvAmFrAsF~BoK|AgIdAgG|OabAb@aCx@aEtAaG~AwFlAsDrn@mgBxBkHtAuFz@yDt@}Dt\\qlBfAaGpB}JnA{F~BuJpBsH|AsF`BoFbBkFhBkFjBeFnBcFnB}ErByEvBwEzBsE|BoE|BiE`CcEdCaEfC}DlDgFh@u@n@{@|FsHbEaFn@s@Z]xCcDzC{CtGgGtw@gp@tBoBlAoAvCgDnCqDjDmF`CiEzBuErB_FvBaGdAkDx@wC`AyDNq@ViAd@_CTkATqAb@iClAcHdB_KfAqGlDkSPaAP_AjAwFj@yB`AqDfByFt@uBrAiDtByE|A}C~@cB~@aBfBqClCsDrCkDjAoArBsBfEoDdD_CrAy@`CqAnDaBzDwAnEoAtDs@xDg@xDY`EIpC@|ADrYvAvGR|DDhF?zDGzDKjFYpIq@zcAaLzD_@fF_@hES~DMjIIlFD`Xb@|D?jCGzG]fFg@dFw@lCi@fCo@p@QxAa@lC{@zDwAtDaB~BkAt@_@`@UjDqBhD{BdDcCbDmCxBmBnDoDvCcDrCkDdEuFdBkCbBoCz\\il@fDmFnDeFtDuE|DmEzCyCxEgEbDgCdD}BhDuBhDmBbCmAdh@kUrHkDhC{AdCgBxBqB~BgCpBmCfAeBjAqBzHuNdAeBlAcBrB_ClAiAfKiI|BwBlAuAhAwAfAaBhAmBbAqBrAcDr@sBn@wB~@{D~EuV`AaE`BqFHWd@sA\\_AtAeDzBsE`BsCfBmClBcCnB{BrBsB`DoCrMqKZWrGkFrs@cl@fDoCf@a@t@m@rFkEdD_C|ByAdHaEvEcC|EyBdFqBfQ_GxDuAbCgAbCmAt@c@r@c@xAaARMn@g@LKdDoCzC{CtCeDlCqDd@q@f@w@Va@bBoC~AwC^u@\\o@pCeGpByETm@Pe@|CuItCeJdDoLvCoLjCuLpBiKvBgMlBuMnAsKdAyKn@uIj@_LZ{IJqEFsEB}IAoEEuEAm@AUKqGQqGiAk]GuAM_EYsKGcCEiBSyMK_NAuTFqn@EkNMeLSaL]}Ko@ePcAoUa@}KSwIIuIAmEBqGHsGJkETqGRkE^mGd@kGJ_ADg@N_Bl@cGbAiIz@cGnAaIdA_GzA}H~AyHnAwFbDkNvE}Qx`@u{AbCgJvBgIhAiEx@aDlDeN|BoJrBwJjB}J`BiKfAiInAoKxBySlGim@|Du_@bEk`@Hw@d@sEp@mGV}BZmCnAkKnBcO`BgL~BeOjCyOd^{qBbC}NbCcOzDgWvDsWlEk\\b]{qCnAqIp@oDx@yDrAuFdAoDn@uB`CyGnByEzCqGrt@uzAtBsEpByEnAkDhAkDfAqD`AuDz@yDv@}DxC{PzA_JnKen@vBcM`@aC\\sBx@kEx@{Df@{BbAsDhAoDnAgDv@mBxA}C~BiEbA}AfBgCpCkDhHkIjB_CfA{AfCyDbDsFxGoLhDcGnHoMdD}F|@}A`BsCnQe[dBqCdA{At@aAlB}BhMaN~EwFtDyElDcFfC_EdD{FbCsEtNwX`EkHrCyEfC{DtGiJnLqOzpA{aBlH}Ihf@_k@pBaCj@q@fOiQxE_GvCwDb@m@r@aApEsGfC{D`A}AbAaB`CcE~BiExDsHvBqEtBuEhDeIpBeFlBeFxCuIzC_JbWsv@rCcJlCeJdF{QxAsFxAsFpDaNlCsJ~DaNbEyMvC{IbG{PrXgu@fDuJtC_JbD}KxAqFxA_GnCuLvHe^|CoNrCmLzCeL~AoFxBcHfEyL`BkErBgFpByEtBuEtDwHzDqH`EiHjG}J~JyNhgAe|ArEiGvEeGvE}FfFgG|EuFhFyFhMqMpBqBfEiEtCuC~P_QbEwDdDmCpEeDdDwBjDmBxE}Bj@Yj@UbC_AdC{@lGgBj@On@OxMsCrmDgs@rGuAlIuB~GyBfGeCjCqA`CsApEsCnEeDvBgBvBmB~DcEvDmEjDqElDkFdBsC~AwCzCaGtA_DtAcDnA_DhAcDzBaHdAsD`AuDfBsHzA{HpA_IZoBD_@ZqBv@eGpAgKr@eGt@eGJy@rHsn@v@qGTuBhBkOPuAb@oDpCmULaAJaAbBaMpA{H~A{H|@uDp@cCXaAHUJ]n@sBlAkDlB{ErBoE|C{FbBoCbAyAjCoDpDcE`D_DrBiBpCyB`D}B`DuB`GqD~V{NfL_HnIsFfKmHdIqGdDuCxCqC|CyCvC}CvCaDrCgDf@k@b@k@xFoHpC}DfCuDb@q@Zg@~DsGrDuGhEgIxCmGt@_BPa@j@mAlBoErBgFtEcM|DwLnCeJj@uBj@wBh@qBtBuIrBgJpBcK~A}I~AyJ|AgKzHok@XyBNcAp@_FX}BXqBFe@~AqL|CiU|@eGrA}HjA}Fz@qDlBgHrB}GfEyMpBcHl@aCx@_EhCoNlA}FvAsFz@oC|@iCzBqF|BqEbC_EtC{DvCeDjCcCxBiB~GgF~CmCrByBjBeCbA_B`AeBxAaDpAiD`DgJXw@L[Zw@z@kB^s@bBqCPW`@k@b@e@NQz@{@zBkBxA_AvAs@vHiD`CoAtAw@rA}@rAeApAkAlAoAfAyAdA{A~B_EpCaG|FkNjA_CpAuBv@aA|@cAdBwA|BwApFiCtAw@h@]pAcAlAmAlBcC`AcBbEwIvAiCp@gAt@aAzAaBPOXWpAcAtAy@nB{@zAc@rB[rBM|A@lBLPBnAP~I`B~Ch@hCTlC@RAXArBUjCi@lMoDvDy@dC[dBEn@@^?z@B|DJ|AA|AKvAUtA]xAk@xAq@~F{Cn@YPIb@MtD_AxAWzAQl@Cl@CxDI|D?lCDvDTdCZnCj@fCp@pK`D~EjAfCb@tC\\xDVxDJhFCbAAp@C|No@nCShC]hCi@fCu@`CaA`CoAdD{BpAeArBmB|h@ii@bEsDpAaApA{@hDkBlD{ArLoE|Am@`@OlBs@p@UpAg@bJgDbCiAhBeAxBeB`B_BjAwAtAuBLSNY|@gBj@qAlAgDv@uCn@yCf@eDb@mETiEDkD?_@?c@?a@?i@?WEcBMmCQcC_@cD}@yF_CsL_@iCYcCOaBMaCEeBAeCFaDTuE^cDf@}Cn@uCx@mClA_DtAwC`@s@^o@hCaErEgGjAwAfAuAxQeUhAsA|AeB`B}ApAcAbHyEdBqAfB}ApAuAd@m@b@k@fBkCbBwCf@aALWVe@dMyW|@eB`AaBrAsBhAuAlAkAdBsArAu@xAm@xAa@xAWzAM|AEzGE|AE|AK~AUxA]xAi@vAo@`CoAtAw@j@[`CkAxAk@vAc@zAUzAM|AAhLXzA?|AG|AQzA[xAg@~Au@~BcBnAiApB{BrCmDtEaGvEoGdFoHdGiJhBwC`@q@dAiB|@cBl@qAf@sAXy@L_@`@yAh@}BdA{F|AgK^eDReCJgBDeBBgBAcBCgBMkCc@oGo@qHIeAOeCMsCCiB?iC?a@@SFyDTiJHqE?y@@oAAkCCgBUqG[oFaCs^SmEIkD?eB@gCLmENeCRcCx@mIJiAFm@Hs@ZkFHgC@wBGqE]_MGkD?iDJiDJeBNaBZcCX_B\\{Al@uBd@uAl@{An@oAn@iAr@eAt@_Ax@{@z@w@z@o@~@k@lB{@`A[bAUjCc@tDc@dC_@zA]zAc@nB{@tA}@bBwA|AcBPUPWz@qAz@_BrAcDXw@\\cAhAoDdCaIz@oCdByFrS_q@bAcDdAeD|@qCbEwLh@sAf@wAHU|@eCrAsDpO{b@nBsF\\_AjAcDpAkDnAwDbHsRbAgCv@kBjA}Bn@eAdAyAxAgBLO`@a@POnAcAfBkArAq@vAk@vA_@xAYzAQzAIzA?zAFbALrB\\zC|@rHtCh@RtA^xAn@hZrMjMpFnVpKzRhIjVjKn@X\\NdEpBtIlDfDxApGvC`QbI`J~ErKnG~IdFnJtGv[|Shb@hY`MtHdOhIdEpBrEnBh@RjFnBnDnAxMtDlb@fKhD`A|EvApAb@jGxBfDpAbGdC`HhD|[tNtf@bTjO`HtHdDdDvAXL|B`A~EvBbFlBtDfAbA^nAb@bBh@pAb@lBr@rEnA~Bl@d@LpDx@rHrA|GbA|MjAbJf@~GHvHGfKUpFYnGg@nCOdFm@bDc@v\\gFdOeC~JwAvFg@bGUfCEtK@|Ih@zL|Al`@tGxMrBdRtBvGd@vHb@|AFdTHtIUpFW|KaA~HaAxDk@|Ba@tHcBdAWxCs@jCu@xDgAvG_C`E}A`C_AbJ{DrHuDjUuKnO}GxEsBbFgBdEsAbLwCxKwBnIgAvJ_A|DSbEM~EM`GEtC?~L`@`EVtE\\fIbAvFh@ZDhJtA|c@lHxO~B|PnCbTfDlEp@fGx@fOlBvCb@dJnA|C^x@JdFt@xCn@jDz@tA^|ExAZJnMxD~Al@nA^fAZB@`SnGhD`AzBd@fEl@`FVnq@hA|BBd@@xILxBF|FC|@Id@C`BY|Ck@vBw@tDcBv^kSfPgJvT{LlJ_F~BiApEoBxHsCjAa@~Ae@xBo@xA[PE~Cs@zCo@~Cm@fCa@pGy@lAQ|K}AfIeA`Fq@nKwAjvC_`@dYoDxWsCd|@gIdEa@bAInD]lZqChV_CdCS~Fk@vI{@n@G~Gm@|P_Bn@GpJiAjEk@zI}AbB[v@S~Cu@bEiAtEwAzFqB|GmCpFcCz@c@b@SfHmDn^oRrBeA^QfFiCjLcFtDwA|DsAlI}BnH_BhF}@pH{@fCUpG[RAzAGbDGxK@zFJ|ZfAjC?hCGdBK`Ee@hK}BpBa@vB]bDS`BCtDFxBPhIfAdBL~AFdB@rAEjBMrEk@`Dy@~Ak@tDcBnD}BdBqA~AuAhCcCfCkCvCkDzBiClDkExEoG`CgD~BkDbEoGnD{FlMsTxAiC`CcEVe@nCuE|KaR`@k@bEuGzHsLjBoCjEeGzGyIdMgOtFeGbFkF|C}CtFeFlEoDfDaC`DqBxBiApCqApDqArFuAfBYnBSnCMfBCrB?dDLx@DzAPpCd@bDv@dAVlQtE~I~BxCv@tPlEdAVdCn@rDx@`Dj@jCVdCN~AFtEClCO|BWfC]p@MvCo@jFqAbD_AdDiAjCcAxCoAtBgAvBqAdBqA`Au@lC{BbDuDbDoEz@mAfDyFxHgNnH{M`JaPdC_EbCsDxCiEzD{E~CeD|CoClAy@fCaBdCsA|CuAdDgAhDw@rCk@jDa@bEa@xCQtAIvI[pFIfF?vCBnCHbBLrBTpBV~FjAvA`@lA`@xFzBlHpDxR~KpEzBjD~A|KlEnDlAtAf@h@PhE|AvFnB|IlDhBt@xIlEh@Vt@^`JpFjH~EzDxCzRlPjElDrHnFfFdDdDpBdDfB~H~Dj]bPxGjD`GbDti@f[jl@h]lEbC|QrKvO|IrK|FvE`CrNxGdKfE~D|AfFhBxEzAtGnBxL~CfGtApMbC~Et@bAN|AVrLtA|K`AfKt@lh@rC`G^lIr@hFj@`JpAvEz@pFjAhCr@fCr@`@LHD`I`CpEdBnEjBz@\\pFjCpFrC|CfBbCvA~@j@fF`DdU`OzCjBdCvAlBbAhB~@tB~@|B~@rBt@xAf@hCt@`GvA`Cb@nDj@n[nDxJlArEr@|FdAhFdA~JfC~EtAfCz@dHdCbI`DnCnA`HfD~F|CnBhAfIbF|F~DjJfHzGxFjE~D|GzGfDlDzCbDtFlGvEnFvA~AxDhEb@d@dBfBnCfC|EtDhDxBdDhBtD~AlBt@zCbAjJdC`E~@lGnA`Cf@jI|ArHrAfDr@nBf@vBn@jC|@nAd@lDzAjB|@bMrGlFbCtH|CfGtBzF|AfFdAvThDvB\\~EdAzBl@|Bv@tAl@vAt@pChBhA|@zBvBfCxCt@bAnB~CbB`DfAfCh@vApAtD^pA~CbLj@vBLb@h@hB`A~CdAtCb@jATf@f@lApBdEzB|DjBrCbC`DbAlAhCnCrBpBpDbDfElD~D|CvEfDlErC`E~BvAt@jDxAdBn@VH`Bf@jDx@~E|@xCd@z_AnMv_A`MlFr@vBV~ATxL|Af@HbBTvAPtAPtDf@fGx@jDb@hI~@bE\\|G\\jEHlEAnDInGa@rFm@bBWnEy@fFoAhF_BpCcAtF_CxE{BvFuCd@W`DgB~BoAtC}A|PiJrFuC`D{A`GkCfE}AnF_BdE}@fCa@pEi@vDWlFI|B@bDHtDVpEh@bFz@fH`BjEjA~Br@rAb@j@PpEtAnAb@xH`CbIfCnH~BdErAvc@lNjMhExMxEhtEbfBzFpBlGnBfItBhCj@`Fz@bD`@~Fd@tGVpBDlF@~FE`IQrmAyDpEG`FA~E@jLTnJ`@dHf@xFh@vKrAnAPrEr@pCf@vIfBxG~AnG`BtCt@bH`BnGpAhARbK`BnGx@dD\\pnAnK`Q`BlG`A~Dx@tAZtFbBvFzB|At@jAj@nC|ApCdBbCdB`ChB`IdHnHhHhLlLr@r@xFzFtEpE`EtDnFzExBdB|@r@tDnC|FrDpEdCpB`ApElBrDrAlGhBjAZ`Ex@~Ev@dIx@~Il@tQr@jOz@`Jr@vKhAlGv@pG|@zLrBhL~BtEbAvFtAzKxCvDhAzMjEtHnCtKhEfKrEnFfC~JbFzBlA`JbFrGxDpGnDrAp@dDxAhDrA`Cx@~@X|DfAjE~@vEv@vFp@zDX~CPbLb@h{@fDtBHl@@zBDdA@xFK~AIpBQrBYpB[fE_AdBe@`DeAbe@}Otg@cQxGoCnRuInBw@`EwAfF{AfHcB|FcAvFq@vAK^EfAIzAK`GQhFEnYFn@?lJB|D@`GBpENtDb@dDn@vA\\z@VpCbA`Ab@p@\\`Bz@xBtAp@b@\\XVTp@p@fInHnBfBbC`C~A~AzDfDl@f@`BhAt@j@hCtB`NzKrC`C`s@pk@vDhCvBlAlB`AfDpAfCv@dE|@~Cb@`DVxCHnEEhBGdAIhDa@dCg@hCo@bCy@tAk@`Aa@rAq@rBkA|@k@tB{AbAy@hC_ClCuCvAeBrDmElCeDfCmDj@u@hCeDdAuAfAuAx@aAbC}BxBaBfC{AvB}@r@Wf@ObAUpCe@`CQ|BE|CJnAJ^BpAV~@TfCv@~@^jB|@rBjAf@ZbCxAp@^r@`@`Ab@dAb@hCt@v@RhBXxANjBHxB?~@Cv@EhBSjRyBdt@{IdTkCnGw@vHgAvFeAbGsA|GiBfF}A|EeBrCgABArCgAfU{I~F}BdM_FbS{HtBw@f@ShCaAfDgA|C}@bEeAhHyAfDi@rCa@zBW`DYnDUbsAqFxFYfDW|BQzAMdGs@rDk@`Ca@lFiAjFuAhGoB~By@pF{BnEsBvDoB~EsChDyBdD}B~DyC`CqBxHeHjDgDlFmFtQ{Qt@q@vCmCzBoBxCyBXSpAcArFwDz@i@|AaAnBiA`IaEhCkA~FyBxCgAjDkArBk@hD}@jDy@|OmDnDy@`E{@nDw@hCm@hGuApGyAzBi@|M}CdMsChDu@pBe@x@QxN_Dd@OhEkApBs@zAq@lDuBfAy@xAsA`B}A|FaGfEmEbNoNt@w@vAuA`NoN~D}D|@u@jDkCrDwBpBaApD{AjAe@\\Mx@YbEaBlCeA|Bm@x@M~@GvBDbBX~@X^Nn@ZpA|@nAlAhBxBvCdDnBvBr@p@HFf@`@tAx@rAf@j@Nx@Jt@DdBA~@KhAW|@Yh@]ZQt@q@JKn@m@tK_MfDcEfAaBXc@|A{Cr@_Bd@gAfBkEp@_BHQjDoIJWPe@Tk@v@gB|@gBfAqBlAoBvCyErC_FfEaIvAsClB{Dx@aBz@aBv@yAx@{A`AeBbDkFh@w@r@mAHMhB_DnEqJhFmRvDoJd_@kl@vBoCpI}IbAiAf@m@T]JULWJWJWjAeE`@{AT_A`@yBV_BDWFSDOFOd@cAJ]FUxDgQDONc@`@_AjAwB\\m@b@e@HEDA\\A\\JTPTR`@b@VTz@t@~H~FbBxApp@di@rAfAtAfA\\XbBtAjCxBrGjFd@^x@p@XRZV~ArADDlB|AxAhAVN\\NVFHBH@n@Ar@SjAm@t@]LGTIv@Sr@OfFaApKoBlKiBnSsCvA]tBo@\\OtAk@`OuGxAo@`Bw@|A}@RMx@k@zBmBl@k@p@u@tAcBp@_AdAcBz@{Ax@cBr@cBfEaL|@yBXi@|@yAz@gA~@aAd@c@`D}CfLyKjHcHbB}AjA}@|@g@jAe@v@SbAOlAQtEm@fDg@hAQ~Bu@f@U^Ux@g@pAiAhAsA`A_Bn@oAXc@lQ__@Ra@b@y@v@aAbAcA~AgAl@Yv@YVI~A]`b@iG|Ek@dCSbRqAhOgAfFSlCAdBBfCHtBNnALpAPrCb@xCp@dBd@x@V|DxA`VhKlEfBtFrBxFnBpGpBtN~DpBn@vE`BpEjBzDjBlDjBrCdBt@d@|@l@hChBtEnDrFpE`FdE|CpCbBzAbHtGfKhKbAfApArArNxOjEnEn@n@v@t@jDbD~DfDrGfFnBtAlDdChDxBjDrBzF`DvLdGlMvFnK`EdTvHhIdDhDzA`GpCfJvEvHjEbDnBfC`BbFtDbElDzDtD|EfFnDdE~C~DlNbSpDlEjBrBjAhAn@j@\\Xd@^dBjAtAt@`C~@~Ab@`@Hf@J~BT|BFh@?fAC`BGhCMjGc@zI_AxB[tB[nB[lB]rBa@~Be@xD}@tEmA|EwApGsBvAg@zGkClA_@lBw@|BaAlEkBvAo@p@YxBeAlDaB|H{DjBaAj@Y|A}@rAaA`@]\\Yh@g@~AeBt@_AhBmCdB_Dp@yAl@uAl@gBrAuDbAiCfAiC\\u@n@mAr@qArA{BjAcBhBcCjBuBtBsB|@y@tB_BbAs@~@k@tDoBjJyDfCqAtAw@tDcCxDqCpIsG|EyDjB_BvBiBnHuG`HqGlGkGnEwErGoHjDmEvFwHrCeEnCsEfCuEz@cBxCsGlBwEfB}EpAeEzAwFn@gCr@eDPcAHi@He@R}AHcAPmD?_DMuDUkFGuBAmA@_AFeBF_AN_BPoAl@iCV{@^eAl@kAh@aAr@_A`@e@jAgA`@YVQzAu@j@U`QwFhAa@x@Y~Ai@bE_BtAq@|@i@xB_BjI_HfA{@fDoBxBaAtBq@fCi@hAM`CQdACxBBz@BtDf@|@P`Cr@lNnFjC~@v@Tt@PTDv@LxBPnHXpBVv@PdAZx@ZxAv@hAv@`Az@r@t@p@v@rArBp@nAd@dAf@tA|@rChIpY~@jClAhCpAtBzAlBfOxNjArAr@|@jApB|@jBd@lAj@`Bp@rBZz@Xv@j@lAp@hAj@x@p@v@\\^bBvA~@f@n@Zl@Rv@TtAThBH~AAnAElCG~J[|CC|@Fb@DvAXpA`@d@Tj@\\\\Tx@p@`@`@zAhBjA`B|@xApInLz@`A~BzBx@p@r@`@z@`@`Bf@tB\\n@Dt@?zAEl@IbB_@vAi@dMqG|@[n@QtAQf@EfB?jAFfALt@PrGnBvDhAHBxD~@t@PdDl@tC^fEd@d@Db@@z@Ax@SbE[v@GvCS~BE~CMPA`L]lDIpBChB?tEBvDH`IZdJt@pH|@fC^rI|AvE~@rqCvl@fCb@fAJpBNlADbDDzAAl@ArBKp@Ex@KpBYxB_@rBk@rAa@bBm@~FiCpCmAjCgAhAm@tBcAz@a@x@[`A[xBq@bEs@bAM|AMrAGtAA~BDzABnCX|AVlB`@tA^|Bx@vB~@fDjB`An@|BhBf_@p]pCjCtAnAvK`KxKfKjF~EtDhD~DtDzAvAfRbQpB`BfD|BbDjBnAn@lAj@tBz@xAh@lBj@lA^pEdAxDh@tANzAJxCHhE?jAEbBIrDOfBAjDBhDPnD\\h[bEvBFhBGfAMbB]`C_Av@a@z@k@z@q@lFuF|@w@|AeAhAi@nAe@bAWn@MfBQj@Cd@?t@@`AFfBVhB^dAV|FlAvE`AjAVzIfBzDl@rX~CjD\\|AJrAF|BDhD?xFWrBOzBYdEs@dM{B|Ba@dt@sMbCc@vAWz@On\\aGnGaAxG{@lEe@vHs@xDYvCQNAlBKvAG~BKvLWlJE`E@fA@z@@dFFfDJV@b@@hBFhADlCJ~Rj@|B@rAA|@CbAGrCWfC_@~A[|Aa@hBk@tBy@jBy@hDoBdCgBlA}@pCiCjAoAvBiChA}AjOgU|@sAv@cAr@y@fBgBzBgBzByA~BiAbAa@b@OTIlA[rA[l@I|CWnBG|@@rCJdAJ|B^fWtG`B^tCd@nCRdADpCCvAKnBUzBe@~Ac@pAe@~Ay@~Ay@zAeAlEqDn\\oYfFmEtBkB~KsJ`A{@pAeA~BkBnBuAjBkAhDiBtBaAnBw@dC{@tBk@jCk@tB_@hBUrCWrBKlBElE@`BFrFZfPvAjHn@~CXhIn@hBFzBB~BGzAIjBSrB]xBe@`Bg@nBs@nB_A~CgBhCkBvAmAfAeAhBuBvAgBx@gAdAgB|@}A~CkGnBuDvA{BfB}BxA}ApAiApAeAdAs@p@_@`By@p^oOtBcApBiAtBsAhBuA`BuAtAsA`CmCbHcJxBgCpByBxBwBzBqBlCyBbEuCnCeBbCoAxCyApCkAtDuApEuA`L{C`FwAfDoAhAi@xA{@xAaAnAcAlAkArBaCjA_BfAeBjA{BrA{Cl@cBl@gBz@cDv@kDZwA^aB`@cBjA{Dp@iBz@qB|@gBp@mA`BeCr@}@~@eAvAyAzAqAdAu@~@m@xAw@hDsArA_@lAWrC_@xAIlACnCDfBL`BTlB^vJ~CpCl@xAP|ALhDDhBGrAMbDg@hCq@lBu@xAs@zBuAvAeAjAcAjDcDlCcCvDoDnB{A~@m@jAq@fAk@xAk@rBo@nAYzAUjAQjDg@xBg@nBo@pAk@pC{AzCyBnAeA~@w@jAcAtBeBzC}BnCgBfBaAnB_AdCgAzDsAdCq@tA[`BW`Dc@tD[dCKjDClCB~d@`AdJRl@@|FLdEJ~ELjBBlJRfHLfGNbJNdDEtCQzBU|B_@hBa@nA]fBm@lBu@lCoAnN}HtEqBzE_BnHkB~z@wRhCg@tCa@`BOhBIxCGdDHxCRlDd@rCl@hBh@bCz@hBv@bCnAvBrAzB`BxCjCbBdBxBhCxMpPtCdDdDbDbDrCxDzCrh@ja@pCrBtCfBxAt@fBt@dBj@vBj@tB^vBTjBJdBDfBArBIhCYdCa@lG{AtBc@fBWbBOpBIrBAfBB|CT~Ef@nBX|Bd@hFzAhBp@fBv@dB|@nC~A|AfApB|A|ApAjBjBhBpBrA`BdGlIxBtCpAzA~A`BnBbBjAx@dAn@zAt@tBz@dBf@lBb@pBVhBLjBB~AAzAIxAO`BYxA]xAe@jBu@LGhAi@dBgA`BmAzBsBfDcDp@o@nBcBbE}CjAu@jBmA~BuArBcAhCmA`E_BjEuAjD{@dCg@jEo@`Ec@|cA{FhCIhFCtB@hELrCNlCTnEh@xF`A~UhFdCd@fIpAxI`AlF`@|FX`FN~EFzFA|CC~I[rCO|AKlBKxF[vWuAhDEfD?~CBzBFtEHlGJbVb@~CBtCC`FOtEYzC[zCa@jBYr@OvBc@rD{@rBk@bA]lDmAhCcAnCkAvCyAvMoHdDcBzD}AxAe@v@SnBe@jEq@bEYnDIpIEfCG|DOzC[hDe@nDq@tAc@n@S`@MhC{@bC_AzEsBzBaAhBs@dE_BhA[jDo@lCSt@Ar@A~@@`ADvBNnAPr@NrB`@fCf@fDn@fIjBjBRzAJbBBjBEjBQfB[hBk@pAk@rEeCnB}@dBs@jA_@n@UnCu@`N_DhF}@bYsCdBY`Cm@vBy@nBcArBmAnAk@nAc@pA[|AUzAK|AAvADtAN|KzBvCb@pBPrT`AnBNdBZhAXxAd@vB|@jB`AdBhAvAjAvArArAzAxCzDxAbBpApA`DjCvDxCjJlH|O~LvAbAzCjBhDbBtBx@xBp@hDz@zB\\`D\\`ENxC?`DIjS{@~CEnDA|EFlDNjDTfBPd@D`D^bL|AfANbDf@lLbB|B\\hEn@bEr@xB^vFfAtCt@vJtCjEvAv@X~@\\zkAza@bCx@b@N~@\\vDlAjCp@r@PxA\\rCl@pDl@lDb@~Gj@lCJnFHvFEhBItCMfDYpAKnJmAhJuA~JsAnCYfBQxBOlCOfAE|DM|EC|ED~ENbG^bCR|Fn@jLxAj~@|LvIpArBV|B\\fLbBhmAdR|M|BnDt@dHbBpLhD|O`F~JhD|ElBnEnB~DlBtEbCnC~AnCdBzDhCrEfDdE`DvBfB~BjBhCrBhEjDlRlOfCtBjCtBfDjCpAdArObMpD|CzCvCbBdBhD`ErC|DjBtClApB|CfGnAjCrBfFjAfDdA`Dn@vBrBhIf@dCtAnH|AvJzA`KPnAtA|IfAlGz@dEp@bDXjAx@|CjAfEjBzFhAzCbBhE~@tB~CnGdChEnB|CzBbD~BxCnB|B|AbBpDnD`EjDpDrCbErCrFjDnC|AxItEbAf@zCxA~CxAv@^xAp@pLjFvCpAfAh@x@\\dEjBrHhDrB|@~BdAbDxA~Ar@nOzGvDxAdC|@lFzAfCj@xDr@xBXzBVr@FvBL~DPvE@zFItESnG_@~AOlEY`FUdEGrEBdFRrAJnBRtARtDh@vCl@~DdAzTzGjBd@fFfAzAVpBTfCX|ALbCRbZrB~Ib@~GP~CBfE?bHKtFQxEYjDYpEe@bEe@jG}@zWoEpEu@j@KnAStFcA|IoBlDaA\\KvBq@tFsBvEoB`CkAxHgEhEmCdO{J|EyCjBeAtCsA|CoAvCaArCw@bCi@zBa@jC_@fBSrEYdCGrBArINfBF`FRdENtCLfCHv@DpMd@lI\\bCLrABdDLjERpFXrFZhGd@lLnAbEj@jGdAhGjArJtBvJzB~Bj@|D~@dCh@bG`AvFx@bE`@xBPtBNhCN~CLrBDdDDlE?tBC`BAfNe@hMq@hNk@hSi@lKS`NMjLEfc@HbEApIIhGOvLk@pGc@xEe@fD]nHcAxCe@fI{AzCq@bCk@nCu@|C_A|HkCxCgAjD{AnFaC~DkB|TeK|GsClGeC|B{@t@Y|EaBrBs@zG_CnAa@tLeErZmKxIwC|GsBjJcCnGyAbDq@dIuAxLcB~Fo@`E_@hDW`Je@tEOfEItFErC@vGRxDV~BTrC\\nCb@hCf@rCl@tKpC~FbBr@RtGjBlDfAhDbAzL|D|P~FvI`DlGdCz@\\v@\\fFvBbDzAnE`C~G~DpCdBrBrAjClBrFfE|EfEhF`FnFzFpDdEpDrElBhClBjCvFrIfEhHvClF~AxCxBdEjA~BnIhPlGhLbE|GbFhHfBbCx@`AfBtB|CdDrArApAnA`FfEvCxBnDfCjDrB`DbBbEnBdEbBfGrBxBl@fCj@jHzA|Cb@vGl@zDRtDLnFLzIHrDAtMRzRTtCDlEFpVVdHHlCDfFPtAH~AJbE`@hFt@pDp@tBd@lCr@pCz@jDlAdC`ApFfCxHfEzSpLxObIhIrD|LzEpFlBxGvBlElA`FpAfGtAxGvAjUtEvEdA~DfAnFjBvEnB`ElBtEjCvClB|B|AvErDbFvEzE|ErOnQ|FtGfDnDnFfF`DtChFjExElDrE|CfAp@|CjBrDtBjCrAfGrCnEjBtG`CvGtBlElAvEhA~D|@|@PpAT`IrAdDd@rFl@`Ir@hAFbCJxBHfDJbGHfG@rBAvBEvBEfCIhBIdPeA`[gC~Gk@|Ge@`K_AzhAgJtNyAhEm@pEw@bHwAbZuGxL}B`Es@lFw@jEi@fFi@zFg@`F]bFWv@E`EK|KQvo@C`HEbKM~IQrPk@`Ja@ho@iEpJw@nD]fC]~FaAjGyArBk@`GsB|B_AbFyBd[_PbCiAhDuAlC{@tBg@dCc@|Dc@`BIdEIzDDvZp@`BDz@@hCDf@BdDHnETjBPvC`@jE~@xA`@|Af@dEbBpBbAfAj@|DlCrAbAxBlBtDrDll@dm@xIrInHtGzHfGxHrFxtA~}@tChBpD`CbBhAzDhC`EjC~JxG`BfAjJhGzPbLhBjArAv@rAx@hB|@pB|@xBx@fEjAxCj@|Fv@fYxCdFb@lBH`BD`C@vDOjCUtB[lB_@nBg@hBk@jC_A~BcAp@YlCkAdOwGdGyChEeC~AgApEgDvCeCrEoExGuHlLiNxCgDdCgCdCcCxCcCxCuBnDsBfBy@zAm@`DaA~D{@|B]fAKrBOdCGxC?bHJnFCnDShDc@jAWbDaAx@[lB{@rBgAfBkAbBqAvBqBvA}AdAsA|AwB`BiCfC{ElBaE|DwJnFsN`AiClA{CnDkIjAgCz@eBpAmChCwEnDiGtAwB|CwEjEaGhEmFzDoExF}F`FqE~CkClDoCzGyExeBgjAlJiGjD}BlH{EdDyBxBwAlBiAjB}@`CaA~MeF\\M|Am@bG}BtOaGjCaA|EiBbDkAdG}BlGgCvEgC|D}B`EcCdQkK~C{B~AsApBmBhAoAfDcEhJyLvAcBdEcGlDyEnGkInBkCzJsMvCyDfAwAdAwAtD}EdQqUd]_d@fAuAdA}AnBcDjBsDzAgDn@}AzAqEl@qB`AwDbA{El@}Dl@mEb@yEfBiXDg@HmA~Be^fBoXjC_a@PmC|AmUh@wIl@{In@sJt@cKVsCZoC~@iGx@eEx@aD`@_BbAcDz@_CxAiDxAuCj^_p@xFwKpKyStAcCrAuBvAsBrAcBlEaFvAyAbBaBrG_GpEuD`E{CrEyCxC_BjB{@lAa@rDkAvBm@lMsCpIkBlSeFj}@}UdFwA`Cu@jDuAbDwA`HaDvDyAtCw@lB_@bEi@rAMpEQlCIlJUhk@qAlEI|AC~DLtBPfBRxEz@jBh@rBp@lFzBhCjA|@f@bGtClDdBfBj@pBh@~AXpEb@hBBnCIv@E~@MbAOp@OtDcA|Ai@nBs@dE_Bn@WbGoBdFkBr@WhC_AvAi@|@W`AQ|Cc@zKqA`Eg@nEa@zG{@pI_AhBSr^aEvFa@nAC~ABnCPtM`B`@FH@vATrKvAl@JbOrBre@vGnBN|ADjBAbCKzC[`@G~@UnA_@xQuFt\\aKhJmCbQcF`AYpYeIpDiAvH{Br@SvKwCrRoFxDmAfAg@|w@{c@x]eSnUuMjBeAr@]|As@~Ai@rA_@`B]|De@fv@}Dty@yE|r@cEvQaAzDQxACfBBdBH~BXzs@~KvBRtAFvCAtAGxBS`B[|Cu@~Ao@jB_AtBqAzBgB~A_BjAuA~AwBhAcB`GyJtC{Dh@o@dDcDlA_AxAcAnBaAdBw@pBk@jCk@jEu@rGeApDs@`D{@rDeA~CiA`C{@pB_AzBmAfBmAvAkAvAsA|AeBhBkC|AiCrAqCvAoDr@}BjA_FToAd@yC\\sC\\eDn@sHJqAXiDd@iF~@_JjAwJhBwLl@sDh@uCzB}Kz@wD~ByJ`FmQbXe}@|E{OjBkFxBqFfD_HrBqDxCgEdC{CpGyGvRuQvC{ClC_D~CaE~BmDrGiK`DoFzCyEfBgCnE{F|BcC~DmDxB}AnCeBfE{BtEyB`JcEfEyBvD_ClCkBjDwCvBsBlCuCtDoErDaFpC_EzC}EzCoFrCqFzB{ErB{E|B{FvD}KvAwE~AcGzA{GzB{Lj@_DzAwIdAeFj@gCb@gBlByGbByE|AwDtBgE~BiE|A_C~A{BfByBlF{FfIiHfEiD~IcHlFgEzRsOfHcFvCsBfDyBrJmFlEsB~EkB|DmA`EaAnEu@rC[hAKpESxECjJBpDE~CIxDYxCc@xCo@|Bs@lBs@dCiAhBcA`BaA~C}BpC_C`ImHjAiApAoAvFkFnRqRnDkEhGcIvB{C`GwIpYad@pFeIvFeIpGwIxGuIvHiJlIsJ|GmHlHkHpNcNjC{BdEmD~GkFfIwFnDsBtEeCtG}CtGmClIsC`DaAfD{@bIiB`@Ij@MnCo@bFiAxHeBd@KnAYhJuBdCk@dAUlHaBxDw@`Fy@tEo@bEa@|CSzESdNYfLC~IIjEIdDKhH_@vHs@hC[l@IfDe@hEu@fJqBxJuCfFgBlFuBtKaFvCgBjCwAZSpBkAzGwDvC{ArDcBjFeB`Bc@zCi@dBQxDYdDAfA@tETjBVbEj@l\\pFpC^lFt@dANbJbAtE^tGZfL^ra@t@~DL|FAnGQbEUvBMxRuAxGq@lGaAnDu@rCu@dEsAbEaBtDeBtDuB|CqBtDeCrMgKlB}A`Aw@fR}NzHcGdIaG|HiF~CkBxCaBbB}@~@i@jIeEpDmBxCgAnAe@`CcAfKsF`CwA`FsCrFoDzFeEzEiEhJqJzTmWrJuKdBoBzKeM`@c@\\a@n@u@fF}FdRgTbi@om@rHoIjCmChEiElG_GxGqFjW{RpE{DzFyFnDkEnDcFfCkEfC_FtB{EjCeHdCmIrAeFjAqFrBkJn@aD`@qBdAuFLq@fDcPn@yCDUBK^qBhDuQfCuMzAyIrAwHnA}HHm@pAmJfBqNhAaKHu@hD{Yn@{EdAeG`@wB^eBj@}Bz@uCvAmEjB_Fd@_ApBoEpBmDlDqFvD{EhCkClCcChHkFpd@}Y`FiD|CiCvAyAxAcB~AuBzA{Bp@oAlEmKtHsTp@iBv@eBhAoBbBeCfAmAz@w@tBcBpBkAtTaJpAk@lGeCvEoBvEwBzEuBnBaApBqAl@c@~AyAz@gA`AqAjByCpAuCfA_D|@kDl@aDb@gDTsCF{AHaEAaDMaDKgCeCg[aAmMyCa`@uAoSe@{Iy@kP{@qU_@aNYkMQwKOwOGsNAqI@mPDiH@oA@g@DwEVcS^cQb@uN^}J\\wH`@uI~@{P~@uPDm@tA{V~AwXv@uKL{ATuBp@yF\\aCdAiGtAeH|AuGh@oBx@sCl@qBl@eBdB{E`AaCnCmGfDaHtAoCfAwBbAiBnD{G~EoJxEyJxBaFdBkEjCgHzAoE|A_F`CkInA_FhA{EbCmLpCcOhA_HtE}Y~Fu`@`BeMx@yHl@eHZwETqEd@{LV_M|@kg@H_EZoJV{GV_Ff@gHn@mH~@cIh@}Dr@mE~AyIrAgGtBiIlCcJvAcEvA_EvAqDz@{BdAkCjQya@tEyLhBuFd@_Bp@gCbAcEz@iEn@oDr@kFZuCd@qF^}GVwGNaGPcDb@qG\\_DL{@d@}CZiB`@iBt@qCTw@z@mCrAoDbBkD|AmC~@wArAsBtCqEb@q@hBsC|BsDvAeC~A}D|@gCj@}Bf@aCb@qCTuBRoCTmEJqCViKBsCCgEQeJWsLo@so@QcJa@wLqAoVSsDOkD]_NE}DEsCCeF?oHDsHPeM@eALqGhA{^ByFE_F_@wN?_DJ}CJqA`@cD\\eBZoAVy@f@uAnAqC|AcCvJgNvAsB~@{Ap@sAh@oAZy@ZaAXeAv@oElAyLPuAVyAh@gCnA_FfAcEz@gDlAmF|@cEt@qEtCeRdAsE`AcD`AkCJYrBqEvCgFrBwCdBuB~BaCpAiA~@w@~C{BtC_BpAk@rAi@nAe@pF}AbGaBnBo@|Ak@jD{ArC}ArDaCrDaD|AyA`DsDvAmBvA{BzAgCjBsDbBwDzA_E\\eApAyD~CoIp@oBtAyEvAcHRyAJgAp@eQx@_WLoINkSRqa@H}RZsb@@oAD}HDaBBaBLgDPaDh@}FtCaW`@mE^oEVmELmEF}C@}CGeIw@y[?mCBmCJsFh@yLnA{[t@iXr@cV`@iJj@sJt@qJ`AyJvAcMbBqMvC}S|BgOhCePvHuc@|CaRfAkHv@aGvBoSr@_Jl@{I`@wHd@eLPqGTiMDgGB_KQaROoIk@oRa@kOUeMG{GA}GDy\\CmFIqDKaDWgEW_Dc@aEi@{DcAwG{BePa@{Dk@}H_@}JKqDGgBKeDW}E[kEa@{Dg@uDu@_E{@eEw@{C{@}CqCmJkBwGiAqFc@mCc@}C[uDUwDKsCk@i[OiFWqGa@qGg@iGc@gEg@eEqAsIs@}Du@yDuBgJ_B{GcCmKi@uCe@_D[yCc@oGIyBEaCAwDDwDH{CPyCTkC|@aHd@sCzDiSz@mFr@cF`@gD\\iDXgETyEJsDHyD@}FC}CEcCO_FWcF]gFIgAuCi\\QsCMsCK_EC}F@uCVyIVsDXmDb@kDd@eDh@uCv@uD|@sDhA_ElBcG|AoE`AsCbF_N|EgNzA}E|AoFlBuHt@iDp@gDh@_Db@}Cx@gHh@yGTcEJaCJ{DHmHAqCIwHKgD}@gUI{AYuHU{HIsEEuEAgJDqHRaJt@yO`@sGx@sKvB{UbAeK~@wIt@uGbCqRdA}HjAeIr@uE~@kGtCcQdEkUnCkN`DcOlE{RlB{HpDuN`E}NzAgFxFkRlFiPhGqQ|IaV`B_ErGqO~DkJrIsRzFkM|@{BvB}FvAaFpAqFbBqIpAgHbDwNv@{ChAiDjAwCbB{D~AcDlBmDrCkEhCoDxCuDjGuG`DgEdBaDlAcDjA}Dz@{Df@{Cb@wD^}Dl@sJ`@aNb@eZTwJl@oNp@yIj@aFhAiHdAeFrAcFdAaD|@aC|@qB~AuCdBgC`EyFlCcEdAqB~@yB`A}CdAqEjA}Gl@cEp@}Dj@gCb@sA|@_CxA{CdB{C`DkG|BiGvA{Fv@{DnAsHv@eGh@{F^uFVqFN_FFuE?sFEoEQkGQ_E[cFo@cIeBoS[sE[eGOwEGsFFcHXaGXuDj@_FtAsI`BeI|AsHbB{HtA}HXyBDWx@sGd@}IJ}HCgE?]CiAO}LIgSB{GJuFd@eLh@kInAaMdCuRtDyX|@qH~@eJn@gId@yLRiN?wMO}Mu@k`@KgL?}IHgS?}FEwDUsI_@oFg@iFqBsQkG_i@]yCaAiJ[mDSsCe@eHIuAOeFOeFE}E?{AB{B@u@@o@LgDRkCZiDl@{EtAaHdCwJjCaLt@cEp@oFb@iGNkFB{DEyEMwD_@wFwAiQUcDKqFA_FHiGLuCb@uFn@uFx@cGf@gDp@qEd@mCz@uHTqEFwDGqCWeEg@kEi@_Dq@eDqCkLk@wDQqBUqDGcDHkEZsD\\mCr@gDv@iCjAyCvEmKfA{C|@_Dv@kDlD{PzA{Gv@eCxAeE^_A\\aAN]x@gCtAqFl@}D\\eFb@sMVqCZcCr@{DbAiEp@gDx@aFf@aFVaF`@aRLoET{ETuDZ_E`@}DjAeKn@{E~@oI`@_FRaELuEByCCkIKkEUkEc@qFaA_Kk@gHUuEGcDAkDFwDRkD`@oEn@iEr@sDr@wCdA{DnDyLnAeFp@eD^kCb@uEXmDXqEd@{Fb@_Df@sCr@gDdA}Dp@iDb@mCJoA\\aIEqEQkEgA{Mg@_HEo@QcFImIPiFn@aHhAoG~A_G|A}D~IqQzAsD`B}E|AqGfAqGz@}I\\uGBqDQwFk@iF{AiHiBeGyBmGwBoHwAkG{@uF_@mDYuDMaFBaGL}DV{Df@aF`@_DnDwVvBcRj@}G`@kGX}GJcF@aIOoKe@eNaEiiAgAw[WcG[mFi@qH]qDqGqe@o@{FW{CQgCMmEEeE@}DNyFf@qG\\yCn@sDbA{Dh@{AbDuHnAcEdAgF`AgGv@yDn@uBx@}Bv@aB~@aBdB{BpDgDxDwDvBcCrA}BnAkCbBcFjAeEXsA`@qB\\oCV}BT_DHsBDmCAaCI{CQgC[iD_@cDk@{GMuBQaGCkCB}Fh@sNPyG?kEEyAOyCQsBWuB_@{Be@uBq@mCaEoM]sAs@iDe@kDMyAO_EAwBBsCJ_CReC\\kDhAwHXkCNaBN_E@aAAkBA{AIeBOsBUyBe@sC]cBiDiMwCsLoAeF{BqLg@wCc@yCe@iEo@_IYyFS{G[}Pg@}[OgNIqOCaMS_MsDmfBMgC[iEi@iEsA_HYoAi@gBe@{Aw@qBgCmGea@uaAgBqE{AoEsCqJqAiFuAkGqAmH_A{G[kDWiDQyCK_DI}DCuKHuERiF^sFdBkRLyAFk@XaEHcCBuCEeCAm@IyAWqCa@iCScAoAyEkBcG}@_D{@}Do@aEQuAOyAYqD_AkPWaDm@qEs@_Dy@kC}@sBq@qAcC}DcBwBiAqAuBwBkBaBiBoA}@k@mB}@yAg@qBi@o@KeBSqBIu@AiBDmAHcBTgBZeEbAcBf@k@N}@TqDr@uDh@yC\\{CJgEEkEc@gCc@aCm@yB{@}BcAgBmAcBuA_BaB_BmBuAwBqA_CgAiCaAsCoA{EoA{Hc@wEsA}QoAuMe@oF[{CiAeJcBsKiByIo@qCo@eCoAcEsA{DoAyCiAgCoDyG}JiOcEaIgBmEqAuDgA{DsCiNy@iGk@kHYiHIwF@aGb@aY?cFAuBS{FQgCYoC_@mCi@wCi@gC}@_DiA{C}BkFgEaJw@sBs@}Bs@qCg@wCa@mDWcEGgCAyBFwCJqCd@mI\\cIDcGAkDIqDKcCOsCUgD}@yJ{@mHSwA]uBkAoHyB}KuCiLkAaE}AsE}@iCs@qBaF{MuEuLiAmDkA_EcAiE_AaFu@kFg@_FQ{BM{BSuFGyDC}DB{FTqI\\gHh@gHt@cIpAaLxDaZdFa_@fK_w@f@cE\\iELgCF{CBwDCsDIiCOwCo@wGk@mDm@{Cq@sCwB{H{C}JqCiKmA_FcAoFaA}Fg@iD]gCu@kHe@yFYkFS{ES_JCaH@gg@AcDA}ACwDGqDM{FSiGW{Fa@}Gg@}G}@iKqF_i@c@oEq@{IQ}CWoFMyEKeJ?wGHcGTeIV_Fj@cId@}Ej@{EfAoHn@oDl@}ChAaFhBcHfB}F|AoEt@sBjAyCxIgThHyQjEgPhAqFt@sEx@kGXkCJgARwBNoC^wHFsC@kCU}UIgDOoDS{BQiBM_A]sBe@gCi@wBwAuEeBcE{[_p@wG{MiAgCiBqEaAqC}@sC]gA_BuGaAqEw@oF{@cGs@sGs@iDqC{JwBsLaBuIcAsD{A}DaAkByAaCyAqB{EuGu@_Ac@a@o@k@k@c@{A{@o@WgA]mAUk@G_@C{BAo@B{@JqAXk@Pi@R_Ad@e@Xw@j@mJpH{BxAqAl@yA`@wAR{AH{ACmBSs[iGmBg@_A_@_CiAeCgBwAoAiAqAyAsB}AqCeGuMsAmDy@gC]qAq@uCsCaOe@uBU{@eAsCw@cB}@{AeAwA_@c@_A}@}@u@m@a@iB_A}Ak@aB_@iGiAs@MeAS_Co@aA]gAc@_@Sq@]sAu@k@[o@[mCyAoc@{Uw@e@]UqBeB}@gAoAiBgAyBo@_Bg@_BQo@aBiHy@yCq@gBaAyB{@}Ao@_AwAgBo@o@g@c@}AmAcB_A}QqJsA_AkAgAcAqAa@m@y@_Bu@iBaFwNu@cB{@{AcAyA{AaBWUa@]mKoHaDsBuAo@uAe@{AYm@GaAG{AC}AFwAPyAZuH~BwAZeC^oBJ{A?}AGoBSk@Mk@KyAa@o@WyBaAgAi@w@c@yAw@sCiB_KeHkEuDwE}E}AkBaAsAw@uAu@uAM[i@mAu@wBwHsVu@qCWqAe@qDK_BK_D@oCJyCRkC`@mCh@gCjJq\\t@iDj@mD~CoStD}UfAyGpAgI^iCPuAHy@JcBDoB?gBCqAI{AOsAS{AUsA]wAe@wAcAcCqAwBaFoG{@wAq@wAg@wAa@cBWeBOaBGqB@oBFcBP_BPkAVkAlAkDn@kAv@gAhBoBv@u@zEmEvAiAzByAfP}J`Au@x@u@x@}@p@aAp@kAf@kAj@kB^sBVqBJqB@oBG_COgBYsBa@gBi@kBgGwRi@mB]cBUuAQcBOsBGeC?yBNkE^iD\\yB`@kBv@eCbAiCjFmMvDmJf@cB\\wAb@iCjD_Yp@gEdAuFvEaUVcBPiBJqB@uBAwBQsCwBkPeAwHeFa_@OgBKaBG}Ba@sXEcGBcEz@}d@BoDIgEQcEYyC]{C{Lkz@mCmQk@eDw@aDw@}C_CcIk@{Bm@wCg@iD[iC_@sGIcDAmCBeCNgFj@uPHaD@cDEgCMcCWiCc@qCc@cBe@aBc@cAc@_A[o@qAsB]e@w@_AgCoCoBwBaEmEk@m@_IsIoBqB{@y@o@i@gAu@kAo@aAa@w@UoAYeAKcAG_B@iFZqA@cACiAK}AWaBe@mAi@}@g@kAy@sBoBw@aAs@iA{@}Ak@sAm@gB{@}CO{@UuAOyAOiBIcBCcB?gBFcCJ{AlA_KLqAF}@FmADyA@yAA}AIiDUoDc@mDqAcGyCeJeEsLiIuVsAmDwAyC_B}BcB}AeBeAcAc@{@YaBYuT_BqEy@iDmAuCuAcLoGeBqAeA_AcEqE[a@qAoB_CyEeAmCu@}BeFiQwDoMoCyGkCuEsCuDiL{KoBaCwA}BaAqB{@uBs@_CaAgEa@oCMeAKcAGm@Ek@Ck@GkAK_HAc@AoAY{WC{GAu@FcDFmANcBTmBJq@H_@z@sDVy@To@\\y@x@eBh@_AV_@bAsAnAmA`A}@zAsAx@}@Za@b@s@\\s@n@iBRu@TqALqADoBAeBEw@Gk@Gm@Ou@SaAcA_EuS{x@g@iB}@kCaAaCyA{CiBwCc@o@wT_XgAoAiAwAo@y@gAcBcAcBiB{D_@_AaAuC{@_Dq@eDk@qDa@yD_AqLi@gEaAaFy@cDc@yAsAoDm@uAm@kA{@yAiBsCwHaKy@oAw@sA_B_DqAcDgDsJeIyUs@_C]uAEUEQ]cBa@uCOsAKmAQeDI}E@iA@qAHqCPuCPaBh@qDf@kChAoFd@eCZ}BLiALiAHaBHcBJyD@cB?q@EiDAWAUAu@C{@MsAa@{DQiBWsCm@iIEm@UeDGcAYaESaBe@oC[cB]yAi@wB_@mAkEeMgOyb@oGwQuAeFm@oCe@_DOmAqBoSg@oEUgB_@sBUiAQy@_@yAgAqDkAwCc@aAi@gA_A_BiBqC_AiAgAmAoCgCeDwBkCoAkC_AaCi@eC]uCQuq@y@mAGu@Gy@M{@Uk@QaB{@s@e@o@i@m@k@m@s@k@w@e@y@gAaC{@qC[uAgBcKOw@w@kDqAuDu@cB{@}AiBkCq@w@yAsAcAy@eAq@y@a@aAc@qDuAyG_CyAq@qAs@iAw@iCqBq@s@oByBo@w@uC{DuHeKoCwDaHmJuC{DeCmDeB}BcDiEyDoEgC_CqCyBuEgEmEcFkEwEu@k@u@e@g@[yAs@}F{BkAk@iC_Bg@]mAaAw@u@y@}@kAcBmAeCe@yAa@wAi@uBO}@Ow@Kq@YqBMgAKiAGaAIkCAoABqD`Bia@PcGB_B?aBO_EIkAm@yEa@sBa@}AoHyTq@eCScAUyAIq@MaAGe@{@qKiAgM_@yDuCyWe@uD_@aC]qBeDsPm@eEa@wDy@iL[yD[sCu@{EIe@e@_Cw@aEm@wCs@kD{AmHS{AKq@m@{DW}BQ}@Mg@g@mA_@aAu@uBY{AOk@EQISUWUI]?[HSNcBpAUBQKEMj@}Ih@eJB]Di@BWd@mHFiABm@Ba@F_@Nk@DQDa@Dg@BYB[LAdFSp@EjAKTCBN|A`GN\\G]yAcGCMGUGYK_@Qm@mAoEWOGEGGSo@[aAiAcEq@aCu@cDQw@[uA[iAyAmDk@gB_AaDi@mA_@u@}B}Dy@mAOQOMUS}@m@y@a@_B{@aEsCwMsJoDeDmAsAeA{AoCmEiHmMcBuCWa@oAwB{@aBa@m@e@s@s@_AcAaA{GaGuAwAg@m@eHcK{@kAiFqHqBuCsE}G{GmJeCqDiBkCuB{C_CmD}@iAi@m@oAcAaBaAe@UiBk@{DsAqB{@cAo@cA}@iBcCk@_Ag@aAQk@G_@E]AOCo@Rk@HUHW@K?K@OAe@?Q?qC?I?O?aB?O?K?WAsB?wC?O?O?KAyC?O?O?OAk@?C?K?aD?}@?O?Q?O?wA?sCAO?O?kA?cB?Q?O?qD?O?OA_D?QLAvAIXK\\QjB[FAAM]iCAOCKa@iDAGCOUaBCOCQSyACQEQi@sBk@}BGUGUKc@GWa@eBQy@CIAI_@{A",
+            "geometry": "}zvhHu~lLWsBeCkNGWGc@AUJo@FSJ?LCDEDEFQBS?WAMEM@]@[r@oCfAkEZiA^{ALe@f@qBRc@PSHKTGHIZ]aFwOy@gCQo@AEQi@GUKYa@oAc@uAm@kBGUK[g@wAaBqFOg@Qg@K]Ga@C_@HaD?U@WDuA@_@DsA@i@Fg@VyAFa@N_ABKd@_BXi@j@q@l@a@FCNClAM~BDjFb@lBD`MlAd@FfBRxBRtB@rBOlAW`AW~@c@p@_@pB_Br@u@hA_BdAsBt@cBbCyHl@_B\\{@xAkCx@cAl@m@l@g@|AeAj@YxAg@jAUz@MtCUdBK|ACdABX@t@D|ARh@F~@LzBd@`Ct@zB`ArChBtBlBjApAhF|G|AhBtBlBhBjAxAr@l@RvA`@dAN`R|ArIv@hALdARxBz@h@Z|@p@|@x@jAtAt@hA|@jBRd@Zv@b@vARx@Nx@PbARtANtAF`AH~ABbA@|@AfACvAk@vJWvEc@xHKbBo@`KKrAUpBq@lF]zDIdBGtBBpCFxAL~AJhAZjBT~@VbAj@hBTl@j@pAbDzGnErKxCxHlDbJvDpJbBlErAhDf@pAXr@Zx@p@`BJVnAdD`@`ArBlFtBlFlQnd@pIvT`BbEvLjZlB|DJRh@~@|@nA`BfBnAfAp@d@bAp@dAl@rB|@vAd@`AVvATxBR`CBpAEpBSp@KHCtA]|Ai@nF{B|_@{QhDcBpCaBj@]d@_@rAmAv@u@r@w@bAuA~@yAf@{@Ta@l@uAl@uAfB_GlGmYd@}B|A_JzAwKPeAP_Ad@gBZaA`A}B\\s@r@iAv@gAjNmPjC{Cj@q@pBqBz@q@dAk@zBaA|B}@tA[vAStAGrA?rAHbHv@b@FtBTt@HlCVp@F|@H\\@hADtBBxBCrAGz@CbCMrCOdDOn@GZA~BFvCTpBVbCl@jBl@|B~@dDzApDbB~Ap@lDpAjAZxBb@fBR^@xCFtCIpBUdAQ`Dy@nBw@n@[dKgGtDuBt@]`CeAxAe@tBi@jB_@hAO~@Kv@IbCSt@EzBGlCQp@?b@AzDCtBNv@Rx@Z|@h@~@r@nCvBfA~@dDnChP~Lj@f@|ChCbFtErEtE|AjB~AfBb@f@|@fA`B~ApBzBfAnAbAfAvB~ChEpGxDpGlC~EvCpFTd@tEfJvBfE`j@xgAzAxCnDhHzFdLxH~NvHzMfBnCtAtB`ClDhA~AjCpDlFxGnEhF|FfG~A`B|BzBjCdCpChCzBrBrT`SrFjFpFnFbElEfCtC`BpBz@dAnBdC`DpE~CzErDnGrAfC|@hBvBtEh@nAfAhCn@|At@pBv@xBf@vAjArD|BvH~BjJzB|JrAzGp@rDr@dElClPlDlVzu@noFz@bGN|@n@`E~BhNdAzF~BbL`BlH~ArGdBrGlAlEr@bClD|KnB|FvChInGxPtFrOtBhGvBzG~CtK~BpI|AfGrCvLp@|CH\\~BtK`CvKhC|KpBdIx@xCxDrMrBpGhCrHxCbIxDhJzFlMrItQbE`JdEpJ`GtNbHrQ`CtGpHnTbBfFjB`GlA~DzEjPlBfHjGbVjAdFlAbFjBpIfApFl@zCbBhJ~AbKl@`Ez@|GxAlMn@xG`A|L|Cbg@ZdE\\lEVrCh@|F`BhOv@jGtAxJ|AxJd@jCdAzF`@tBj@lCxA`H`BdHxA`GhDvMjDpMxEnQpAjFpF`TLh@Nj@p@pCxBzIpF~QnApElArET|@`BdGXjAbEpOfDxLvBbHfAbDz@`CbAdCrCpGbAlBnAtBhAbB~BdEpAzBhA|BvAjDbArCn@vBbAdEb@tBh@dDVjBbAzIfPz~A~@pIfAlJjAfJpAxIv@`Fx@xExDhUbCxM~C`SlC|QpChTZpC|CjVhD~VrCjRjBbLfExTjD|QpCfORfArDjUhAbIX|Bp@`FrAxKzAhNtCh[~IdeAVzBh@vGP|AjA|L`AzILv@lAhJ|@nGlAfIZtBrCjOlKzh@jAbHrCdQx@xFbD`W~Int@lBvQ`B|QXvDxA|U`Ex`A`Bpa@jBra@~ApWt@jKzMbcB`AxKlAnLtArLzDvWzChQfCdMjApF`BbHhC`KnCxJnHnVbKn[dVbu@|CrJzCxJlF`RdFlR`CvJrAtFbEzQ`CfL~d@baCzEzWlEhXpD`W~ChWnAtKfPv|Ax@~GrJv}@rBnPzBxOp@~DnCvPrFf[dGz]rD~TL~@`AtGvA`LnA`LzAdPzC~^nApM`AhIjAfIxAzHbBdHpBbHxB|G`BlEzExJl@`Az@tA~DdGpBfClB|BrNpMjaAhy@jKvIzJjHj`A|q@hDbCx@l@xEhDLJvl@tb@zXbS`JjGnHlErFnChEfBrKzDhjAra@pUfI`HdC`Bl@~HzC~FhChCtAbC|A~B`BxBdBdCzBbDhDrClDbE|FnDjGhChF`CxFdAvCdA|C~B`I~Q`p@bCzIdBbG~M~e@~EfQ`EvNbPfk@hDrLxA~ExBbHlCtHhA~CfCtGbB|DnBhExK~TjqBx{DjIvPtFxLlF`MdHdQfGfPvCfItCrInDxKxDbMbEtNvEfQnCvKjCzKbGhXnD~Q|@|E~@fFpDnTzBxNfCdRvC~UhA`K`AjJ`A`KtEzi@n@vG~BbTlAzJfCpQhD~SvAdIzAxHhFrVzBlJ~BhJhDbMbD~KnBlGfEfMvCjIzHbSzq@jbBxQdd@pHfSrFdQdBvFhC`JhGtU|BlJx@|DtAxFtAzGbEjTpBzLdB`LpB|NxHnn@z@lHTdBj@zErBjR~AnRlGbr@dE`_@bAdJr@pGhA|LnA`Pb@`Hf@|Jv@lT~@nZDlBVfIlBzo@x@xVr@|Nf@zHv@`LvDl`@lCnSxC~RtDnSdE`ShDxNvFlTvEpP~EfPnM|`@rN|_@~F`OhGdOlPt^hQf]fXlg@rNtYtDpJhFnOdEjNdCrJdCfKrB~J~DfUzA|KvBnRt@lIj@~Gh@|H`@pHZpHT|Gz@j[\\|NLbE^bOv@pYr@fVt@pPh@rJh@pId@rGxB~UbEb]hDzTbJpg@dB~KXlBdApIx@rHdAbLp@xIZrEp@nMXzFj@vNp@vNb@hIl@tInBfUxBrT~AhQjAdQ^dHt@pSVfKj@hYl@|Xj@nP|@hPvApRr@tHx@tHfAlIjAlIrAdIxAbInBrJ`BnHdBdHbEzN`DtKjMba@`FzP~DnP~DtRnB`KpAbHbG`[fCbLhApEpClKpBvGdBrFhCzHlHvQdMnYpBtFpAtEr@`Dx@hEbAfIXrEZlJGfQmBtZ}@vO[zI\\rSzAbMzCdRb@xBzAbKlClV`DlXrH`e@lCxMtCnMbF`TvEbTvAfHpAjHrAxHhAvHdBjNtAhNlAbO|@bOf@bL`@fMXdMp@b_@J|KHxP?~LOlLYxPo@lUG`FAvEL`IV`Fr@~H~@jGf@hCb@rB`BbGr@tBz@|BtJfUlHzQvEhNlEvNbBrGxAdGvAnGnAhGfBlJ|AjJ|@bGnAtIbApHdEz[tBbOxAnJhAnGpBlKdBvInAzGn@xEf@vEVdDTpDPnDHjD\\zQN~DT|DVjD\\jDb@lDn@dEv@|Db@zBPn@x@bDnAdEfMb^`ElM`FxQhLbf@hBnHhBbHvCdK~CvJpB~FvBxF`GnNtEdKlKnUzFrMxBpFrBjF|BzG`CnHZ`A~CvKzA~FxAhGbDfObFrXdFxYf@xCl@fDnE~VnAhHxBbMlCvOxDbVhOpdAbE~VrEjW`Hz]nHn]|CzMzCjM~CbM`DxLnArEdEpMpBxFvB|FxBpFtHdQ`IfQbHhPfAlCrDtJhD~JhBfGpB~GfB`H\\|AlBfIvA|GzAlI~BlNjBbNxArMnAtMdDnd@xAtPf@|ExCvUlExWxHd]h@tBtD|MxJl]|DrOfDdOvCrOtDjUVbB~CnRbC`NnC~MdDdNpDvMzEvO`S|m@`|A~mFfCtI|BhH|BtGvB|FxBtFlOj^bCdGxBfGxArEtAvElBtHr@nCXnA~@rEz@jE~AxJHf@r@nFj@rEfAzL\\rEXvEV|EP`FTxLHxLEfMQ`W?dC?v@AjGDrERxJLhEp@|K\\nElAtLx@fGpBnLpBpJnCzKXhA~FvTrFxTfDvOpAtGhAnGzBlNjBtNnAdLb@~E\\zDvB|XjK`wAhBpTl@xGr@pGhBtNrBbNtBfL|BjL|Ipa@pDlQ~CzQzB|OfBfPv@xIp@tItAtTz@`QVvGp@hTZ~QPdRDxNAhGOtc@ChKAbNLrRNdIXnKb@~JV~ExAlThCt[|@pLlAlRZnGLnDLbDPhGTlNFjHJ`b@LvTPvKPfHj@dQf@lM`@hKLdDDxANhH@lEEvDSnHa@|Ga@xEUhBm@pEi@~Cy@bEs@xC_BxFqAfEg@|AaA`DwB`HmBtGu@rC{AbG[vAcBdIqAhHqAxIe@pD}@bIEZWrCi@zGO|BKrAqHnnA_AfPSpE[zIQtFS`LKzHE|J@zIHbLNrK`Bdv@HlCRpGHzBf@|J~@rONxBZrDL|ApAzMbBzN\\rCt@vG|AvM|Gxk@~A`Nl@~E`@dDVxB`ArHpAlJr@xE`BrJL~@l@bD\\dBf@zB~BpKjChKj@rB^rAr@bC`DdKvBnGjBdF~@~BlBxElEzJfErIxDfHnH~LbBpCVp@nB`DpBpD~@rB|@lC^zAh@pC\\vCF|@@LD~@FnB?lDA`AKvBOfBUhBSnAc@tB[lAg@bBmAnD_EdL{AjFm@fCg@jCy@dFwD`YqCrTaApIcBjQsA~Pa@dI]vIWnKSrMExG@tGDhIJ|HPnHXpI^jIpAlRrBxTjGvf@fL`z@PhAn@|EhFh_@rChTbAnIlBlQ~AfTXvEt@|PXjJRvLL|K|@f|ALbQNnIR~JXjJVjHh@dLv@xMnAjPfEla@zBrP~BdOlBvKvAlHfBjItBfJpBjIbSbv@zCxMtBjKfBhKrAfIt@pF~@xHhEvc@|Dbd@xB`UjBxNdBpLxAnI~B`MvQj}@zA|IfAvHz@~Gt@pHd@tF\\dG`@~HNpEN`HLxKFhs@FnUD`IRdJf@bKf@`Hj@|Fz@`HfAtHzFp^fA|H^hDX~Cd@xHXdJBzHGhGUbHMjCC^CTWbDs@`H_AvGmL~s@uAnTItG@rCFpGLtD`@`Hr@bJtC|WbCtQjGta@`C|NjB~LtOzaAjClPpEhZnCzT|@tJfAtNb@|HTrFl@xOTvOHvPCvHEzGK|GQjG[`Jc@~Jg@pIk@`IsAzNkArJq@lFoCbRiAvGyBlNmVzzAeBvLkArL}@xNc@`MI~FC|I@tEFhEXxJz@jOp@pHjAjJv@lE|@|E`E`RlBjJvAzIxAjMf@rFz@lMZ|G\\xMHdG@zFAdGGbGOhHWrHm@vKqAhOwAjL_ArFiFnVuGtSgj@z|AoEzMuId[sAzFwArGeAnF_AnFmBfLgBjL_DxSuEb[eBvKwCjPcA~EaBtHkB|H{BlIuDbMcRnk@mGdVeCfKeC`MiBlKaBbKiGvd@oBjNyAjJeC~MsCdNcEzOcDvL_EjL}DtKaVlm@kH|UwEdSkDxRiDbXeBtToAdXa@f]TjYnArWzE|y@|@x]DlRAvHGrH[hOi@dOs@`NaAbNqAbN{A|MeGf`@uGd^uApHeAfG_CvOu@bGw@rGy@~HaCvZiA~WgE|dAiAnWm@nKsBpX_BlPoBjQq@tF_A`HkBfMyBzMaLdo@uGt_@_BtK{AtKyBhRoBnR_AhLgA~NqNlvB{Bt^cNtrCc@dOUxNErG?nJBlJ\\nRh@lRdA~XV~JL`K@dKIvJQzH_@tJi@fJg@nGq@dHqArKeA`H}@hF_A`FkBvIsCxKi]`nAkGjSqC~H{C`IyCnHgLdW{KfWiHjR_G~Q}ElRaB|GuAbHeAtFeAbGiAfHcAfHy@hGs@nGo@lGg@pFiAnOk@jJaCjb@{@tMmApOm@lGu@dHw@pGKx@gBrMiCpPeGrYe@tBiArEe@lBaDjLeCnIqBpGoHjUmFrQaAtD_AxD{@zDw@~DeA~F_A~Fk@|DkAzJa@fEg@lGe@pG_Ct_@a@jF_ApJa@hDg@hDgAfH_@zBcAxFiBxKwBbPa@lDw@xJ]jGIjBQtFKpHCrGJzKV`Kl@|KvMpqBbAxMjA|MxA|MdBjN|BbOdA|FzBpLbA|Eh@`Ch@hCpAhFnBrH~DjNpD~KlAnD|ApE~C|Ir@nBvBbGdF~M|BzFxBfF|BbFbC|E`CtEvGjLpQvY~ChFrCfF~@fBnErJdBlErAvDpAxDlAdEdAbEbAhE`ApEz@tEt@nEr@`Fp@bFpDzYxDhXlEzUvEpSfW|dArBrJhBhJdEfWhDpZlBlV~IprAf@xGt@`Ol@bOd@x]?rEK|TWzL_@zLuAlWaJpdAq@~Le@xQMtVb@tTjBtj@NhTa@tU{AtU{BhSqGt\\qHp]qClPmBpOaBxR_@vHUlFQ~FMnKAhBAjC?|CBbCZxY@^@fAFlDRpK@hAFlE@|DAhICdDO`Ji@dMYnFi@pIw@bLuAlRyA|PiC|W_E|^eBrOaFdg@kC~[w@rLu@zLm@zLi@vLYtIShIOjLChL?rGDhFBbDPzJZbLd@|LbAdRb@zGfAjOlApNz@xI|A|N|@xHx@rGz@pGtCjSdE|VxA~HtD`RxAdHjE|QzC|LtCxK~DbNrE`OlG`RvCfInIbUlBzF~ApFtBnIx@`E|@bFp@xEf@xDr@lHn@tHxAdUjAdU`@xId@fNLjFNlJH|N?dHMjOIdFc@tO_@tIe@tImAbSWlDa@rHaBfX{@bR_@nLOn]X`a@l@bl@TtY@lQKnNKjGS|Ik@~O_Enu@sEjz@iAvVm@dRUvGAfAYrNEfCOzISvMi@j[IlGoAxt@IbH{A~eBStLWxLe@hMo@hMe@tH}AlRu@nHmBfPmA~IuAvIwAnIaEhSwRj}@iCvLyDzS_B|JuAdKu@xF}@bIiA~LcA~LgDni@cD~i@gCv`@oBpV{BxUmCxVyB~PsBlOwAnJqBjMuDfTyInf@oJbi@eAtFcBvJs@nEShAk@rD]fCUdCo@~Gg@pHcBjXW~HGlECpD@jGXb^?xDOdKmB`l@iBre@UnG{@nR}B|][bHGfCEtC?zDDrDx@hYHvCNpG~@vYDvB?bCC`DIdDKlCQhGEtACz@OtKUlTUzRKrFGnAe@vEyAdKaCrNyBdNoB~Lk@zDg@vDe@jEq@lHWpEi@dLYhQKtI[`PQ~EUdEa@dGk@|Fy@rGiAfHsMft@y@xEk@`Ei@`EQhBo@pGMdB}GbkAWhEc@nHS`DoAtRi@~Eu@vJO~AU|AU|Ae@pB_@xAa@pAa@lAkAdCqBnD}AfCgB~CkAlBo@`A]d@s@v@SRWTOLoAz@SJm@Tm@R_A`@qGbBqIvB_Dr@sB^{CZs@BuBDoCCq@Cu@E}Ge@}CIyA@sADmCRwAPsB`@wA^sC~@mClAsAv@eAl@kCnBeB|A{A|Aa@b@[`@Y\\q@z@o@x@k@|@u@lAgB`D}AdDoAbDsE|L{@rBwCvF_@l@sEvHuFbJg@x@_CxDgFjIyAlCkBxDkAzC{@jCS|@gA~Dk@fCk@rCm@pDc@hDShBc@~FADAPATU|FIdE?zDFxERbGTnDRfCl@hF\\hDZjBb@vBf@xB`ApDt@zBt@pBnA`D`AtBnC~Ev@nArBpCdEjFpBlCt@fArBnDt@vAlAhCh@tAjBnF`AnDhA|Ex@pEn@vELfA^fEVhENjEFnE?xA?dBAhBGvBUhGSrCYfD]~Ci@fEeCtQs@|Fo@fHg@jHOlDOzDIjEEtEBxIR`NXjQLtHfApp@TbOP`K@f@RnLHfEXjQF|CDpCfAdq@Z`RDnBFvBXrFHdAH`AJhAZjDThBPlAPjAJl@t@fEb@xBbAfEV|@pAfEnAjDjBnE~@lBdApBpAvBpAlBzC|DbDjD|BzBnHtGr@n@bEvDv@r@lB|B`DtDfDpE`@h@`AnApAlBtAjCx@pBp@pBb@zA^fB^hBVhB\\|CRbDH|CLnO?xGQvS@tGBxCFjFPjS@tDErGQfIYpGW~D_@rE[zCs@tFeAbHa@|BiFfVMTw@lD]`BgA`Fs@dDiBdHaBjFwBfGoCrH{KvYcL`[{FrKgAxAiAdAyAbA}@j@oAt@OB]@YCaA_@k@Su@g@]QUMuB{@SI][IOAICG?[Fq@N}@NiAl@mDDIDAHKBIJF~@ZvAj@jAd@RJ?D@F@B@@D?DC@C@E?CCICCAS@i@Lw@D[DWRuA?M?Of@uD^kCJy@BKbGbCv@ZpAj@@GF_@Hi@DWBYJo@Js@Js@Hq@Jq@BY]RIj@",
             "segments": [
                 {
-                    "distance": 927235.0,
-                    "duration": 31973.1,
+                    "distance": 346631.5,
+                    "duration": 11983.1,
                     "steps": [
                         {
-                            "distance": 71.2,
-                            "duration": 17.1,
-                            "instruction": "Head northeast on Rue Deparcieux",
-                            "name": "Rue Deparcieux",
+                            "distance": 298.6,
+                            "duration": 47.8,
+                            "instruction": "Head east on Rue de Villacoublay",
+                            "name": "Rue de Villacoublay",
                             "type": 11,
                             "way_points": [
                                 0,
-                                2
+                                7
                             ]
                         },
                         {
-                            "distance": 393.8,
-                            "duration": 60.1,
-                            "instruction": "Turn right onto Rue Froidevaux",
-                            "name": "Rue Froidevaux",
-                            "type": 1,
-                            "way_points": [
-                                2,
-                                16
-                            ]
-                        },
-                        {
-                            "distance": 104.7,
-                            "duration": 15.1,
-                            "instruction": "Turn right onto Place Denfert-Rochereau",
-                            "name": "Place Denfert-Rochereau",
-                            "type": 1,
-                            "way_points": [
-                                16,
-                                21
-                            ]
-                        },
-                        {
-                            "distance": 729.0,
-                            "duration": 89.7,
-                            "instruction": "Turn right onto Avenue du G\u00e9n\u00e9ral Leclerc",
-                            "name": "Avenue du G\u00e9n\u00e9ral Leclerc",
-                            "type": 1,
-                            "way_points": [
-                                21,
-                                51
-                            ]
-                        },
-                        {
-                            "distance": 694.5,
-                            "duration": 122.8,
-                            "exit_number": 4,
-                            "instruction": "Enter the roundabout and take the 4th exit onto Avenue du G\u00e9n\u00e9ral Leclerc",
-                            "name": "Avenue du G\u00e9n\u00e9ral Leclerc",
+                            "distance": 432.7,
+                            "duration": 60.0,
+                            "exit_number": 3,
+                            "instruction": "Enter the roundabout and take the 3rd exit onto Rue Nieuport",
+                            "name": "Rue Nieuport",
                             "type": 7,
                             "way_points": [
-                                51,
-                                88
+                                7,
+                                30
                             ]
                         },
                         {
-                            "distance": 20.2,
-                            "duration": 7.3,
-                            "instruction": "Continue straight onto Place \u00c9dith Thomas",
-                            "name": "Place \u00c9dith Thomas",
-                            "type": 6,
-                            "way_points": [
-                                88,
-                                89
-                            ]
-                        },
-                        {
-                            "distance": 209.5,
-                            "duration": 49.1,
-                            "instruction": "Continue straight onto Rue de la L\u00e9gion \u00c9trang\u00e8re",
-                            "name": "Rue de la L\u00e9gion \u00c9trang\u00e8re",
-                            "type": 6,
-                            "way_points": [
-                                89,
-                                105
-                            ]
-                        },
-                        {
-                            "distance": 133.2,
-                            "duration": 23.7,
-                            "instruction": "Turn left onto Boulevard Romain Rolland",
-                            "name": "Boulevard Romain Rolland",
+                            "distance": 292.7,
+                            "duration": 26.3,
+                            "instruction": "Turn left onto Avenue Morane Saulnier, D 57",
+                            "name": "Avenue Morane Saulnier, D 57",
                             "type": 0,
                             "way_points": [
-                                105,
-                                109
+                                30,
+                                32
                             ]
                         },
                         {
-                            "distance": 6153.4,
-                            "duration": 352.4,
+                            "distance": 241.3,
+                            "duration": 40.1,
+                            "instruction": "Continue straight onto Avenue Morane Saulnier, D 57",
+                            "name": "Avenue Morane Saulnier, D 57",
+                            "type": 6,
+                            "way_points": [
+                                32,
+                                43
+                            ]
+                        },
+                        {
+                            "distance": 1280.6,
+                            "duration": 107.0,
+                            "instruction": "Continue straight onto Avenue Morane Saulnier, D 57",
+                            "name": "Avenue Morane Saulnier, D 57",
+                            "type": 6,
+                            "way_points": [
+                                43,
+                                75
+                            ]
+                        },
+                        {
+                            "distance": 7919.4,
+                            "duration": 342.3,
+                            "instruction": "Continue straight onto N 118",
+                            "name": "N 118",
+                            "type": 6,
+                            "way_points": [
+                                75,
+                                188
+                            ]
+                        },
+                        {
+                            "distance": 7190.0,
+                            "duration": 305.2,
+                            "instruction": "Continue straight onto N 118",
+                            "name": "N 118",
+                            "type": 6,
+                            "way_points": [
+                                188,
+                                291
+                            ]
+                        },
+                        {
+                            "distance": 2194.0,
+                            "duration": 131.3,
+                            "instruction": "Continue straight onto N 118",
+                            "name": "N 118",
+                            "type": 6,
+                            "way_points": [
+                                291,
+                                322
+                            ]
+                        },
+                        {
+                            "distance": 22332.9,
+                            "duration": 744.9,
                             "instruction": "Keep left",
                             "name": "-",
                             "type": 12,
                             "way_points": [
-                                109,
-                                212
+                                322,
+                                463
                             ]
                         },
                         {
-                            "distance": 3550.0,
-                            "duration": 132.9,
-                            "instruction": "Continue straight onto A 6a",
-                            "name": "A 6a",
+                            "distance": 2164.0,
+                            "duration": 92.0,
+                            "instruction": "Keep left onto L'Aquitaine, A 10",
+                            "name": "L'Aquitaine, A 10",
+                            "type": 12,
+                            "way_points": [
+                                463,
+                                484
+                            ]
+                        },
+                        {
+                            "distance": 147729.3,
+                            "duration": 4624.5,
+                            "instruction": "Keep right onto L\u2019Oc\u00e9ane, A 11",
+                            "name": "L\u2019Oc\u00e9ane, A 11",
+                            "type": 13,
+                            "way_points": [
+                                484,
+                                1198
+                            ]
+                        },
+                        {
+                            "distance": 133754.9,
+                            "duration": 4414.8,
+                            "instruction": "Keep right onto A 81",
+                            "name": "A 81",
+                            "type": 13,
+                            "way_points": [
+                                1198,
+                                1881
+                            ]
+                        },
+                        {
+                            "distance": 3178.4,
+                            "duration": 140.3,
+                            "instruction": "Keep right onto N 136",
+                            "name": "N 136",
+                            "type": 13,
+                            "way_points": [
+                                1881,
+                                1936
+                            ]
+                        },
+                        {
+                            "distance": 1683.6,
+                            "duration": 75.8,
+                            "instruction": "Continue straight onto Rocade Est, N 136",
+                            "name": "Rocade Est, N 136",
                             "type": 6,
                             "way_points": [
-                                212,
-                                243
+                                1936,
+                                1954
                             ]
                         },
                         {
-                            "distance": 20027.1,
-                            "duration": 721.0,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 12,
-                            "way_points": [
-                                243,
-                                390
-                            ]
-                        },
-                        {
-                            "distance": 5443.3,
-                            "duration": 196.0,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 12,
-                            "way_points": [
-                                390,
-                                432
-                            ]
-                        },
-                        {
-                            "distance": 45650.5,
-                            "duration": 1463.9,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
+                            "distance": 2410.8,
+                            "duration": 108.5,
+                            "instruction": "Continue straight onto Rocade Est, N 136",
+                            "name": "Rocade Est, N 136",
                             "type": 6,
                             "way_points": [
-                                432,
-                                744
+                                1954,
+                                1992
                             ]
                         },
                         {
-                            "distance": 22451.4,
-                            "duration": 703.3,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
+                            "distance": 5437.1,
+                            "duration": 244.7,
+                            "instruction": "Keep left onto Rocade Nord, N 136",
+                            "name": "Rocade Nord, N 136",
                             "type": 12,
                             "way_points": [
-                                744,
-                                889
+                                1992,
+                                2041
                             ]
                         },
                         {
-                            "distance": 62325.0,
-                            "duration": 1951.4,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
+                            "distance": 1562.8,
+                            "duration": 70.3,
+                            "instruction": "Keep left onto Rocade Nord-Ouest, N 136",
+                            "name": "Rocade Nord-Ouest, N 136",
                             "type": 12,
                             "way_points": [
-                                889,
-                                1373
+                                2041,
+                                2063
                             ]
                         },
                         {
-                            "distance": 25091.5,
-                            "duration": 786.2,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
+                            "distance": 4746.6,
+                            "duration": 206.5,
+                            "instruction": "Keep right onto Barreau de Pont-Lagot, N 12",
+                            "name": "Barreau de Pont-Lagot, N 12",
+                            "type": 13,
                             "way_points": [
-                                1373,
-                                1574
+                                2063,
+                                2108
                             ]
                         },
                         {
-                            "distance": 18996.6,
-                            "duration": 595.3,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                1574,
-                                1725
-                            ]
-                        },
-                        {
-                            "distance": 77021.9,
-                            "duration": 2413.1,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 12,
-                            "way_points": [
-                                1725,
-                                2257
-                            ]
-                        },
-                        {
-                            "distance": 23813.5,
-                            "duration": 803.3,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                2257,
-                                2530
-                            ]
-                        },
-                        {
-                            "distance": 12151.3,
-                            "duration": 380.8,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                2530,
-                                2597
-                            ]
-                        },
-                        {
-                            "distance": 29612.0,
-                            "duration": 972.8,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                2597,
-                                2773
-                            ]
-                        },
-                        {
-                            "distance": 3281.6,
-                            "duration": 103.0,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                2773,
-                                2798
-                            ]
-                        },
-                        {
-                            "distance": 8372.9,
-                            "duration": 262.5,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                2798,
-                                2875
-                            ]
-                        },
-                        {
-                            "distance": 10912.6,
-                            "duration": 341.7,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                2875,
-                                2928
-                            ]
-                        },
-                        {
-                            "distance": 6251.1,
-                            "duration": 196.2,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 12,
-                            "way_points": [
-                                2928,
-                                2973
-                            ]
-                        },
-                        {
-                            "distance": 1860.3,
-                            "duration": 58.6,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                2973,
-                                2990
-                            ]
-                        },
-                        {
-                            "distance": 8519.7,
-                            "duration": 267.0,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 12,
-                            "way_points": [
-                                2990,
-                                3057
-                            ]
-                        },
-                        {
-                            "distance": 5745.3,
-                            "duration": 180.4,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                3057,
-                                3108
-                            ]
-                        },
-                        {
-                            "distance": 10446.1,
-                            "duration": 327.6,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                3108,
-                                3140
-                            ]
-                        },
-                        {
-                            "distance": 5042.0,
-                            "duration": 158.0,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                3140,
-                                3168
-                            ]
-                        },
-                        {
-                            "distance": 6979.5,
-                            "duration": 218.7,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 12,
-                            "way_points": [
-                                3168,
-                                3213
-                            ]
-                        },
-                        {
-                            "distance": 2150.5,
-                            "duration": 67.8,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 12,
-                            "way_points": [
-                                3213,
-                                3224
-                            ]
-                        },
-                        {
-                            "distance": 10103.1,
-                            "duration": 362.7,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 6,
-                            "way_points": [
-                                3224,
-                                3308
-                            ]
-                        },
-                        {
-                            "distance": 17862.4,
-                            "duration": 722.3,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 6",
-                            "name": "Autoroute du Soleil, A 6",
-                            "type": 12,
-                            "way_points": [
-                                3308,
-                                3456
-                            ]
-                        },
-                        {
-                            "distance": 1920.4,
-                            "duration": 138.3,
-                            "instruction": "Keep left onto Autoroute du Soleil, M 6",
-                            "name": "Autoroute du Soleil, M 6",
-                            "type": 12,
-                            "way_points": [
-                                3456,
-                                3491
-                            ]
-                        },
-                        {
-                            "distance": 3650.6,
-                            "duration": 254.4,
-                            "instruction": "Continue straight onto Autoroute du Soleil, M 6",
-                            "name": "Autoroute du Soleil, M 6",
-                            "type": 6,
-                            "way_points": [
-                                3491,
-                                3527
-                            ]
-                        },
-                        {
-                            "distance": 226.5,
-                            "duration": 31.4,
-                            "instruction": "Keep left onto Autoroute du Soleil, M 6",
-                            "name": "Autoroute du Soleil, M 6",
-                            "type": 12,
-                            "way_points": [
-                                3527,
-                                3535
-                            ]
-                        },
-                        {
-                            "distance": 184.8,
-                            "duration": 18.0,
-                            "instruction": "Continue straight onto Autoroute du Soleil, M 6",
-                            "name": "Autoroute du Soleil, M 6",
-                            "type": 6,
-                            "way_points": [
-                                3535,
-                                3542
-                            ]
-                        },
-                        {
-                            "distance": 1980.4,
-                            "duration": 156.7,
-                            "instruction": "Continue straight onto Autoroute du Soleil, M 6",
-                            "name": "Autoroute du Soleil, M 6",
-                            "type": 6,
-                            "way_points": [
-                                3542,
-                                3566
-                            ]
-                        },
-                        {
-                            "distance": 701.4,
-                            "duration": 92.1,
-                            "instruction": "Keep left onto Autoroute du Soleil, M 7",
-                            "name": "Autoroute du Soleil, M 7",
-                            "type": 12,
-                            "way_points": [
-                                3566,
-                                3579
-                            ]
-                        },
-                        {
-                            "distance": 3855.1,
-                            "duration": 264.3,
-                            "instruction": "Keep left onto Autoroute du Soleil, M 7",
-                            "name": "Autoroute du Soleil, M 7",
-                            "type": 12,
-                            "way_points": [
-                                3579,
-                                3633
-                            ]
-                        },
-                        {
-                            "distance": 1025.5,
-                            "duration": 78.0,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 7",
-                            "name": "Autoroute du Soleil, A 7",
-                            "type": 12,
-                            "way_points": [
-                                3633,
-                                3645
-                            ]
-                        },
-                        {
-                            "distance": 1154.0,
-                            "duration": 73.7,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 7",
-                            "name": "Autoroute du Soleil, A 7",
-                            "type": 12,
-                            "way_points": [
-                                3645,
-                                3657
-                            ]
-                        },
-                        {
-                            "distance": 23479.7,
-                            "duration": 862.2,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 7",
-                            "name": "Autoroute du Soleil, A 7",
-                            "type": 12,
-                            "way_points": [
-                                3657,
-                                3908
-                            ]
-                        },
-                        {
-                            "distance": 164412.8,
-                            "duration": 5308.5,
-                            "instruction": "Continue straight onto Autoroute du Soleil, A 7",
-                            "name": "Autoroute du Soleil, A 7",
-                            "type": 6,
-                            "way_points": [
-                                3908,
-                                5288
-                            ]
-                        },
-                        {
-                            "distance": 79460.2,
-                            "duration": 2526.1,
-                            "instruction": "Keep left onto Autoroute du Soleil, A 7",
-                            "name": "Autoroute du Soleil, A 7",
-                            "type": 12,
-                            "way_points": [
-                                5288,
-                                5831
-                            ]
-                        },
-                        {
-                            "distance": 15196.9,
-                            "duration": 485.7,
-                            "instruction": "Keep left onto La Proven\u00e7ale, A 8",
-                            "name": "La Proven\u00e7ale, A 8",
-                            "type": 12,
-                            "way_points": [
-                                5831,
-                                5941
-                            ]
-                        },
-                        {
-                            "distance": 5877.1,
-                            "duration": 264.5,
-                            "instruction": "Continue straight onto La Proven\u00e7ale, A 8",
-                            "name": "La Proven\u00e7ale, A 8",
-                            "type": 6,
-                            "way_points": [
-                                5941,
-                                5996
-                            ]
-                        },
-                        {
-                            "distance": 7506.7,
-                            "duration": 329.0,
-                            "instruction": "Keep left onto La Proven\u00e7ale, A 8",
-                            "name": "La Proven\u00e7ale, A 8",
-                            "type": 12,
-                            "way_points": [
-                                5996,
-                                6079
-                            ]
-                        },
-                        {
-                            "distance": 1460.8,
-                            "duration": 65.7,
-                            "instruction": "Keep left onto La Proven\u00e7ale, A 8",
-                            "name": "La Proven\u00e7ale, A 8",
-                            "type": 12,
-                            "way_points": [
-                                6079,
-                                6086
-                            ]
-                        },
-                        {
-                            "distance": 101954.5,
-                            "duration": 3204.9,
-                            "instruction": "Continue straight onto La Proven\u00e7ale, A 8",
-                            "name": "La Proven\u00e7ale, A 8",
-                            "type": 6,
-                            "way_points": [
-                                6086,
-                                6963
-                            ]
-                        },
-                        {
-                            "distance": 33341.6,
-                            "duration": 1174.4,
-                            "instruction": "Keep left onto La Proven\u00e7ale, A 8",
-                            "name": "La Proven\u00e7ale, A 8",
-                            "type": 12,
-                            "way_points": [
-                                6963,
-                                7380
-                            ]
-                        },
-                        {
-                            "distance": 19524.1,
-                            "duration": 778.4,
-                            "instruction": "Keep left onto La Proven\u00e7ale, A 8",
-                            "name": "La Proven\u00e7ale, A 8",
-                            "type": 12,
-                            "way_points": [
-                                7380,
-                                7621
-                            ]
-                        },
-                        {
-                            "distance": 236.9,
-                            "duration": 31.2,
+                            "distance": 553.3,
+                            "duration": 48.4,
                             "instruction": "Keep right",
                             "name": "-",
                             "type": 13,
                             "way_points": [
-                                7621,
-                                7627
+                                2108,
+                                2119
                             ]
                         },
                         {
-                            "distance": 980.4,
-                            "duration": 90.3,
+                            "distance": 65.0,
+                            "duration": 14.1,
+                            "instruction": "Keep right onto D 29",
+                            "name": "D 29",
+                            "type": 13,
+                            "way_points": [
+                                2119,
+                                2122
+                            ]
+                        },
+                        {
+                            "distance": 108.9,
+                            "duration": 11.2,
                             "instruction": "Keep left",
                             "name": "-",
                             "type": 12,
                             "way_points": [
-                                7627,
-                                7659
+                                2122,
+                                2126
                             ]
                         },
                         {
-                            "distance": 218.7,
-                            "duration": 33.5,
-                            "instruction": "Turn right onto Avenue Ma\u00eetre Maurice-Slama",
-                            "name": "Avenue Ma\u00eetre Maurice-Slama",
+                            "distance": 61.3,
+                            "duration": 14.9,
+                            "exit_number": 1,
+                            "instruction": "Enter the roundabout and take the 1st exit onto Avenue des Touches",
+                            "name": "Avenue des Touches",
+                            "type": 7,
+                            "way_points": [
+                                2126,
+                                2131
+                            ]
+                        },
+                        {
+                            "distance": 102.9,
+                            "duration": 10.6,
+                            "instruction": "Continue straight onto Avenue des Touches",
+                            "name": "Avenue des Touches",
+                            "type": 6,
+                            "way_points": [
+                                2131,
+                                2134
+                            ]
+                        },
+                        {
+                            "distance": 166.9,
+                            "duration": 16.4,
+                            "exit_number": 1,
+                            "instruction": "Enter the roundabout and take the 1st exit onto Boulevard de la Giraudais",
+                            "name": "Boulevard de la Giraudais",
+                            "type": 7,
+                            "way_points": [
+                                2134,
+                                2142
+                            ]
+                        },
+                        {
+                            "distance": 292.9,
+                            "duration": 28.9,
+                            "exit_number": 2,
+                            "instruction": "Enter the roundabout and take the 2nd exit onto Boulevard de la Giraudais",
+                            "name": "Boulevard de la Giraudais",
+                            "type": 7,
+                            "way_points": [
+                                2142,
+                                2165
+                            ]
+                        },
+                        {
+                            "distance": 234.6,
+                            "duration": 21.1,
+                            "instruction": "Turn right onto Boulevard de la Giraudais",
+                            "name": "Boulevard de la Giraudais",
                             "type": 1,
                             "way_points": [
-                                7659,
-                                7664
+                                2165,
+                                2168
                             ]
                         },
                         {
-                            "distance": 137.7,
-                            "duration": 12.4,
-                            "instruction": "Turn right onto M 6007",
-                            "name": "M 6007",
-                            "type": 1,
+                            "distance": 160.5,
+                            "duration": 28.9,
+                            "instruction": "Turn left",
+                            "name": "-",
+                            "type": 0,
                             "way_points": [
-                                7664,
-                                7667
+                                2168,
+                                2179
                             ]
                         },
                         {
-                            "distance": 285.9,
-                            "duration": 34.2,
-                            "instruction": "Turn sharp left onto Boulevard Ren\u00e9 Cassin, M 6007",
-                            "name": "Boulevard Ren\u00e9 Cassin, M 6007",
+                            "distance": 35.4,
+                            "duration": 6.4,
+                            "instruction": "Turn sharp left",
+                            "name": "-",
                             "type": 2,
                             "way_points": [
-                                7667,
-                                7675
-                            ]
-                        },
-                        {
-                            "distance": 4473.5,
-                            "duration": 361.9,
-                            "instruction": "Keep left onto Voie Pierre Mathis",
-                            "name": "Voie Pierre Mathis",
-                            "type": 12,
-                            "way_points": [
-                                7675,
-                                7737
-                            ]
-                        },
-                        {
-                            "distance": 221.5,
-                            "duration": 21.9,
-                            "instruction": "Keep right",
-                            "name": "-",
-                            "type": 13,
-                            "way_points": [
-                                7737,
-                                7745
-                            ]
-                        },
-                        {
-                            "distance": 899.8,
-                            "duration": 89.0,
-                            "instruction": "Turn slight right onto Rue Fr\u00e9d\u00e9ric Passy",
-                            "name": "Rue Fr\u00e9d\u00e9ric Passy",
-                            "type": 5,
-                            "way_points": [
-                                7745,
-                                7790
-                            ]
-                        },
-                        {
-                            "distance": 156.6,
-                            "duration": 22.6,
-                            "instruction": "Turn right onto Avenue Baquis",
-                            "name": "Avenue Baquis",
-                            "type": 1,
-                            "way_points": [
-                                7790,
-                                7796
-                            ]
-                        },
-                        {
-                            "distance": 539.9,
-                            "duration": 46.5,
-                            "instruction": "Turn left onto Rue du Mar\u00e9chal Joffre",
-                            "name": "Rue du Mar\u00e9chal Joffre",
-                            "type": 0,
-                            "way_points": [
-                                7796,
-                                7820
+                                2179,
+                                2181
                             ]
                         },
                         {
                             "distance": 0.0,
                             "duration": 0.0,
-                            "instruction": "Arrive at Rue du Mar\u00e9chal Joffre, on the left",
+                            "instruction": "Arrive at your destination, on the right",
                             "name": "-",
                             "type": 10,
                             "way_points": [
-                                7820,
-                                7820
+                                2181,
+                                2181
                             ]
                         }
                     ]
                 }
             ],
             "summary": {
-                "distance": 927235.0,
-                "duration": 31973.1
+                "distance": 346631.5,
+                "duration": 11983.1
             },
             "way_points": [
                 0,
-                7820
+                2181
             ]
         }
     ]
