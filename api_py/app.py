@@ -72,10 +72,12 @@ def getSingleStation(date="06/02/2023",ad=""):
     varaible_input = df[['maj']].to_numpy()
     # Entraîner le modèle
     regressor = LinearRegression()
-    regressor.fit(X, Y)
+    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=0)
+    regressor.fit(X_train, Y_train)
+    Y_pred_date = regressor.predict(varaible_input)
     # Faire la prédiction
-    Y_pred = regressor.predict(varaible_input)
-    return Y_pred[0]
+    Y_pred = regressor.predict(X_test)
+    return Y_pred.min()
 
 def coordonnees():    
     currentPosition = request.json['currentPosition']
@@ -182,7 +184,6 @@ def getPrixOptimalTotal(prixOptimal, distanceArr):
     prixTotalOptimal = 0
     for i in range(0, len(prixOptimal)):
         prixTotalOptimal = prixTotalOptimal + prixOptimal[i]*distanceArr[i]
-    prixTotalOptimal = round(prixTotalOptimal, 2)
     prixTotalOptimal = prixTotalOptimal/4.7 
     return prixTotalOptimal
 
@@ -287,6 +288,8 @@ def distanceNew():
     depart = float(dataDepar['lon']), float(dataDepar['lat'])
     arrivee =  float(dataArrive['lon']), float(dataArrive['lat'])
     coords = ((depart, arrivee))
+    res = client.directions(coords)
+    distanceTotal = round(res['routes'][0]['summary']['distance']/1000)
     tempStation = getListStation(decode(coords), folium.Map())
     #calcul de la distance entre chaque arrêt
     distanceArr = getDistanceArret(dataDepar, dataArrive,tempStation)
@@ -296,10 +299,6 @@ def distanceNew():
     #fin calcul du prix optimal
     prixTotalOptimal = getPrixOptimalTotal(prixOptimal, distanceArr)
     #calcul du distanceTotal
-    distanceTotal = 0
-    for i in range(0, len(distanceArr)):
-        distanceTotal += distanceArr[i]
-    distanceTotal = round(distanceTotal, 2)
     #fin calcul du distanceTotal
     data = {
      'prixTotalOptimal':prixTotalOptimal,
