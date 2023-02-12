@@ -301,8 +301,8 @@ def distanceNew():
     #calcul du distanceTotal
     #fin calcul du distanceTotal
     data = {
-     'prixTotalOptimal':prixTotalOptimal,
-     'distanceTotal':distanceTotal,
+    'prixTotalOptimal':prixTotalOptimal,
+    'distanceTotal':distanceTotal,
     'prixOptimal':prixOptimal,
     'distanceArr':distanceArr
       }
