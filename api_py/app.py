@@ -39,7 +39,6 @@ def getPrixCarburant(date="06/02/2023", cp=75):
     # Création des listes pour les données des colonnes
     departement = [cp]
     maj = [date]
-
     # Création du DataFrame à partir des listes
     df = pd.DataFrame({'departement': departement, 'maj': maj})
     df.maj = pd.to_datetime(df.maj)
@@ -49,6 +48,32 @@ def getPrixCarburant(date="06/02/2023", cp=75):
     regressor = LinearRegression()
     regressor.fit(X_train, Y_train)
     Y_pred = regressor.predict(X_test)
+    Y_pred = regressor.predict(varaible_input)
+    return Y_pred[0]
+
+def getSingleStation(date="06/02/2023",ad=""):
+    # Charger les données
+    PrixCarburant = pd.read_csv("new_2022.csv")
+    # Filtrer les données pour le type de carburant 'Gazole' et les valeurs entre 1 et 3.50
+    data = PrixCarburant.loc[(PrixCarburant['nom'] == 'Gazole') & (PrixCarburant['valeur'] > 1) & (PrixCarburant['valeur'] < 3.50)]
+    # Convertir la colonne 'maj' en représentation ordinale
+    data['maj'] = pd.to_datetime(data['maj'])
+    data['maj'] = data['maj'].map(dt.datetime.toordinal)
+    # Filtrer les données pour l'adresse 'ZA Les Touzelleries'
+    data = data.loc[data['adresse'] == ad]
+    # Séparer les données en variable cible et en caractéristiques d'entrée
+    Y = data['valeur'].to_numpy()
+    X = data[['maj']].to_numpy()
+    # Définir la date de prédiction et la convertir en représentation ordinale
+    prediction_date = date
+    df = pd.DataFrame({'maj': [prediction_date]})
+    df['maj'] = pd.to_datetime(df['maj'])
+    df['maj'] = df['maj'].map(dt.datetime.toordinal)
+    varaible_input = df[['maj']].to_numpy()
+    # Entraîner le modèle
+    regressor = LinearRegression()
+    regressor.fit(X, Y)
+    # Faire la prédiction
     Y_pred = regressor.predict(varaible_input)
     return Y_pred[0]
 
@@ -78,7 +103,7 @@ def arret_plein(decoded, m):
             icon=folium.Icon(color="blue"),
             ).add_to(m)
     if coords == []:
-        coords.append(decoded[len(decoded)-1])        
+        coords.append(decoded[len(decoded)-1])       
     return coords   
 
 def station_arret(decoded, m):
@@ -86,7 +111,7 @@ def station_arret(decoded, m):
     liste_arret = []
     for i in range(0, len(arret)):
         for j in range(0, len(d)):
-            if haversine(arret[i][0], arret[i][1], float(d.latitude[j]), float(d.longitude[j])) < 10:
+            if haversine(arret[i][0], arret[i][1], float(d.latitude[j]), float(d.longitude[j])) < 5:
                 liste_arret.append(d)
                 folium.Circle(
                 [float(d.latitude[j]), float(d.longitude[j])],
@@ -94,7 +119,31 @@ def station_arret(decoded, m):
                 color='red',
                 ).add_to(m)
     return liste_arret            
-
+def getListStation(decoded, m):
+    arret = arret_plein(decoded, m)    
+    liste_arret = []
+    address_to_value = {}
+    for i in range(0, len(arret)):
+        temp_lists = []
+        temp_address = []
+        for j in range(0, len(d)):
+            if haversine(arret[i][0], arret[i][1], float(d.latitude[j]), float(d.longitude[j])) < 5:
+                address = d.adresse[j]
+                value = float(d.valeur[j])
+                lat = float(d.latitude[j])
+                lon = float(d.longitude[j])
+                if address in address_to_value:
+                    address_to_value[address]['sum'] += value
+                    address_to_value[address]['count'] += 1
+                else:
+                    address_to_value[address] = {'sum': value, 'count': 1}
+        for address, values in address_to_value.items():
+            average = values['sum'] / values['count']
+            temp_lists.append([address, average, lat, lon])
+        cheapest = min(temp_lists, key=lambda x: x[1])
+        temp_address.append([arret[i][0],arret[i][1], cheapest[0], cheapest[1], cheapest[2], cheapest[3]])
+        liste_arret.append(temp_address)
+    return liste_arret
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371 # radius of earth in km
     dLat = math.radians(lat2 - lat1)
@@ -104,6 +153,38 @@ def haversine(lat1, lon1, lat2, lon2):
     a = math.sin(dLat/2) * math.sin(dLat/2) + math.sin(dLon/2) * math.sin(dLon/2) * math.cos(lat1) * math.cos(lat2)
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
     return R * c
+def getDistanceArret(dataDepar, dataArrive, tempStation):
+    distanceArr = []
+    for i in range(0, len(tempStation)):
+        if i == 0:
+            distance0 = haversine(float(dataDepar['lat']),float(dataDepar['lon']), float(tempStation[i][0][0]), float(tempStation[i][0][1]))
+            distanceArr.append(distance0)
+        distanceI = haversine(float(tempStation[i-1][0][0]), float(tempStation[i-1][0][1]), float(tempStation[i][0][0]), float(tempStation[i][0][1]))
+        distanceArr.append(distanceI)
+        if i == len(tempStation)-1:
+            distanceFin = haversine(float(dataArrive['lat']),float(dataArrive['lon']), float(tempStation[i][0][0]), float(tempStation[i][0][1]))
+            distanceArr.append(distanceFin)
+    return distanceArr 
+def getPrixOptimals(tempStation, distanceArr,date, cpDepar, cpArrive):
+    prixOptimal = []
+    for i in range(0, len(distanceArr)):
+        if i == 0:
+            prix0 = getPrixCarburant(date, cpDepar)
+            prixOptimal.append(prix0)
+        if i == len(distanceArr)-1:
+            prixFin = getPrixCarburant(date, cpArrive)
+            prixOptimal.append(prixFin)
+        if i != 0 and i != len(distanceArr)-1: 
+            prixI = getSingleStation(date, str(tempStation[i-1][0][2]))
+            prixOptimal.append(prixI)
+    return prixOptimal
+def getPrixOptimalTotal(prixOptimal, distanceArr):
+    prixTotalOptimal = 0
+    for i in range(0, len(prixOptimal)):
+        prixTotalOptimal = prixTotalOptimal + prixOptimal[i]*distanceArr[i]
+    prixTotalOptimal = round(prixTotalOptimal, 2)
+    prixTotalOptimal = prixTotalOptimal/4.7 
+    return prixTotalOptimal
 
 def getGeoCode(address):
     nominatim_url = f'https://nominatim.openstreetmap.org/search?addressdetails=1&q={address}&format=json&limit=1'
@@ -118,14 +199,14 @@ def getGeoCode(address):
     else:
         return None
 
-def trajetMap(lat, lon,lat2, lon2):    
+def trajetMap(date,cpDepar, cpArrive,  dataDepar, dataArrive):    
     #coordonnées de départ et d'arrivée du GPS
     #openrouteservice prend les coordonnées dans l'ordre (lon, lat) et non (lat, lon) comme pour folium
     #on inverse donc les coordonnées avec depart_reverse et arrivee_reverse
-    depart = (float(lon), float(lat))
-    depart_reverse = (float(lat), float(lon))
-    arrivee = (float(lon2), float(lat2))
-    arrivee_reverse = (float(lat2), float(lon2))
+    depart = (float(dataDepar['lon']), float(dataDepar['lat']))
+    depart_reverse = (float(dataDepar['lat']), float(dataDepar['lon']))
+    arrivee = (float(dataArrive['lon']), float(dataArrive['lat']))
+    arrivee_reverse = (float(dataArrive['lat']), float(dataArrive['lon']))
     #on regroupe les coordonnées dans un tuple
     coords = ((depart, arrivee))
     #appelle de la fonction directions de openrouteservice
@@ -158,6 +239,28 @@ def trajetMap(lat, lon,lat2, lon2):
     #on affiche les arrêts sur la carte
     arret_plein(decoded, m)
     station_arret(decoded, m)
+    tempStation = getListStation(decoded, m)
+    distanceArr = getDistanceArret(dataDepar, dataArrive, tempStation)
+    prixOptimal = getPrixOptimals(tempStation, distanceArr, date, cpDepar, cpArrive)
+    for i in range(0, len(distanceArr)):
+        if i == 0:
+            folium.Circle(
+                [float(dataDepar['lat']), float(dataDepar['lon'])],
+                popup="Départ"+ "\n" + "Prix: " + str(prixOptimal[i]) + "€/L",
+                color='blue',
+                ).add_to(m)
+        if i == len(distanceArr)-1:
+            folium.Circle(
+                [float(dataArrive['lat']), float(dataArrive['lon'])],
+                popup="Arrivée"+ "\n" + "Prix: " + str(prixOptimal[i]) + "€/L",
+                color='blue',
+                ).add_to(m)
+        if i != 0 and i != len(distanceArr)-1:
+            folium.Circle(
+                [float(tempStation[i-1][0][4]), float(tempStation[i-1][0][5])],
+                popup="Arrêt plein: " +  "\n" + str(tempStation[i-1][0][2]) + "\n" + str(tempStation[i-1][0][3])+ "€/L",
+                color='blue',
+                ).add_to(m)
     m.save('map.html')
     return m._repr_html_()
 
@@ -165,42 +268,45 @@ def trajetMap(lat, lon,lat2, lon2):
 def trajet_map():
     currentPosition = request.json['currentPosition']
     destination = request.json['destination']
+    date = request.json['date']
     dataDepar = getGeoCode(currentPosition)
     dataArrive = getGeoCode(destination)
-    mapHtml = trajetMap(dataDepar['lat'], dataDepar['lon'], dataArrive['lat'], dataArrive['lon'])
+    cpDepar = int(dataDepar['postal_code'][:2])
+    cpArrive = int(dataArrive['postal_code'][:2])
+    mapHtml = trajetMap(date,cpDepar,cpArrive, dataDepar, dataArrive)
     return mapHtml
-
-@app.route('/distance', methods=['POST'])
-def distance():
+@app.route('/prixoptimal', methods=['POST'])
+def distanceNew():
     currentPosition = request.json['currentPosition']
     destination = request.json['destination']
     date = request.json['date']
     dataDepar = getGeoCode(currentPosition)
     dataArrive = getGeoCode(destination)
-    cp = int(dataArrive['postal_code'][:2]) 
+    cpDepar = int(dataDepar['postal_code'][:2])
+    cpArrive = int(dataArrive['postal_code'][:2])
     depart = float(dataDepar['lon']), float(dataDepar['lat'])
     arrivee =  float(dataArrive['lon']), float(dataArrive['lat'])
     coords = ((depart, arrivee))
-    #appelle de la fonction directions de openrouteservice
-    res = client.directions(coords)
-    distance = round(res['routes'][0]['summary']['distance']/1000)
-    prixPrevision = getPrixCarburant(date, cp)
-    prixPrevision = float(prixPrevision.item())
-    nb_arret = len(arret_plein(decode(coords), folium.Map()))
-    prixTotal = float(prixPrevision) * 90 * nb_arret
-    prixTotal = round(prixTotal, 2)
-    distance = str(distance)
-    prixPrevision = str(prixPrevision)
-    data = { 'lat': dataDepar['lat'],
-     'lon': dataDepar['lon'], 
-     'lat2': dataArrive['lat'], 
-     'lon2': dataArrive['lon'], 
-     'distance': distance,
-     'prixPrevision': prixPrevision,
-     'prixTotal': prixTotal,
-        'cp': cp
+    tempStation = getListStation(decode(coords), folium.Map())
+    #calcul de la distance entre chaque arrêt
+    distanceArr = getDistanceArret(dataDepar, dataArrive,tempStation)
+    #fin calcul de la distance entre chaque arrêt
+    #calcul du prix optimal
+    prixOptimal = getPrixOptimals(tempStation, distanceArr,date, cpDepar, cpArrive)
+    #fin calcul du prix optimal
+    prixTotalOptimal = getPrixOptimalTotal(prixOptimal, distanceArr)
+    #calcul du distanceTotal
+    distanceTotal = 0
+    for i in range(0, len(distanceArr)):
+        distanceTotal += distanceArr[i]
+    distanceTotal = round(distanceTotal, 2)
+    #fin calcul du distanceTotal
+    data = {
+     'prixTotalOptimal':prixTotalOptimal,
+     'distanceTotal':distanceTotal,
+    'prixOptimal':prixOptimal,
+    'distanceArr':distanceArr
       }
     return data
-
 if __name__ == '__main__':
     app.run(debug=True) 

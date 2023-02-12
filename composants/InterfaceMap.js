@@ -14,14 +14,15 @@ const TripForm = () => {
     e.preventDefault();
     const response = await axios.post('http://localhost:5000/trajet_map', {   
         currentPosition,
-        destination
+        destination,
+        date
     });
     console.log(typeof(response.data))
     const backendHtmlString = await response.data
     //const distance = await response.data.distance
     setHTML({__html: backendHtmlString})
    // setDistance(distance)
-   const responseDis = await axios.post('http://localhost:5000/distance', {   
+   /*const responseDis = await axios.post('http://localhost:5000/distance', {   
     date,
     currentPosition,
     destination
@@ -32,9 +33,19 @@ const TripForm = () => {
     const prixTotal = await responseDis.data.prixTotal
     setDistance(distance)
     setPrix(prixPrevision)
-    setTotal(prixTotal)
+    setTotal(prixTotal)*/
+    const responseNew = await axios.post('http://localhost:5000/prixoptimal', {   
+      date,
+      currentPosition,
+      destination
+      });
+      console.log(responseNew.data)
+      const distance = await responseNew.data.distanceTotal
+      const prixTotal = await responseNew.data.prixTotalOptimal
+      setDistance(distance)
+      setTotal(prixTotal)
   };
-
+ 
   return (
     <form onSubmit={handleSubmit}>
       <label htmlFor="date">Date:</label>
@@ -70,9 +81,6 @@ const TripForm = () => {
         <p>Distance: {distance}km</p>
         </div>
 
-      )}
-        {prixPrevision && (
-        <p>Prix Gazole estimé: {prixPrevision}€</p>
       )}
         {prixTotal && (
         <><p>Prix Total estimé: {prixTotal}€</p></>
