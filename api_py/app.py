@@ -21,7 +21,7 @@ import datetime as dt
 import numpy as np
 app = Flask(__name__)
 d = pd.read_csv("new_2022.csv")
-
+d = d.loc[d['nom'] == 'Gazole']
 client = openrouteservice.Client(key='5b3ce3597851110001cf6248ef96e5f27bcc4bcd989bc39299e5060b')
 
 # partie MC
@@ -89,10 +89,10 @@ def station_arret(decoded, m):
             if haversine(arret[i][0], arret[i][1], float(d.latitude[j]), float(d.longitude[j])) < 10:
                 liste_arret.append(d)
                 folium.Circle(
-                location=[float(d.latitude[j]), float(d.longitude[j])],
-                radius=10,
+                [float(d.latitude[j]), float(d.longitude[j])],
+                popup=str(d.adresse[j]) + "\n" + str(d.valeur[j]),
                 color='red',
-                fill=False).add_to(m)
+                ).add_to(m)
     return liste_arret            
 
 def haversine(lat1, lon1, lat2, lon2):
@@ -186,7 +186,8 @@ def distance():
     distance = round(res['routes'][0]['summary']['distance']/1000)
     prixPrevision = getPrixCarburant(date, cp)
     prixPrevision = float(prixPrevision.item())
-    prixTotal = float(prixPrevision) * float(distance)/4.7
+    nb_arret = len(arret_plein(decode(coords), folium.Map()))
+    prixTotal = float(prixPrevision) * 90 * nb_arret
     prixTotal = round(prixTotal, 2)
     distance = str(distance)
     prixPrevision = str(prixPrevision)
